@@ -1,0 +1,190 @@
+strong {
+  font-weight: 100; }
+
+i {
+  font-style: normal; }
+
+#pageindex {
+  background: #fff;
+  text-shadow: none; }
+  #pageindex .content {
+    padding: 1rem 0; }
+    #pageindex .content p {
+      font-size: 1rem;
+      box-sizing: border-box;
+      padding-left: 1rem; }
+  #pageindex .bgcolor {
+    height: 0.33333rem;
+    background: #e5e5e5;
+    width: 100%; }
+  #pageindex .cardBox {
+    width: 99%;
+    height: 11.66667rem;
+    box-sizing: border-box;
+    padding: 0.93333rem 1rem 0 0.73333rem;
+    background: url("../img/cardbg.png") center;
+    background-size: cover;
+    border-radius: 0.43333rem;
+    box-shadow: 0.1rem 0.06667rem 0.3rem #999; }
+    #pageindex .cardBox .topBox {
+      color: #fff;
+      height: 4.86667rem;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 0.06667rem dashed #323c6c; }
+      #pageindex .cardBox .topBox dl {
+        width: 40%;
+        box-sizing: border-box;
+        height: 6.53333rem;
+        font-size: 0.8rem;
+        font-weight: 100; }
+        #pageindex .cardBox .topBox dl dt {
+          width: 2.83333rem;
+          height: 2.83333rem;
+          float: left;
+          margin-right: 0.66667rem; }
+          #pageindex .cardBox .topBox dl dt img {
+            width: 100%;
+            height: 100%; }
+        #pageindex .cardBox .topBox dl dd {
+          margin-top: 0.53333rem;
+          float: left; }
+      #pageindex .cardBox .topBox dl:nth-of-type(2) dt {
+        box-sizing: border-box;
+        padding: 0.33333rem; }
+      #pageindex .cardBox .topBox dl:nth-of-type(2) dd {
+        line-height: 1.8rem;
+        padding-bottom: 0.53333rem; }
+      #pageindex .cardBox .topBox dl:nth-of-type(2) p {
+        float: left;
+        width: 100%;
+        text-align: center;
+        margin-top: 6.5%;
+        color: #fff; }
+    #pageindex .cardBox .botBox {
+      color: #fff;
+      width: 100%;
+      color: #000;
+      display: flex;
+      justify-content: space-between;
+      box-sizing: border-box;
+      padding-top: 0.66667rem; }
+      #pageindex .cardBox .botBox a {
+        color: #fff;
+        font-weight: 100; }
+      #pageindex .cardBox .botBox p {
+        text-align: center;
+        font-size: 0.8rem;
+        color: #fff; }
+        #pageindex .cardBox .botBox p img {
+          width: 2rem;
+          height: 2rem;
+          margin-bottom: 0.26667rem; }
+        #pageindex .cardBox .botBox p strong {
+          color: #c5c3c3; }
+      #pageindex .cardBox .botBox i {
+        padding-top: 0.66667rem;
+        box-sizing: border-box; }
+  #pageindex .indBox {
+    display: flex;
+    padding-top: 1.33333rem;
+    flex-wrap: wrap; }
+    #pageindex .indBox dl {
+      box-sizing: border-box;
+      width: 33.3333%;
+      height: 6.66667rem;
+      text-align: center;
+      border-right: 0.06667rem solid #e5e5e5;
+      border-bottom: 0.06667rem solid #e5e5e5;
+      box-sizing: border-box;
+      padding-top: 6%; }
+      #pageindex .indBox dl dt {
+        width: 100%;
+        padding-bottom: 0.66667rem; }
+        #pageindex .indBox dl dt img {
+          width: 1.66667rem;
+          height: 1.66667rem; }
+      #pageindex .indBox dl dd {
+        font-size: 0.8rem; }
+    #pageindex .indBox dl:nth-of-type(3n+1) {
+      border-left: 0.06667rem solid #e5e5e5; }
+    #pageindex .indBox dl:nth-of-type(1) {
+      border-top: 0.06667rem solid #e5e5e5; }
+    #pageindex .indBox dl:nth-of-type(2) {
+      border-top: 0.06667rem solid #e5e5e5; }
+    #pageindex .indBox dl:nth-of-type(3) {
+      border-top: 0.06667rem solid #e5e5e5; }
+  #pageindex .isAddWeiChat {
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    color: #f56974; }
+    #pageindex .isAddWeiChat a {
+      display: block;
+      width: 50%;
+      height: 2.53333rem;
+      color: #f56974;
+      border: 0.06667rem solid #f56974;
+      border-radius: 1.26667rem;
+      line-height: 2.53333rem;
+      text-align: center;
+      font-size: 0.8rem; }
+  #pageindex .topBox01 {
+    border-bottom: none; }
+  #pageindex .blue a {
+    color: cornflowerblue;
+    border: 0.06667rem solid cornflowerblue; }
+  #pageindex .isCare {
+    width: 100%;
+    height: 3.26667rem;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    padding: 0 0.33333rem; }
+    #pageindex .isCare p {
+      color: #fff;
+      height: 100%;
+      line-height: 3.26667rem;
+      font-size: 0.8rem; }
+      #pageindex .isCare p i {
+        color: red; }
+      #pageindex .isCare p span {
+        float: right; }
+        #pageindex .isCare p span a {
+          display: inline-block;
+          color: #fff;
+          width: 3.33333rem;
+          height: 2rem;
+          background: #69adf4;
+          position: absolute;
+          top: 0.66667rem;
+          right: 2.93333rem;
+          text-align: center;
+          line-height: 2rem;
+          border-radius: 0.2rem; }
+        #pageindex .isCare p span b {
+          display: inline-block;
+          width: 1.73333rem;
+          height: 1.73333rem;
+          background: url("../img/closebg.png") center no-repeat;
+          background-size: 70%;
+          margin-top: 0.86667rem; }
+
+#vipMa {
+  width: 70%; }
+  #vipMa .popup_main dl {
+    margin-top: 2rem;
+    width: 100%;
+    text-align: center; }
+    #vipMa .popup_main dl dt {
+      width: 100%;
+      text-align: center; }
+      #vipMa .popup_main dl dt img {
+        width: 10.66667rem;
+        height: 10.66667rem; }
+    #vipMa .popup_main dl dd {
+      margin-top: 1.33333rem;
+      font-size: 0.8rem; }
+
+/*# sourceMappingURL=index.css.map */

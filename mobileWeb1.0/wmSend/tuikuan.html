@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1,minimum-scale=1,user-scalable=no">
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="black" name="apple-mobile-web-app-status-bar-style" />
+    <meta content="telephone=no" name="format-detection" />
+    <title>Title</title>
+    <link rel="stylesheet" href="../jqueryMobile/jquery.mobile-1.4.2.min.css">
+    <link rel="stylesheet" href="../jqueryMobile/jquery.mobile.icons-1.4.2.min.css">
+    <link rel="stylesheet" href="../css/eatCommon.css">
+</head>
+<body>
+<div data-role="page" id="tuikuan">
+    <div data-role="header" class="header">
+        <span onclick="history.go(-1)" data-icon="arrow-l" data-role="none">&lt;返回</span> <a href="../index.html"  data-role="none" data-ajax="false">关闭</a><h1>申请退款</h1>
+    </div>
+    <div data-role="content" class="content">
+          <div class="top">
+              <dl>
+                  <dt><img src="../img/kf.png"></dt>
+                  <dd><b>真功夫 (南新店)</b><br/> <span>共 <i>2</i>个商品,消费共计 <i>15.00</i>元</span></dd>
+              </dl>
+          </div>
+          <div class="choseTKFS">
+              <h3>退款方式</h3>
+              <p>退款至您的支付账户</p>
+          </div>
+          <div class="choseTKLX">
+              <h3>选择退款类型</h3>
+              <p>申请全单退款 <span class="on"></span></p>
+          </div>
+         <div class="TkWhy">
+             <h3>退款原因: <input placeholder="请选择退款原因" data-role="none"><b></b></h3>
+             <div class="miaoshu">
+                 <p><input type="text" placeholder="请描述退款原因" data-role="none"></p>
+                 <div class="imgposi">
+                      <div class="imgbox">
+                          <img src="../img/eat2.png" alt="">
+                      </div>
+                      <div class="tphoto">
+                          <dl>
+                              <dt><img src="../img/photo.png" alt=""><i></i></dt>
+                              <dd>添加照片</dd>
+                          </dl>
+                      </div>
+                 </div>
+             </div>
+         </div>
+    </div>
+     <div class="bot">
+          <p>提交</p>
+     </div>
+    <div class="popup_bg"></div>
+    <div class="botTipBox" style="display: none">
+         <div class="tipBox">
+             <p>买错了,买多了</p>
+             <p>地址电话填写有误</p>
+             <p>计划有变,不想要了</p>
+             <p>商品质量有问题</p>
+             <p>商家送错商品</p>
+             <p>没有给承诺的优惠</p>
+         </div>
+         <div class="tipcancle">取消</div>
+    </div>
+</div>
+<script src="../jqueryMobile/jquery-1.9.1.min.js"></script>
+<script src="../jqueryMobile/jquery.mobile-1.4.2.min.js"></script>
+<script src="../js/eat.js"></script>
+<script>
+    $(".bot p").tap(function(){
+        location.href="wmSIndex.html"
+    })
+</script>
+</body>
+</html>

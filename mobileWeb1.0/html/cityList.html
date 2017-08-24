@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1,minimum-scale=1,user-scalable=no">
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="black" name="apple-mobile-web-app-status-bar-style" />
+    <meta content="telephone=no" name="format-detection" />
+    <title>Title</title>
+    <link rel="stylesheet" href="../jqueryMobile/jquery.mobile-1.4.2.min.css">
+    <link rel="stylesheet" href="../jqueryMobile/jquery.mobile.icons-1.4.2.min.css">
+    <link rel="stylesheet" href="../css/common.css">
+</head>
+<body>
+<div data-role="page" id="cityList">
+    <div data-role="header" class="header">
+        <span onclick="history.go(-1)" data-icon="arrow-l" data-role="none">&lt;返回</span> <a href="../index.html" data-role="none" data-ajax="false">关闭</a><h1>选择城市</h1>
+    </div>
+    <div data-role="content" class="content">
+         <p><input type="text" placeholder="请输入城市名或者拼音" data-role="none"></p>
+         <h3>你所在的城市：<span>深圳</span></h3>
+        <h4>联盟商家城市列表</h4>
+         <div class="list">
+             <p>
+                 <span>深圳</span>
+                 <span>广州</span>
+                 <span>上海</span>
+                 <span>北京</span>
+             </p>
+         </div>
+    </div>
+</div>
+<script src="../jqueryMobile/jquery-1.9.1.min.js"></script>
+<script src="../jqueryMobile/jquery.mobile-1.4.2.min.js"></script>
+<script src="../js/common.js"></script>
+</body>
+</html>

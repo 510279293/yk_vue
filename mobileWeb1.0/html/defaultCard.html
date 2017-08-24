@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1,minimum-scale=1,user-scalable=no">
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="black" name="apple-mobile-web-app-status-bar-style" />
+    <meta content="telephone=no" name="format-detection" />
+    <title>Title</title>
+    <link rel="stylesheet" href="../jqueryMobile/jquery.mobile-1.4.2.min.css">
+    <link rel="stylesheet" href="../jqueryMobile/jquery.mobile.icons-1.4.2.min.css">
+    <link rel="stylesheet" href="../css/common.css">
+</head>
+<body>
+<div data-role="page" id="defaultCard">
+    <div data-role="header" class="header">
+        <span onclick="history.go(-1)" data-icon="arrow-l" data-role="none">&lt;返回</span> <a href="../index.html" data-role="none" data-ajax="false">关闭</a><h1>我的</h1>
+    </div>
+    <div  class="nopaddingLR">
+        <div class="cardDiv">
+            <div class="cardT">
+                <p class="cardLogo"><img src="../img/logo.png" alt="">老金电子</p>
+                <p class="ma"><img src="../img/mema.png" alt=""></p>
+            </div>
+            <div class="cardB">
+                <dl>
+                    <dt>高级会员</dt>
+                    <dd>有效期:无期限</dd>
+                </dl>
+                <p>默认卡</p>
+            </div>
+        </div>
+        <div class="cardOpa">
+            <span>删除</span>
+        </div>
+    </div>
+    <div  class="content">
+        <div class="userInfo">
+            <dl>
+                <dt><img src="../img/logo.png" alt=""></dt>
+                <dd>
+                    <b>宋江</b><br/>
+                    <p>2134256467587534534475</p>
+                </dd>
+            </dl>
+        </div>
+        <div class="VipInter">
+            <h1><img src="../img/inter.png" alt="">会员权益</h1>
+            <div class="showBox">
+                <dl>
+                    <dt><img src="../img/VcardZhe.png" alt=""></dt>
+                    <dd>9.9折</dd>
+                </dl>
+                <dl>
+                    <dt><img src="../img/baoyou.png" alt=""></dt>
+                    <dd>包邮</dd>
+                </dl>
+                <dl>
+                    <dt><img src="../img/songjifen.png" alt=""></dt>
+                    <dd>送积分</dd>
+                </dl>
+            </div>
+        </div>
+        <div class="usetoKnow">
+            <h1><span><img src="../img/useList.png" alt="">使用须知</span><img class="seeNext" src="../img/dsj.png" alt=""></h1>
+            <div class="know_list">
+                <p>1、此券不兑付现金,不找零，不打包，不含税</p>
+                <p>2、此券仅限菜金消费使用(烟、酒水等除外)</p>
+                <p>3、此券仅限沸腾鱼庄使用</p>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="../jqueryMobile/jquery-1.9.1.min.js"></script>
+<script src="../jqueryMobile/jquery.mobile-1.4.2.min.js"></script>
+<script>
+    $("#defaultCard .seeNext").tap(function(){
+        if($(this).hasClass("onimg")){
+            $(this).removeClass("onimg");
+            $("#defaultCard .know_list").stop().animate({"height":"0"},400)
+        }else{
+            $(this).addClass("onimg");
+            $("#defaultCard .know_list").stop().animate({"height":"4rem"},400)
+        }
+
+    })
+</script>
+</body>
+</html>

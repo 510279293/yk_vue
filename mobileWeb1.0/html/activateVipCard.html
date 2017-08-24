@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1,minimum-scale=1,user-scalable=no">
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="black" name="apple-mobile-web-app-status-bar-style" />
+    <meta content="telephone=no" name="format-detection" />
+    <title>Title</title>
+    <link rel="stylesheet" href="../jqueryMobile/jquery.mobile-1.4.2.min.css">
+    <link rel="stylesheet" href="../jqueryMobile/jquery.mobile.icons-1.4.2.min.css">
+    <link rel="stylesheet" href="../css/common.css">
+</head>
+<body>
+<div data-role="page" id="pageacVipCard">
+    <div data-role="header" class="header">
+        <span onclick="history.go(-1)" data-icon="arrow-l" data-role="none">&lt;返回</span> <a href="../index.html" data-role="none" data-ajax="false">关闭</a><h1>激活会员卡</h1>
+    </div>
+    <div data-role="content" class="nopaddingLR">
+        <dl>
+            <dt><img src="../img/userImg.png"/></dt>
+            <dd>ws张二狗</dd>
+        </dl>
+    </div>
+    <div data-role="content" class="fillBox">
+       <p>会员姓名<i>*</i><br/>
+           <input type="text" class="vipName">
+       </p>
+        <p>性别<i>*</i><br/>
+            <input type="text" readonly="true" class="vipSex">
+        </p>
+        <p>生日<i></i><br/>
+            <input type="date" >
+        </p>
+        <p>所属地区<i></i><br/>
+            <input type="text">
+        </p>
+        <p class="color9d">带*必填项</p>
+        <div class="borbutton">
+            <span>激活</span>
+        </div>
+    </div>
+    <div data-role="content" class="fillBox02">
+        <div class="fillcon">
+            <p class="fillPhoneNum"><input type="text" data-role="none" placeholder="请输入您的手机号"/><span>获取验证码</span></p>
+            <p><input type="text" data-role="none" placeholder="请输入验证码"/></p>
+        </div>
+        <div class="borbutton">
+            <a data-ajax="false" href="#">激活</a>
+        </div>
+    </div>
+    <div class="popup_bg" style="display:none"></div>
+    <div class="popup popup_op" style="display:none" id="chosesex">
+        <div class="closeBtn">
+            <i></i>
+            <span class="popup_close"></span>
+        </div>
+        <div class="popup_top">
+            <p>性别</p>
+        </div>
+        <div class="popup_main">
+            <p>男</p>
+            <p>女</p>
+        </div>
+    </div>
+</div>
+<script src="../jqueryMobile/jquery-1.9.1.min.js"></script>
+<script src="../jqueryMobile/jquery.mobile-1.4.2.min.js"></script>
+<script src="../js/common.js"></script>
+<script>
+
+</script>
+</body>
+</html>

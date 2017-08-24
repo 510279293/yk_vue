@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1,minimum-scale=1,user-scalable=no">
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="black" name="apple-mobile-web-app-status-bar-style" />
+    <meta content="telephone=no" name="format-detection" />
+    <title>Title</title>
+    <link rel="stylesheet" href="../jqueryMobile/jquery.mobile-1.4.2.min.css">
+    <link rel="stylesheet" href="../jqueryMobile/jquery.mobile.icons-1.4.2.min.css">
+    <link rel="stylesheet" href="../css/paySystemCommon.css">
+</head>
+<body>
+<div data-role="page" id="paytoSH">
+    <div data-role="header" class="header">
+        <span onclick="history.go(-1)" data-icon="arrow-l" data-role="none">&lt;返回</span> <a href="../index.html" data-role="none" data-ajax="false">关闭</a><h1>向商户付款</h1>
+    </div>
+    <div data-role="content" class="content">
+         <h3><img src="../img/user2.png" alt="">美宜多烟酒专柜深圳科苑花园店</h3>
+        <div class="cen">
+            <p><span>金额</span><input type="text" placeholder="￥" data-role="none" readonly/><i class="removeText"></i></p>
+            <p class="quan"><span>优惠券</span><b>有可用的优惠卷 <img src="../img/r.png" alt=""></b></p>
+            <p><span>实付</span><b>￥0.00</b></p>
+        </div>
+        <p class="who"><img src="../img/yklogo.png" alt="">@易快提供技术支持</p>
+        <div class="VRjianpan">
+            <table>
+                <tr><td>1</td><td>2</td><td>3</td><td class="del"><img src="../img/del.png" alt=""></td></tr>
+                <tr><td>4</td><td>5</td><td>6</td><td class="ispay isOpacity" rowspan="3">确认支付</td></tr>
+                <tr><td>7</td><td>8</td><td>9</td></tr>
+                <tr><td colspan="2">0</td><td>.</td></tr>
+            </table>
+        </div>
+        <div class="alterbg">请先输入金额</div>
+    </div>
+    <div class="popup_bg" ></div>
+    <div class="popup popup_op payMothend" >
+        <div class="popup_top">
+            <span class="popup_close"></span>
+            <b class="popup_title">支付方式</b>
+        </div>
+        <div class="popup_main">
+           <div>
+               <a href="vippay.html" data-ajax="false">
+                   <dl class="opac">
+                       <dt><img src="../img/vip.png" alt=""></dt>
+                       <dd>会员支付<br/><span>余额:￥40.82</span></dd>
+                   </dl>
+               </a>
+               <b>抵扣 <i class="on"></i><br/><span>还需支付￥82.12</span></b>
+           </div>
+            <div>
+             <a href="wxpay.html" data-ajax="false"><dl>
+                    <dt><img src="../img/wx.png" alt=""></dt>
+                    <dd>微信支付</dd>
+                </dl>
+             </a>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="../jqueryMobile/jquery-1.9.1.min.js"></script>
+<script src="../jqueryMobile/jquery.mobile-1.4.2.min.js"></script>
+<script src="../js/paySystem.js"></script>
+</body>
+</html>

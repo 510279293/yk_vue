@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1,minimum-scale=1,user-scalable=no">
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="black" name="apple-mobile-web-app-status-bar-style" />
+    <meta content="telephone=no" name="format-detection" />
+    <title>Title</title>
+    <link rel="stylesheet" href="../jqueryMobile/jquery.mobile-1.4.2.min.css">
+    <link rel="stylesheet" href="../jqueryMobile/jquery.mobile.icons-1.4.2.min.css">
+    <link rel="stylesheet" href="../css/common.css">
+</head>
+<body>
+<div data-role="page" id="Haddress">
+    <div data-role="header" class="header">
+        <span onclick="history.go(-1)" data-icon="arrow-l" data-role="none">&lt;返回</span> <a href="../index.html"  data-role="none" data-ajax="false">关闭</a><h1>选择收货地址</h1>
+    </div>
+    <div data-role="content" class="content">
+       <div class="useing">
+           <div class="isuse">
+               <p class="tit">张三 1365466545</p>
+               <p class="address">广东 深圳市 南山市 的滨海大海303号</p>
+               <p class="bot"><i class="on ion"></i>默认地址 <span><i class="edit">编辑</i><i class="del">删除</i></span></p>
+               <span class="yes"></span>
+           </div>
+       </div>
+        <div class="used">
+            <div class="isuse">
+                <p class="tit">张三 1365466545</p>
+                <p class="address">广东 深圳市 南山市 的滨海大海303号</p>
+                <p class="bot"><i class="on"></i>设为默认 <span><i class="edit">编辑</i><i class="del">删除</i></span></p>
+                <span class="sy">使用</span>
+            </div>
+            <div class="isuse">
+                <p class="tit">张三 1365466545</p>
+                <p class="address">广东 深圳市 南山市 的滨海大海303号</p>
+                <p class="bot"><i class="on"></i>设为默认 <span><i class="edit">编辑</i><i class="del">删除</i></span></p>
+                <span class="sy">使用</span>
+            </div>
+        </div>
+        <div class="setAddress">
+            <p><span><img src="../img/chat.png"> 使用微信地址</span><a href="addAddress.html" data-ajax="false"><span>+手动添加地址</span></a></p>
+        </div>
+    </div>
+    <div class="popup_bg" style="display: none"></div>
+    <div class="popup popup_op" style="display: none" id="deladdress">
+        <div class="popup_top">
+            <b class="popup_title">您确定要删除该收货地址吗？</b>
+        </div>
+        <div class="popup_main">
+            <p><span class="on">确定</span><span>取消</span></p>
+        </div>
+    </div>
+</div>
+<script src="../jqueryMobile/jquery-1.9.1.min.js"></script>
+<script src="../jqueryMobile/jquery.mobile-1.4.2.min.js"></script>
+<script src="../js/common.js"></script>
+</body>
+</html>

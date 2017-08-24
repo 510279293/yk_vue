@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1,minimum-scale=1,user-scalable=no">
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="black" name="apple-mobile-web-app-status-bar-style" />
+    <meta content="telephone=no" name="format-detection" />
+    <title>Title</title>
+    <link rel="stylesheet" href="../jqueryMobile/jquery.mobile-1.4.2.min.css">
+    <link rel="stylesheet" href="../jqueryMobile/jquery.mobile.icons-1.4.2.min.css">
+    <link rel="stylesheet" href="../css/wmSendCommon.css">
+</head>
+<body>
+<div data-role="page" id="wmScreatebill">
+    <div data-role="header" class="header">
+        <span onclick="history.go(-1)" data-icon="arrow-l" data-role="none">&lt;返回</span> <a href="../index.html" data-role="none" data-ajax="false">关闭</a><h1>新增发票抬头</h1>
+    </div>
+    <div class="add">
+        <p><input type="text" data-role="none" placeholder="个人或公司全称"></p>
+    </div>
+    <div class="fot">
+        <a href="#" >确认</a>
+    </div>
+</div>
+<script src="../jqueryMobile/jquery-1.9.1.min.js"></script>
+<script src="../jqueryMobile/jquery.mobile-1.4.2.min.js"></script>
+<script>
+    $(function(){
+        $("#wmScreatebill .fot a").tap(function(){
+            var str=$("#wmScreatebill .add input").val();
+            window.location.href="wmSbill.html?str="+str;
+        })
+    })
+</script>
+</body>
+</html>

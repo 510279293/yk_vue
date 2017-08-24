@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1,minimum-scale=1,user-scalable=no">
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="black" name="apple-mobile-web-app-status-bar-style" />
+    <meta content="telephone=no" name="format-detection" />
+    <title>Title</title>
+    <link rel="stylesheet" href="../jqueryMobile/jquery.mobile-1.4.2.min.css">
+    <link rel="stylesheet" href="../jqueryMobile/jquery.mobile.icons-1.4.2.min.css">
+    <link rel="stylesheet" href="../css/wmSendCommon.css">
+</head>
+<body>
+<div data-role="page" id="wmSaddAddr">
+    <div data-role="header" class="header">
+        <span onclick="history.go(-1)" data-icon="arrow-l" data-role="none">&lt;返回</span> <a href="../index.html"  data-role="none" data-ajax="false">关闭</a><h1>添加收货地址</h1>
+    </div>
+    <div data-role="content" class="content">
+        <div><p class="p1"><span class="width126">收货人</span><input type="text" placeholder="请输入收货人姓名" data-role="none"></p></div>
+        <div><p class="p2"><span class="width126"></span><label><i class="on"></i><b>先生</b></label> <label><i></i><b>女士</b></label></p></div>
+        <div><p class="p3"><span class="width126">手机号</span><input type="tel" data-role="none" placeholder="请输入收货人手机号码"></p></div>
+        <div><p class="p4"><span class="width126">地址</span><input type="text" data-role="none" placeholder="小区/写字楼/学校等"><a href="#"></a></p></div>
+        <div><p class="p5"><span class="width126"></span><input type="text" data-role="none" placeholder="详细地址"></p></div>
+    </div>
+    <div class="bot"><span>确定</span></div>
+</div>
+<script src="../jqueryMobile/jquery-1.9.1.min.js"></script>
+<script src="../jqueryMobile/jquery.mobile-1.4.2.min.js"></script>
+<script>
+$(function(){
+     $("#wmSaddAddr .p2 label").on("touchend",function(e){
+         $("#wmSaddAddr .p2 label i").removeClass("on");
+         $(this).find("i").addClass("on");
+         e.preventDefault();
+     })
+    $("#wmSaddAddr .bot").tap(function(){
+         window.location.href="wmSHaddress.html";
+    })
+})
+</script>
+</body>
+</html>

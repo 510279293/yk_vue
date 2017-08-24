@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1,minimum-scale=1,user-scalable=no">
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="black" name="apple-mobile-web-app-status-bar-style" />
+    <meta content="telephone=no" name="format-detection" />
+    <title>Title</title>
+    <link rel="stylesheet" href="../jqueryMobile/jquery.mobile-1.4.2.min.css">
+    <link rel="stylesheet" href="../jqueryMobile/jquery.mobile.icons-1.4.2.min.css">
+    <link rel="stylesheet" href="../css/wmSendCommon.css">
+
+</head>
+<body>
+<div data-role="page" id="wmSbill">
+    <div data-role="header" class="header">
+        <span onclick="history.go(-1)" data-icon="arrow-l" data-role="none">&lt;返回</span> <a href="../index.html" data-role="none" data-ajax="false">关闭</a><h1>选择发票抬头</h1>
+    </div>
+    <div class="bigBox">
+         <div class="fpno"><span>不需要发票</span><i class="on"></i></div>
+         <div class="itemBox">
+            <!-- <div class="fpitem session-box">
+                 <div class="session-content">
+                    <span>豹子头餐馆</span><i class="on"></i>
+                 </div>
+                 <a href="javascript:;" class="del-btn">删除</a>
+                 <div class="clear"></div>
+             </div>-->
+         </div>
+         <div class="addfp"><a href="wmScreatebill.html" data-ajax="false"><span>新增发票抬头</span><img src="../img/r.png" alt=""></a></div>
+
+    </div>
+    <div class="fixed">
+         <p><img src="../img/fp.png" alt=""></p>
+         <p>没有发票抬头<br/><span>请新增发票抬头</span></p>
+    </div>
+</div>
+<script src="../jqueryMobile/jquery-1.9.1.min.js"></script>
+<script src="../jqueryMobile/jquery.mobile-1.4.2.min.js"></script>
+<script src="../js/slide2del.js"></script>
+<script src="../jqueryMobile/jquery.cookie.js"></script>
+<script>
+    function moveDelete(){
+        $(".session-box").slide2del({
+            sItemClass: ".session-box",
+            sDelBtnClass: ".del-btn",
+            delHandler: function (target) {
+
+                var text = target.find('.session-content').text();
+
+                target.remove();
+
+                alert(text+"成功删除");
+
+
+            },
+            itemClickHandler: function (target) {
+                console.log("你点击了选项：" + target.text());
+
+//            return false;//阻止默认事件
+//            $(this).slide2del_hideDel();
+            }
+        });
+    }
+    moveDelete();
+
+    $(function(){
+        var fphref=window.location.href;
+        if(fphref.split("?")[1]){
+            if(fphref.split("?")[1].split("=")[1]){
+                var bzArr=fphref.split("?")[1].split("=")[1];
+                var fpStr=decodeURI(bzArr);
+                //查找cookie本地是否有记录，有则拼加，无则创建
+                if($.cookie('fpItem')){
+                    if($.cookie('fpItem').indexOf(fpStr)<0){
+                        fpStr+="#"+$.cookie('fpItem');
+                        $.cookie('fpItem',fpStr);
+                    }
+                }else{
+                    $.cookie('fpItem',fpStr);
+                }
+                //取出cookie展示
+                console.log($.cookie('fpItem'));
+                var fpArr=$.cookie('fpItem').split("#");
+                var html="";
+                for(var i=0;i<fpArr.length;i++){
+                    html+='<div class="fpitem session-box">' +
+                            '<div class="session-content">' +
+                               '<span>'+fpArr[i]+'</span><i class="on"></i>' +
+                            '</div>' +
+                                '<a href="javascript:;" class="del-btn">删除</a>' +
+                               '<div class="clear"></div>' +
+                            '</div>';
+                }
+                $(html).appendTo($("#wmSbill .itemBox"));
+                $("#wmSbill .fpno i").removeClass("on");
+
+                //滑动删除
+                moveDelete();
+
+            }
+        }
+        //判断是否有发票
+        if($("#wmSbill .itemBox .fpitem").length>0){
+            $("#wmSbill .fixed").hide();
+        }else{
+            $("#wmSbill .fixed").show();
+        }
+        //判断是否要发票
+        $("#wmSbill .fpno i").tap(function(e){
+            $(this).addClass("on");
+            $("#wmSbill .itemBox .fpitem i").removeClass("on");
+        })
+        //选择发票
+        $("#wmSbill .itemBox .fpitem i").tap(function(){
+            $("#wmSbill .fpno i").removeClass("on");
+            if($(this).attr("class")=="on"){
+                $(this).removeClass("on")
+            }else{
+                $(this).addClass("on");
+            }
+        })
+
+    })
+</script>
+</body>
+</html>

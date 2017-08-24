@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1,minimum-scale=1,user-scalable=no">
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="black" name="apple-mobile-web-app-status-bar-style" />
+    <meta content="telephone=no" name="format-detection" />
+    <title>Title</title>
+    <link rel="stylesheet" href="../jqueryMobile/jquery.mobile-1.4.2.min.css">
+    <link rel="stylesheet" href="../jqueryMobile/jquery.mobile.icons-1.4.2.min.css">
+    <link rel="stylesheet" href="../css/common.css">
+</head>
+<body>
+<div data-role="page" id="VipCards">
+    <div data-role="header" class="header">
+        <span onclick="history.go(-1)" data-icon="arrow-l" data-role="none">&lt;返回</span> <a href="../index.html" data-role="none" data-ajax="false">关闭</a><h1>我的</h1>
+    </div>
+    <div  class="nopaddingLR">
+        <div class="meInf">
+            <dl>
+                <dt><img src="../img/logo.png" alt=""></dt>
+                <dd>
+                    <b>宋江</b><br/>
+                    <p class="color99">13989286110</p>
+                </dd>
+            </dl>
+            <div><b>3张</b></div>
+        </div>
+    </div>
+    <div  class="content">
+       <div class="card">
+            <h1><b>高级会员</b></h1>
+            <p><span>9.9折</span><span>使用中</span></p>
+       </div>
+        <div class="card">
+            <h1><b>高级会员</b> <span class="default">默认卡</span></h1>
+            <p><span>9.9折</span><span>使用中</span></p>
+        </div>
+        <div class="card">
+            <h1><b>高级会员</b></h1>
+            <p><span>9.9折</span><span>待激活</span></p>
+        </div>
+    </div>
+</div>
+<script src="../jqueryMobile/jquery-1.9.1.min.js"></script>
+<script src="../jqueryMobile/jquery.mobile-1.4.2.min.js"></script>
+<script src="../js/common.js"></script>
+<script>
+    var that=this;
+    $("#VipCards .content .card").tap(function(){
+        if($(this).find(".default").length>0){
+            that.location.href='defaultCard.html';
+        }else{
+            that.location.href='cardDetail.html';
+        }
+    })
+</script>
+</body>
+</html>

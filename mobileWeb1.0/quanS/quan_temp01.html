@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1,minimum-scale=1,user-scalable=no">
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="black" name="apple-mobile-web-app-status-bar-style" />
+    <meta content="telephone=no" name="format-detection" />
+    <title>Title</title>
+    <link rel="stylesheet" href="../jqueryMobile/jquery.mobile-1.4.2.min.css">
+    <link rel="stylesheet" href="../jqueryMobile/jquery.mobile.icons-1.4.2.min.css">
+    <link rel="stylesheet" href="../css/quanS.css">
+</head>
+<body>
+<div data-role="page" id="quan_temp01">
+    <div data-role="header" class="header">
+        <span onclick="history.go(-1)" data-icon="arrow-l" data-role="none">&lt;返回</span> <a href="index.html"  data-role="none">关闭</a><h1>优惠券</h1>
+    </div>
+    <div class="con_box">
+         <div class="logo">
+              <dl>
+                  <dt><img src="../img/quanS/dxc.png" alt=""></dt>
+                  <dd>稻香村</dd>
+              </dl>
+         </div>
+         <div class="tit">
+               <h1>稻香村十一优惠节</h1>
+         </div>
+         <div class="quan">
+             <div class="item">
+                 <a href="quan_success.html" data-ajax="false" data-role="none">领取</a>
+                 <p>
+                    <b>10元</b><br/>
+                     <span>满100元可用</span>
+                 </p>
+             </div>
+             <div class="item">
+                 <a href="quan_success.html" data-ajax="false" data-role="none">领取</a>
+                 <p>
+                     <b>10元</b><br/>
+                     <span>满100元可用</span>
+                 </p>
+             </div>
+         </div>
+    </div>
+</div>
+<script src="../jqueryMobile/jquery-1.9.1.min.js"></script>
+<script src="../jqueryMobile/jquery.mobile-1.4.2.min.js"></script>
+<script>
+    $(function(){
+        var d="<div class='snow'><img src='../img/quanS/flower01.png' alt=''><div>"
+        setInterval(function(){
+            var f=$(document).width();
+            var e=Math.random()*f-100;
+            var o=0.3+Math.random();
+            var fon=10+Math.random()*30;
+            var l = e - 100 + 200 * Math.random();
+            var k=2000 + 5000 * Math.random();
+            $(d).clone().appendTo(".con_box").css({
+                left:e+"px",
+                opacity:o,
+                "font-size":fon,
+            }).animate({
+                top:"400px",
+                left:l+"px",
+                opacity:0.1,
+            },k,"linear",function(){$(this).remove()})
+        },1000)
+
+    })
+</script>
+</body>
+</html>

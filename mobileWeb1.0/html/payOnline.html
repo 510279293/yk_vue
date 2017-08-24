@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1,minimum-scale=1,user-scalable=no">
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="black" name="apple-mobile-web-app-status-bar-style" />
+    <meta content="telephone=no" name="format-detection" />
+    <title>Title</title>
+    <link rel="stylesheet" href="../jqueryMobile/jquery.mobile-1.4.2.min.css">
+    <link rel="stylesheet" href="../jqueryMobile/jquery.mobile.icons-1.4.2.min.css">
+    <link rel="stylesheet" href="../css/common.css">
+</head>
+<body>
+<div data-role="page" id="payOnline">
+    <div data-role="header" class="header">
+        <span onclick="history.go(-1)" data-icon="arrow-l" data-role="none">&lt;返回</span> <a href="../index.html"  data-role="none" data-ajax="false">关闭</a><h1>充值</h1>
+    </div>
+    <div class="marBox">
+        <div data-role="content" class="nopaddingLR">
+            <dl>
+                <dt><img src="../img/cash.png"></dt>
+                <dd>￥23.00</dd>
+            </dl>
+        </div>
+        <div data-role="content" class="content">
+            <p class="tit">充值优惠活动<a href="charActive.html" data-ajax="false">正在进行<span>2</span>个&nbsp;&nbsp;&gt;</a></p>
+            <p class="bg"></p>
+            <div>
+                <p class="on">
+                    <span><b>50元</b><br/>赠送5元</span>
+                </p>
+                <p>
+                    <span><b>100元</b><br/>赠送10元</span>
+                </p>
+                <p>
+                    <span><b>500元</b><br/>赠送50元</span>
+                </p>
+                <p>
+                    <span><b>1000元</b><br/>赠送100元</span>
+                </p>
+                <p>
+                    <span><b>1500元</b><br/>赠送180元</span>
+                </p>
+                <p>
+                    <span><b>2000元</b><br/>赠送210元</span>
+                </p>
+                <p>
+                    <span><b>其他金额</b></span>
+                </p>
+            </div>
+            <p class="chongZhi"><span><a href="../paySystem/vipwxpay.html" data-ajax="false">充值</a></span></p>
+        </div>
+    </div>
+    <div class="VRjianpan">
+        <table>
+            <tr><td colspan="4"><input type="text" data-role="none" placeholder="请输入金额(元)" readonly="readonly"/></td></tr>
+            <tr><td>1</td><td>2</td><td>3</td><td class="del"></td></tr>
+            <tr><td>4</td><td>5</td><td>6</td><td rowspan="3" class="sure">确认<br/>充值</td></tr>
+            <tr><td>7</td><td>8</td><td>9</td></tr>
+            <tr><td colspan="2">0</td><td>.</td></tr>
+        </table>
+    </div>
+</div>
+<script src="../jqueryMobile/jquery-1.9.1.min.js"></script>
+<script src="../jqueryMobile/jquery.mobile-1.4.2.min.js"></script>
+<script src="../js/common.js"></script>
+</body>
+</html>

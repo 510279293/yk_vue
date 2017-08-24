@@ -1,0 +1,457 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+a, img, ul, ol, li, table, thead, tbody, tfoot, tr, td, dl, dt, dd, h1, h2, h3, h4, h5, h6, input {
+  font-family: "Microsoft YaHei";
+  border-collapse: collapse;
+  text-decoration: none;
+  border: 0;
+  font-weight: normal;
+  list-style-type: none;
+  color: inherit; }
+
+img {
+  vertical-align: middle;
+  line-height: 0; }
+
+body {
+  font-size: 14px;
+  font-family: "Microsoft YaHei";
+  text-shadow: none; }
+
+html, body {
+  width: 100%;
+  height: 100%; }
+
+@media screen and (min-width: 320px) {
+  html {
+    font-size: 14px; } }
+@media screen and (min-width: 360px) {
+  html {
+    font-size: 16px; } }
+@media screen and (min-width: 400px) {
+  html {
+    font-size: 18px; } }
+@media screen and (min-width: 440px) {
+  html {
+    font-size: 20px; } }
+@media screen and (min-width: 480px) {
+  html {
+    font-size: 22px; } }
+@media screen and (min-width: 640px) {
+  html {
+    font-size: 28px; } }
+#quan_temp01 .header, #quan_temp02 .header, #quan_success .header, #useInfo .header, #goodsList .header, #quan_get .header {
+  height: 2.93333rem;
+  background: #2d2c32;
+  color: #fff;
+  font-size: 1.06667rem; }
+  #quan_temp01 .header span, #quan_temp02 .header span, #quan_success .header span, #useInfo .header span, #goodsList .header span, #quan_get .header span {
+    position: absolute;
+    text-shadow: none;
+    font-weight: 100;
+    line-height: 2.93333rem;
+    font-size: 0.8rem;
+    float: left;
+    left: 0.66667rem; }
+  #quan_temp01 .header a, #quan_temp02 .header a, #quan_success .header a, #useInfo .header a, #goodsList .header a, #quan_get .header a {
+    position: absolute;
+    text-shadow: none;
+    line-height: 2.6rem;
+    color: #fff;
+    float: left;
+    left: 3.33333rem;
+    font-size: 0.8rem;
+    font-weight: 100; }
+  #quan_temp01 .header h1, #quan_temp02 .header h1, #quan_success .header h1, #useInfo .header h1, #goodsList .header h1, #quan_get .header h1 {
+    text-shadow: none; }
+
+#quan_temp01 .ui-header, #quan_temp02 .ui-header, #quan_success .ui-header, #useInfo .ui-header, #goodsList .ui-header, #quan_get .ui-header {
+  border: none; }
+
+.alertPhone {
+  display: none;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5); }
+  .alertPhone .phoneBox {
+    width: 80%;
+    background: #fff;
+    margin: 0 auto;
+    margin-top: 70%;
+    border-radius: 0.66667rem; }
+    .alertPhone .phoneBox h2 {
+      text-align: center;
+      padding-top: 1rem;
+      font-size: 1.2rem; }
+    .alertPhone .phoneBox p {
+      text-align: center;
+      color: #666;
+      font-size: 0.86667rem;
+      margin: 1rem 0; }
+    .alertPhone .phoneBox .isTelBox {
+      border-top: 0.06667rem solid #e5e5e5;
+      padding: 1rem 0;
+      display: flex; }
+      .alertPhone .phoneBox .isTelBox a {
+        border-right: 0.06667rem solid #e5e5e5;
+        display: inline-block;
+        width: 50%;
+        text-align: center;
+        color: #000;
+        font-size: 1rem;
+        font-weight: 100; }
+
+#quan_temp01 {
+  height: 100%; }
+  #quan_temp01 .con_box {
+    background: url("../img/quanS/qwe.png");
+    background-size: cover;
+    height: 93%;
+    box-sizing: border-box;
+    padding-top: 20%;
+    clear: both;
+    position: relative;
+    overflow: hidden;
+    -webkit-overflow-scrolling: touch; }
+    #quan_temp01 .con_box .snow {
+      position: absolute;
+      top: 0;
+      color: #fff; }
+    #quan_temp01 .con_box .logo {
+      display: flex;
+      justify-content: center; }
+      #quan_temp01 .con_box .logo dl dt img {
+        width: 3.33333rem;
+        height: 3.33333rem; }
+      #quan_temp01 .con_box .logo dl dd {
+        font-size: 1.2rem;
+        color: #78394c;
+        font-weight: 500; }
+    #quan_temp01 .con_box .tit {
+      display: flex;
+      justify-content: center;
+      margin: 0.66667rem; }
+      #quan_temp01 .con_box .tit h1 {
+        font-size: 1.86667rem;
+        color: #78394c;
+        font-weight: 500; }
+    #quan_temp01 .con_box .quan {
+      display: flex;
+      justify-content: center; }
+      #quan_temp01 .con_box .quan .item {
+        width: 36%;
+        height: 4.53333rem;
+        background: url("../img/quanS/duang.png");
+        background-size: cover;
+        display: flex; }
+        #quan_temp01 .con_box .quan .item a {
+          color: #d5cb40;
+          font-size: 1.2rem;
+          text-shadow: none;
+          text-align: center;
+          box-sizing: border-box;
+          padding: 0.66667rem 0rem 0rem 0.53333rem;
+          font-weight: 100;
+          width: 3rem; }
+        #quan_temp01 .con_box .quan .item p {
+          box-sizing: border-box;
+          padding: 0.66667rem 0rem 0rem 0.13333rem;
+          width: 100%; }
+          #quan_temp01 .con_box .quan .item p b {
+            width: 100%;
+            text-align: center;
+            display: inline-block;
+            font-size: 1.53333rem;
+            color: #500304;
+            font-weight: 600; }
+          #quan_temp01 .con_box .quan .item p span {
+            font-size: 0.8rem;
+            display: inline-block;
+            width: 100%;
+            text-align: center;
+            color: #702225; }
+      #quan_temp01 .con_box .quan .item:nth-of-type(2) {
+        margin-left: 14%; }
+
+#quan_temp02 {
+  height: 100%; }
+  #quan_temp02 .con_box {
+    background: url("../img/quanS/dd.gif");
+    background-size: cover;
+    height: 93%;
+    box-sizing: border-box;
+    padding-top: 20%; }
+    #quan_temp02 .con_box .con {
+      height: 100%; }
+      #quan_temp02 .con_box .con .logo {
+        display: flex;
+        justify-content: center; }
+        #quan_temp02 .con_box .con .logo dl dt img {
+          width: 3.33333rem;
+          height: 3.33333rem; }
+        #quan_temp02 .con_box .con .logo dl dd {
+          font-size: 1.2rem;
+          color: #FFF;
+          font-weight: 100;
+          text-shadow: none; }
+      #quan_temp02 .con_box .con .tit {
+        display: flex;
+        justify-content: center;
+        margin: 0.66667rem;
+        margin-bottom: 2rem; }
+        #quan_temp02 .con_box .con .tit h1 {
+          font-size: 1.86667rem;
+          color: #fff;
+          font-weight: 100;
+          text-shadow: none; }
+      #quan_temp02 .con_box .con .quan {
+        display: flex;
+        justify-content: center; }
+        #quan_temp02 .con_box .con .quan .item {
+          position: relative;
+          width: 68%;
+          height: 6rem; }
+          #quan_temp02 .con_box .con .quan .item .bgimg {
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            width: 100%;
+            height: 100%; }
+          #quan_temp02 .con_box .con .quan .item p {
+            position: absolute;
+            padding: 1rem;
+            box-sizing: border-box;
+            height: 100%;
+            align-items: baseline; }
+            #quan_temp02 .con_box .con .quan .item p i {
+              font-style: normal;
+              color: #fb241f;
+              font-size: 1.4rem; }
+            #quan_temp02 .con_box .con .quan .item p em {
+              font-size: 2.66667rem;
+              font-style: normal;
+              font-weight: 600;
+              color: #fb241f; }
+            #quan_temp02 .con_box .con .quan .item p span {
+              color: #f5c9aa;
+              position: absolute;
+              width: 100%;
+              margin-top: 16%;
+              font-size: 1rem;
+              padding-left: 0.33333rem; }
+
+#quan_success .con {
+  padding: 0.66667rem 0.83333rem;
+  background: #7e95c5;
+  height: 100%;
+  box-sizing: border-box;
+  position: relative; }
+  #quan_success .con .con_box {
+    background: #fff;
+    padding: 1rem;
+    box-sizing: border-box;
+    border-radius: 0.4rem; }
+    #quan_success .con .con_box h2 {
+      text-align: center;
+      font-size: 1.2rem;
+      padding-bottom: 1rem;
+      border-bottom: 0.06667rem dashed #e5e5e5; }
+    #quan_success .con .con_box .quan_set p {
+      width: 100%;
+      text-align: center;
+      color: #df2127; }
+    #quan_success .con .con_box .quan_set .p1 {
+      font-size: 0.8rem; }
+      #quan_success .con .con_box .quan_set .p1 b {
+        font-size: 1.8rem; }
+      #quan_success .con .con_box .quan_set .p1 span {
+        display: inline-block;
+        padding: 0.26667rem 0.53333rem;
+        border: 0.06667rem solid #df2127;
+        border-radius: 0.2rem;
+        font-size: 0.66667rem;
+        vertical-align: super;
+        margin-left: 0.66667rem; }
+    #quan_success .con .con_box .quan_set .p2 {
+      font-size: 0.93333rem;
+      margin-top: 0.33333rem;
+      color: #999; }
+#quan_success .con:before {
+  content: "";
+  position: absolute;
+  width: 1.33333rem;
+  height: 1.33333rem;
+  border-radius: 50%;
+  left: 0.13333rem;
+  top: 3.6rem;
+  background: #7e95c5; }
+#quan_success .con:after {
+  content: "";
+  position: absolute;
+  width: 1.33333rem;
+  height: 1.33333rem;
+  border-radius: 50%;
+  right: 0.13333rem;
+  top: 3.6rem;
+  background: #7e95c5; }
+#quan_success .canUseTime {
+  margin-top: 1.33333rem;
+  padding-bottom: 1rem;
+  border-bottom: 0.06667rem dashed #e5e5e5; }
+  #quan_success .canUseTime dl {
+    display: flex; }
+    #quan_success .canUseTime dl dt {
+      font-size: 0.93333rem;
+      color: #666;
+      width: 11rem; }
+    #quan_success .canUseTime dl dd {
+      font-size: 0.93333rem;
+      color: #999; }
+#quan_success .imgBox {
+  padding: 1rem 0; }
+  #quan_success .imgBox img {
+    width: 100%;
+    height: 8.66667rem; }
+#quan_success .titBox .titName {
+  font-size: 1.2rem;
+  color: #333; }
+  #quan_success .titBox .titName img {
+    width: 1.33333rem;
+    height: 1.33333rem; }
+#quan_success .titBox dl {
+  margin-top: 0.66667rem; }
+  #quan_success .titBox dl dt {
+    color: #333;
+    font-size: 1rem; }
+  #quan_success .titBox dl dd {
+    color: #999;
+    font-size: 0.8rem;
+    margin-top: 0.33333rem; }
+    #quan_success .titBox dl dd img {
+      width: 1.13333rem;
+      height: 1.13333rem; }
+#quan_success .info_see {
+  margin-top: 1rem; }
+  #quan_success .info_see p {
+    height: 3rem;
+    line-height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    border-top: 0.06667rem solid #e5e5e5; }
+    #quan_success .info_see p a {
+      color: #333;
+      font-weight: 100;
+      text-shadow: none; }
+#quan_success .get_btn {
+  text-align: center; }
+  #quan_success .get_btn a {
+    display: inline-block;
+    width: 80%;
+    height: 3rem;
+    background: #69adf4;
+    border-radius: 1.5rem;
+    line-height: 3rem;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #fff;
+    text-shadow: none;
+    font-weight: 100; }
+
+#useInfo .content h3 {
+  font-size: 0.8rem; }
+#useInfo .content p {
+  font-size: 0.8rem;
+  line-height: 1.33333rem; }
+
+#goodsList .content {
+  padding-left: 0;
+  padding-right: 0; }
+  #goodsList .content .list {
+    border-bottom: 0.06667rem solid #e5e5e5;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-bottom: 1rem;
+    display: flex; }
+    #goodsList .content .list dl {
+      width: 80%;
+      border-right: 0.06667rem solid #e5e5e5;
+      height: 4rem; }
+      #goodsList .content .list dl dt {
+        font-size: 1.33333rem; }
+        #goodsList .content .list dl dt span {
+          font-size: 1.06667rem;
+          color: #999999; }
+      #goodsList .content .list dl dd {
+        font-size: 0.8rem;
+        color: #999;
+        margin-top: 6%;
+        position: relative; }
+        #goodsList .content .list dl dd img {
+          width: 1.33333rem;
+          position: absolute;
+          right: 9%;
+          bottom: 3%; }
+    #goodsList .content .list b {
+      text-align: center;
+      vertical-align: middle;
+      width: 20%;
+      padding-top: 4%;
+      box-sizing: border-box; }
+      #goodsList .content .list b img {
+        width: 1.66667rem; }
+
+#quan_get {
+  height: 100%;
+  background: #fff; }
+  #quan_get .fillBox input {
+    outline: none;
+    font-size: 0.8rem; }
+  #quan_get .fillBox .fillph {
+    border-bottom: 0.06667rem solid #e5e5e5;
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    #quan_get .fillBox .fillph span {
+      color: #fff;
+      font-size: 0.8rem;
+      background: #69adf4;
+      border-radius: 0.26667rem;
+      display: inline-block;
+      text-shadow: none;
+      height: 2rem;
+      padding: 0rem 0.33333rem;
+      line-height: 2rem; }
+  #quan_get .fillBox .fillma {
+    border-bottom: 0.06667rem solid #e5e5e5;
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  #quan_get .sure_btn {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem; }
+    #quan_get .sure_btn a {
+      display: inline-block;
+      font-size: 1rem;
+      text-shadow: none;
+      color: #fff;
+      background: #69adf4;
+      height: 3rem;
+      line-height: 3rem;
+      text-align: center;
+      width: 66%;
+      border-radius: 1.5rem; }
+
+/*# sourceMappingURL=quanS.css.map */

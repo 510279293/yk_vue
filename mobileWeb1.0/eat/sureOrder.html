@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1,minimum-scale=1,user-scalable=no">
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="black" name="apple-mobile-web-app-status-bar-style" />
+    <meta content="telephone=no" name="format-detection" />
+    <title>Title</title>
+    <link rel="stylesheet" href="../jqueryMobile/jquery.mobile-1.4.2.min.css">
+    <link rel="stylesheet" href="../jqueryMobile/jquery.mobile.icons-1.4.2.min.css">
+    <link rel="stylesheet" href="../css/eatCommon.css">
+</head>
+<body>
+<div data-role="page" id="sureOrder">
+    <div data-role="header" class="header">
+        <span onclick="history.go(-1)" data-icon="arrow-l" data-role="none">&lt;返回</span> <a href="../index.html" data-role="none" data-ajax="false">关闭</a><h1>确认订单</h1>
+    </div>
+    <div class="topSea">
+        <b>桌号:3</b><a href="wmIndex.html" data-ajax="false"><span>我要加菜</span></a>
+    </div>
+    <div data-role="content" class="content">
+        <div class="cont">
+             <p class="yhqtot"><span>优惠券</span><a data-ajax="false" href="useQuan.html">可用2张</a></p>
+            <div>
+                 <h3><b><img src="../img/kf.png">真功夫(南新店)</b><span class="edit">编辑</span></h3>
+                 <div class="items">
+                     <div class="item">
+                         <div class="editOk">
+                             <p class="p1"><span class="tit">农家一碗菜</span><span class="num">x1</span><span class="mon">￥23.00</span></p>
+                             <p class="p2"><b>大份</b></p>
+                         </div>
+                         <div class="editing" style="display: none">
+                              <dl>
+                                  <dt>农家一碗菜</dt>
+                                  <dd><span class="on">大份</span><span>小份</span></dd>
+                              </dl>
+                              <span class="editNum">
+                                  <span class="sub">-</span>
+                                  <b class="num">1</b>
+                                  <span class="add">+</span>
+                              </span>
+                              <span class="del">删除</span>
+                         </div>
+                     </div>
+                     <div class="item">
+                         <div class="editOk">
+                             <p class="p1"><span class="tit">农家一碗菜</span><span class="num">x1</span><span class="mon">￥23.00</span></p>
+                             <p class="p2"><b>大份</b></p>
+                         </div>
+                         <div class="editing" style="display: none">
+                             <dl>
+                                 <dt>农家一碗菜</dt>
+                                 <dd><span class="on">大份</span><span>小份</span></dd>
+                             </dl>
+                              <span class="editNum">
+                                  <span class="sub">-</span>
+                                  <b class="num">1</b>
+                                  <span class="add">+</span>
+                              </span>
+                             <span class="del">删除</span>
+                         </div>
+                     </div>
+                 </div>
+            </div>
+            <div class="fei">
+                <p>服务费 <span>￥0</span></p>
+                <p>优惠券 <span>-￥0</span></p>
+                <p>实付 <span class="colorRed">￥46</span></p>
+            </div>
+            <div class="beizhu">
+                 <p>订单备注 <a href="beizhuInfo.html" data-ajax="false"><span>请提供餐具、辣一点</span> <img src="../img/r.png" alt=""></a></p>
+            </div>
+        </div>
+    </div>
+    <!--合计  确认付款-->
+    <div class="boot">
+        <div class="left">
+            合计：<span class="empty">￥28.00</span>
+        </div>
+        <div class="right">
+            <a href="zxpay.html" data-ajax="false"><span class="choseOk">确认付款</span></a>
+        </div>
+    </div>
+</div>
+</body>
+<script src="../jqueryMobile/jquery-1.9.1.min.js"></script>
+<script src="../jqueryMobile/jquery.mobile-1.4.2.min.js"></script>
+<script src="../js/eat.js"></script>
+</html>

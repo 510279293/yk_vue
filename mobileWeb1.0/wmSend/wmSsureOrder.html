@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1,minimum-scale=1,user-scalable=no">
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="black" name="apple-mobile-web-app-status-bar-style" />
+    <meta content="telephone=no" name="format-detection" />
+    <title>Title</title>
+    <link rel="stylesheet" href="../jqueryMobile/jquery.mobile-1.4.2.min.css">
+    <link rel="stylesheet" href="../jqueryMobile/jquery.mobile.icons-1.4.2.min.css">
+    <link rel="stylesheet" href="../css/wmSendCommon.css">
+</head>
+<body>
+<div data-role="page" id="wmSsureOrder">
+    <div data-role="header" class="header">
+        <span onclick="history.go(-1)" data-icon="arrow-l" data-role="none">&lt;返回</span> <a href="../index.html" data-role="none" data-ajax="false">关闭</a><h1>确认订单</h1>
+    </div>
+    <div class="choseaddr">
+        <div class="shtime">
+            <span><img src="../img/posiblue.png" alt=""><i></i></span>
+            <p>
+                 <b>张三  先生  15695583500 </b><br/>
+                 彩霞阁华路338彩虹新都1栋
+            </p>
+            <a data-ajax="false" href="wmSnoaddr.html"><img src="../img/r.png" alt=""><i></i></a>
+        </div>
+    </div>
+    <div class="arrivetime"><span><img src="../img/timepic.png"> 送达时间</span> <a href="">14:15-14:30</a></div>
+    <div data-role="content" class="content">
+        <div class="cont">
+            <p class="yhqtot zfIn"><span>支付方式</span><a data-ajax="false"><b>在线支付</b><img src="../img/r.png" alt=""></a></p>
+            <p class="yhqtot"><span>优惠券</span><a data-ajax="false" href="wmSyhq.html"><b>使用优惠券</b><img src="../img/r.png" alt=""></a></p>
+            <div>
+                <h3><b><img src="../img/kf.png">真功夫(南新店)</b><span class="edit">编辑</span></h3>
+                <div class="items">
+                    <div class="item">
+                        <div class="editOk">
+                            <p class="p1"><span class="tit">农家一碗菜</span><span class="num">x1</span><span>￥23.00</span></p>
+                            <p class="p2"><b>大份</b></p>
+                        </div>
+                        <div class="editing" style="display: none">
+                            <dl>
+                                <dt>农家一碗菜</dt>
+                                <dd><span class="on">大份</span><span>小份</span></dd>
+                            </dl>
+                              <span class="editNum">
+                                  <span class="sub">-</span>
+                                  <b class="num">1</b>
+                                  <span class="add">+</span>
+                              </span>
+                            <span class="del">删除</span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="editOk">
+                            <p class="p1"><span class="tit">农家一碗菜</span><span class="num">x1</span><span>￥23.00</span></p>
+                            <p class="p2"><b>大份</b></p>
+                        </div>
+                        <div class="editing" style="display: none">
+                            <dl>
+                                <dt>农家一碗菜</dt>
+                                <dd><span class="on">大份</span><span>小份</span></dd>
+                            </dl>
+                              <span class="editNum">
+                                  <span class="sub">-</span>
+                                  <b class="num">1</b>
+                                  <span class="add">+</span>
+                              </span>
+                            <span class="del">删除</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="fei">
+                <p>服务费 <span>￥0</span></p>
+                <p>优惠券 <span>-￥0</span></p>
+                <p>实付 <span class="colorRed">￥46</span></p>
+            </div>
+            <div class="beizhu">
+                <p>用餐人数 <a href="#" data-ajax="false"><span><b class="subRen">-</b><i>6</i><b class="addRen">+</b></span></a></p>
+                <p class="bz">订单备注 <a href="wmSbeizhu.html" data-ajax="false"><span>请提供餐具、辣一点</span></a>
+                </p>
+                <p>发票抬头 <a href="wmSbill.html" data-ajax="false"><span>易快科技有限公司</span></a></p>
+            </div>
+        </div>
+    </div>
+    <!--合计  确认付款-->
+    <div class="boot">
+        <div class="left">
+            合计：<span class="empty">￥28.00</span>
+        </div>
+        <div class="right">
+            <a href="wmSpay.html" data-ajax="false"><span class="choseOk">确认付款</span></a>
+        </div>
+    </div>
+    <!--支付方式-->
+    <div class="popbg"></div>
+    <div class="payM">
+          <p class="zf">支付方式</p>
+          <div class="zfsm">
+              <p><b>在线支付</b><span class="on"></span></p>
+              <p><b>货到付款(商家不支持货到付款)</b></p>
+          </div>
+    </div>
+</div>
+</body>
+<script src="../jqueryMobile/jquery-1.9.1.min.js"></script>
+<script src="../jqueryMobile/jquery.mobile-1.4.2.min.js"></script>
+<script src="../js/common.js"></script>
+<script>
+    $(function(){
+        $("#wmSsureOrder .cont .edit").on("touchend",function(e){
+            if($(this).html()=="编辑"){
+                $("#wmSsureOrder .cont .items .item .editing").show();
+                $("#wmSsureOrder .cont .items .item .editOk").hide();
+                $(this).html("完成");
+
+            }
+            else if($(this).html()=="完成") {
+                $("#wmSsureOrder .cont .items .item .editing").hide();
+                $("#wmSsureOrder .cont .items .item .editOk").show();
+                $(this).html("编辑");
+                $("#wmSsureOrder .items .item").each(function(){
+                    var dx=$(this).find(".editing").find(".on").html();
+                    var sl=$(this).find(".editing").find(".num").html();
+                    $(this).find(".editOk").find(".num").html("x"+sl);
+                    $(this).find(".editOk").find(".p2").find("b").html(dx);
+                })
+            }
+            e.preventDefault();
+        });
+        //大小份选择
+        $("#wmSsureOrder .cont .items .item .editing dd span").on("touchend",function(e){
+            $(this).addClass("on").siblings().removeClass("on");
+            e.preventDefault();
+        })
+        //数量加减
+        //数量加
+        $("#wmSsureOrder .cont .items .item .editing .editNum .add").on("touchend",function(e){
+            var n=parseInt($(this).prev().html());
+            if(n>=0){
+                $(this).prev().html(n+1);
+            }else{
+                $(this).prev().html(0);
+            }
+            e.preventDefault();
+        })
+        //数量减
+        $("#wmSsureOrder .cont .items .item .editing .editNum .sub").on("touchend",function(e){
+            var n=parseInt($(this).next().html());
+            if(n>0){
+                $(this).next().html(n-1);
+            }else{
+                $(this).next().html(0);
+            }
+            e.preventDefault();
+        })
+        //删除
+        $("#wmSsureOrder .cont .items .item .editing  .del").on("touchend",function(e){
+            $(this).parent().parent().remove();
+            console.log(2);
+        })
+        //支付方式
+        $("#wmSsureOrder .zfIn").click(function(){
+            $("#wmSsureOrder .popbg").show();
+            $("#wmSsureOrder .payM").show();
+            $("#wmSsureOrder .payM p").click(function(){
+                $("#wmSsureOrder .popbg").hide();
+                $("#wmSsureOrder .payM").hide();
+            })
+            $("#wmSsureOrder .popbg").click(function(){
+                $("#wmSsureOrder .popbg").hide();
+                $("#wmSsureOrder .payM").hide();
+            })
+        })
+
+        //点餐建议
+        var bzhref=window.location.href;
+        console.log(decodeURI(bzhref));
+        if(bzhref.split("?")[1]){
+            if(bzhref.split("?")[1].split("=")[1]){
+                var bzArr=bzhref.split("?")[1].split("=")[1];
+                $("#wmSsureOrder .beizhu .bz span").html(decodeURI(bzArr));
+            }
+        }
+
+        $(".subRen").tap(function(){
+             var num=parseInt($(this).next().html());
+             num--;
+            if(num<=0){
+                num=0;
+            }
+            $(this).next().html(num)
+        })
+        $(".addRen").tap(function(){
+            var num=parseInt($(this).prev().html());
+            num++;
+            $(this).prev().html(num)
+        })
+
+
+    })
+</script>
+</html>

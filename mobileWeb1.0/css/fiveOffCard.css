@@ -1,0 +1,1445 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+a, img, ul, ol, li, table, thead, tbody, tfoot, tr, td, dl, dt, dd, h1, h2, h3, h4, h5, h6, input {
+  font-family: "Microsoft YaHei";
+  border-collapse: collapse;
+  text-decoration: none;
+  border: 0;
+  font-weight: normal;
+  list-style-type: none;
+  color: inherit; }
+
+img {
+  vertical-align: middle;
+  line-height: 0; }
+
+body {
+  font-size: 14px;
+  font-family: "Microsoft YaHei";
+  text-shadow: none; }
+
+html, body {
+  width: 100%;
+  height: 100%; }
+
+@media screen and (min-width: 320px) {
+  html {
+    font-size: 14px; } }
+@media screen and (min-width: 360px) {
+  html {
+    font-size: 16px; } }
+@media screen and (min-width: 400px) {
+  html {
+    font-size: 18px; } }
+@media screen and (min-width: 440px) {
+  html {
+    font-size: 20px; } }
+@media screen and (min-width: 480px) {
+  html {
+    font-size: 22px; } }
+@media screen and (min-width: 640px) {
+  html {
+    font-size: 28px; } }
+#fcIndex .header, #fcIndex_Vip .header, #fcIndex_buy .header, #fcIndex_xf .header, #fcIndex_buyXf .header, #fcIndex_me .header,
+#fcIndex_Details .header {
+  height: 2.93333rem;
+  background: #2d2c32;
+  color: #fff;
+  font-size: 1.06667rem; }
+  #fcIndex .header span, #fcIndex_Vip .header span, #fcIndex_buy .header span, #fcIndex_xf .header span, #fcIndex_buyXf .header span, #fcIndex_me .header span,
+  #fcIndex_Details .header span {
+    position: absolute;
+    text-shadow: none;
+    font-weight: 100;
+    line-height: 2.93333rem;
+    font-size: 0.8rem;
+    float: left;
+    left: 0.66667rem; }
+  #fcIndex .header a, #fcIndex_Vip .header a, #fcIndex_buy .header a, #fcIndex_xf .header a, #fcIndex_buyXf .header a, #fcIndex_me .header a,
+  #fcIndex_Details .header a {
+    position: absolute;
+    text-shadow: none;
+    line-height: 2.6rem;
+    color: #fff;
+    float: left;
+    left: 3.33333rem;
+    font-size: 0.8rem;
+    font-weight: 100; }
+  #fcIndex .header h1, #fcIndex_Vip .header h1, #fcIndex_buy .header h1, #fcIndex_xf .header h1, #fcIndex_buyXf .header h1, #fcIndex_me .header h1,
+  #fcIndex_Details .header h1 {
+    text-shadow: none; }
+
+#fcIndex .ui-header, #fcIndex_Vip .ui-header, #fcIndex_buy .ui-header, #fcIndex_xf .ui-header, #fcIndex_buyXf .ui-header, #fcIndex_me .ui-header,
+#fcIndex_Details .ui-header {
+  border: none; }
+
+.red {
+  color: #DF2127; }
+
+.riLi {
+  box-sizing: border-box;
+  padding: 0 0rem;
+  width: 100%;
+  overflow: hidden; }
+  .riLi .riLiBox {
+    display: flex;
+    overflow: auto;
+    padding-bottom: 0.2rem; }
+    .riLi .riLiBox dl {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-right: 0.53333rem;
+      border: 0.06667rem solid #666;
+      width: 2.66667rem;
+      height: 2.66667rem;
+      border-radius: 1.33333rem; }
+      .riLi .riLiBox dl dd {
+        font-size: 0.8rem;
+        color: #313131;
+        text-align: center;
+        width: 2.66667rem; }
+    .riLi .riLiBox .on {
+      color: #fff;
+      background: #FF5E5D;
+      text-shadow: none;
+      border-color: inherit; }
+      .riLi .riLiBox .on dd {
+        color: #fff; }
+
+.popdel {
+  display: none;
+  position: absolute;
+  background: #fff;
+  border-radius: 0.66667rem;
+  width: 80%;
+  left: 10%;
+  top: 45%;
+  z-index: 100; }
+  .popdel h3 {
+    text-align: right;
+    box-sizing: border-box;
+    padding: 0 1rem; }
+    .popdel h3 img {
+      width: 1rem;
+      height: 1rem; }
+  .popdel div {
+    text-align: center;
+    border-bottom: 0.06667rem solid #e5e5e5;
+    padding: 1rem 0; }
+  .popdel p {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0; }
+    .popdel p a {
+      display: inline-block;
+      padding: 0.13333rem 0.53333rem; }
+
+#fcIndex {
+  background: #eee; }
+  #fcIndex .fcIndexBox {
+    padding: 0; }
+    #fcIndex .fcIndexBox .fcTop {
+      padding: 1rem;
+      padding-bottom: 0px; }
+      #fcIndex .fcIndexBox .fcTop .fcCard {
+        border-radius: 0.4rem;
+        width: 100%;
+        height: 8.7rem;
+        background: -webkit-linear-gradient(left, #FE2D04, #FF5C3D);
+        /* Safari 5.1 - 6.0 */
+        background: -o-linear-gradient(right, #FE2D04, #FF5C3D);
+        /* Opera 11.1 - 12.0 */
+        background: -moz-linear-gradient(right, #FE2D04, #FF5C3D);
+        /* Firefox 3.6 - 15 */
+        background: linear-gradient(to right, #FE2D04, #FF5C3D);
+        padding: 0.66667rem;
+        box-sizing: border-box; }
+        #fcIndex .fcIndexBox .fcTop .fcCard .fcCardTop {
+          display: flex;
+          justify-content: space-between; }
+          #fcIndex .fcIndexBox .fcTop .fcCard .fcCardTop .cardL {
+            height: 2.73333rem;
+            text-shadow: none;
+            color: #fff; }
+            #fcIndex .fcIndexBox .fcTop .fcCard .fcCardTop .cardL dl {
+              display: flex;
+              align-items: center; }
+              #fcIndex .fcIndexBox .fcTop .fcCard .fcCardTop .cardL dl dd {
+                margin-left: 0.66667rem;
+                font-size: 1.2rem; }
+          #fcIndex .fcIndexBox .fcTop .fcCard .fcCardTop .cardR {
+            height: 2.73333rem;
+            display: flex;
+            align-items: center; }
+            #fcIndex .fcIndexBox .fcTop .fcCard .fcCardTop .cardR a {
+              color: #fff;
+              text-shadow: none;
+              font-weight: 100;
+              font-size: 1.2rem; }
+        #fcIndex .fcIndexBox .fcTop .fcCard .cardPag {
+          width: 2.7rem;
+          height: 2.7rem; }
+        #fcIndex .fcIndexBox .fcTop .fcCard .cardTip {
+          color: #FDA79E;
+          padding-left: 3.36667rem;
+          font-size: 0.8rem;
+          text-shadow: none; }
+    #fcIndex .fcIndexBox .choseDateBox {
+      position: relative;
+      width: 100%;
+      padding: 0;
+      padding-top: 3.33333rem;
+      margin-top: -3.33333rem; }
+      #fcIndex .fcIndexBox .choseDateBox .riLi {
+        background: #fff; }
+    #fcIndex .fcIndexBox .choseDateBox:after {
+      position: absolute;
+      display: block;
+      content: " ";
+      padding: 0;
+      padding-top: 3.33333rem;
+      width: 100%;
+      left: 0;
+      top: 0;
+      height: 0;
+      background-image: url("../img/fiveOffCardImg/banyuan.png");
+      background-size: cover; }
+    #fcIndex .fcIndexBox .showBox {
+      padding: 1rem;
+      background: #fff; }
+      #fcIndex .fcIndexBox .showBox .banTit {
+        border-bottom: 0.06667rem solid #e5e5e5;
+        padding-bottom: 0rem;
+        display: flex; }
+        #fcIndex .fcIndexBox .showBox .banTit span {
+          font-size: 1.13333rem;
+          color: #999;
+          display: inline-block;
+          text-align: center;
+          width: 50%;
+          padding-bottom: 0.33333rem;
+          border-bottom: 0.13333rem solid #fff; }
+        #fcIndex .fcIndexBox .showBox .banTit .onspan {
+          color: #FF5E5D;
+          border-color: #FF5E5D; }
+      #fcIndex .fcIndexBox .showBox .listBox {
+        padding-top: 1rem; }
+        #fcIndex .fcIndexBox .showBox .listBox .listItemBox .item {
+          display: flex;
+          margin-bottom: 1rem; }
+          #fcIndex .fcIndexBox .showBox .listBox .listItemBox .item .itemL {
+            position: relative;
+            width: 11rem;
+            height: 6.33333rem;
+            overflow: hidden; }
+            #fcIndex .fcIndexBox .showBox .listBox .listItemBox .item .itemL .wzImg {
+              width: 100%;
+              height: 100%; }
+            #fcIndex .fcIndexBox .showBox .listBox .listItemBox .item .itemL .isYuyue {
+              background: #FF5E5D;
+              color: #fff;
+              font-size: 0.66667rem;
+              position: absolute;
+              text-shadow: none;
+              padding: 0.13333rem 1rem;
+              transform: rotate(-45deg);
+              transform-origin: 52% 177%; }
+            #fcIndex .fcIndexBox .showBox .listBox .listItemBox .item .itemL .isLove {
+              width: 1rem;
+              height: 0.86667rem;
+              position: absolute;
+              right: 0.33333rem;
+              bottom: 0.66667rem; }
+          #fcIndex .fcIndexBox .showBox .listBox .listItemBox .item .itemR {
+            margin-left: 1rem; }
+            #fcIndex .fcIndexBox .showBox .listBox .listItemBox .item .itemR h3 {
+              font-size: 1rem;
+              color: #101010; }
+            #fcIndex .fcIndexBox .showBox .listBox .listItemBox .item .itemR .itemR_con {
+              display: flex;
+              justify-content: space-between;
+              border-bottom: 0.06667rem solid #E5E5E5;
+              padding-bottom: 0.26667rem; }
+              #fcIndex .fcIndexBox .showBox .listBox .listItemBox .item .itemR .itemR_con dl dt {
+                color: #FF5E5D;
+                font-size: 0.86667rem; }
+                #fcIndex .fcIndexBox .showBox .listBox .listItemBox .item .itemR .itemR_con dl dt b {
+                  font-size: 2rem;
+                  font-weight: 600; }
+              #fcIndex .fcIndexBox .showBox .listBox .listItemBox .item .itemR .itemR_con dl dd {
+                font-size: 0.6rem;
+                color: #666; }
+                #fcIndex .fcIndexBox .showBox .listBox .listItemBox .item .itemR .itemR_con dl dd em {
+                  font-style: normal; }
+              #fcIndex .fcIndexBox .showBox .listBox .listItemBox .item .itemR .itemR_con p {
+                display: flex;
+                align-items: flex-end; }
+              #fcIndex .fcIndexBox .showBox .listBox .listItemBox .item .itemR .itemR_con .doGet {
+                font-size: 0.73333rem;
+                color: #fff;
+                background: #FD233C;
+                text-align: center;
+                text-shadow: none;
+                width: 4.33333rem;
+                height: 1.66667rem;
+                font-weight: 100;
+                line-height: 1.66667rem;
+                border-radius: 0.2rem; }
+              #fcIndex .fcIndexBox .showBox .listBox .listItemBox .item .itemR .itemR_con .Geted {
+                background: #999; }
+            #fcIndex .fcIndexBox .showBox .listBox .listItemBox .item .itemR ._ad {
+              font-size: 0.66667rem;
+              color: #101010;
+              line-height: 1.06667rem;
+              padding-top: 0.26667rem;
+              display: flex;
+              justify-content: space-between; }
+              #fcIndex .fcIndexBox .showBox .listBox .listItemBox .item .itemR ._ad img {
+                width: 0.8rem;
+                height: 1.06667rem; }
+              #fcIndex .fcIndexBox .showBox .listBox .listItemBox .item .itemR ._ad ._adA {
+                font-weight: 100;
+                color: #101010;
+                text-shadow: none;
+                width: 60%;
+                height: 1.06667rem;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis; }
+
+#fcIndex_Vip {
+  background: #eee; }
+  #fcIndex_Vip .fcIndexBox {
+    padding: 0; }
+    #fcIndex_Vip .fcIndexBox .fcTop {
+      padding: 1rem;
+      padding-bottom: 0px; }
+      #fcIndex_Vip .fcIndexBox .fcTop .fcCard {
+        border-radius: 0.4rem;
+        width: 100%;
+        height: 8.7rem;
+        background: -webkit-linear-gradient(left, #FE2D04, #FF5C3D);
+        /* Safari 5.1 - 6.0 */
+        background: -o-linear-gradient(right, #FE2D04, #FF5C3D);
+        /* Opera 11.1 - 12.0 */
+        background: -moz-linear-gradient(right, #FE2D04, #FF5C3D);
+        /* Firefox 3.6 - 15 */
+        background: linear-gradient(to right, #FE2D04, #FF5C3D);
+        padding: 0.66667rem;
+        box-sizing: border-box; }
+        #fcIndex_Vip .fcIndexBox .fcTop .fcCard .fcCardTop {
+          display: flex;
+          justify-content: space-between; }
+          #fcIndex_Vip .fcIndexBox .fcTop .fcCard .fcCardTop .cardL {
+            height: 2.73333rem;
+            text-shadow: none;
+            color: #fff; }
+            #fcIndex_Vip .fcIndexBox .fcTop .fcCard .fcCardTop .cardL dl {
+              display: flex;
+              align-items: center; }
+              #fcIndex_Vip .fcIndexBox .fcTop .fcCard .fcCardTop .cardL dl dd {
+                margin-left: 0.66667rem;
+                font-size: 1.2rem; }
+          #fcIndex_Vip .fcIndexBox .fcTop .fcCard .fcCardTop .cardR {
+            padding-top: 1rem;
+            height: 2.73333rem;
+            display: flex;
+            align-items: center; }
+            #fcIndex_Vip .fcIndexBox .fcTop .fcCard .fcCardTop .cardR .userLogo img {
+              width: 2.33333rem;
+              height: 2.33333rem;
+              border-radius: 50%; }
+            #fcIndex_Vip .fcIndexBox .fcTop .fcCard .fcCardTop .cardR .userLogo dt {
+              text-align: center; }
+            #fcIndex_Vip .fcIndexBox .fcTop .fcCard .fcCardTop .cardR .userLogo dd {
+              font-size: 0.6rem;
+              text-shadow: none;
+              color: #fff;
+              text-align: center; }
+        #fcIndex_Vip .fcIndexBox .fcTop .fcCard .cardPag {
+          width: 2.7rem;
+          height: 2.7rem; }
+        #fcIndex_Vip .fcIndexBox .fcTop .fcCard .cardTip {
+          color: #FDA79E;
+          padding-left: 3.36667rem;
+          font-size: 0.8rem;
+          text-shadow: none;
+          margin-top: -1rem; }
+        #fcIndex_Vip .fcIndexBox .fcTop .fcCard .cradTime {
+          color: #fff;
+          font-size: 0.6rem;
+          margin-top: 0px; }
+    #fcIndex_Vip .fcIndexBox .choseDateBox {
+      position: relative;
+      width: 100%;
+      padding: 0;
+      padding-top: 3.33333rem;
+      margin-top: -3.33333rem; }
+      #fcIndex_Vip .fcIndexBox .choseDateBox .riLi {
+        background: #fff; }
+    #fcIndex_Vip .fcIndexBox .choseDateBox:after {
+      position: absolute;
+      display: block;
+      content: " ";
+      padding: 0;
+      padding-top: 3.33333rem;
+      width: 100%;
+      left: 0;
+      top: 0;
+      height: 0;
+      background-image: url("../img/fiveOffCardImg/banyuan.png");
+      background-size: cover; }
+    #fcIndex_Vip .fcIndexBox .showBox {
+      padding: 1rem;
+      background: #fff; }
+      #fcIndex_Vip .fcIndexBox .showBox .banTit {
+        border-bottom: 0.06667rem solid #e5e5e5;
+        padding-bottom: 0rem;
+        display: flex; }
+        #fcIndex_Vip .fcIndexBox .showBox .banTit span {
+          font-size: 1.13333rem;
+          color: #999;
+          display: inline-block;
+          text-align: center;
+          width: 50%;
+          padding-bottom: 0.33333rem;
+          border-bottom: 0.13333rem solid #fff; }
+        #fcIndex_Vip .fcIndexBox .showBox .banTit .onspan {
+          color: #FF5E5D;
+          border-color: #FF5E5D; }
+      #fcIndex_Vip .fcIndexBox .showBox .listBox {
+        padding-top: 1rem; }
+        #fcIndex_Vip .fcIndexBox .showBox .listBox .listItemBox .item {
+          display: flex;
+          margin-bottom: 1rem; }
+          #fcIndex_Vip .fcIndexBox .showBox .listBox .listItemBox .item .itemL {
+            position: relative;
+            width: 11rem;
+            height: 6.33333rem;
+            overflow: hidden; }
+            #fcIndex_Vip .fcIndexBox .showBox .listBox .listItemBox .item .itemL .wzImg {
+              width: 100%;
+              height: 100%; }
+            #fcIndex_Vip .fcIndexBox .showBox .listBox .listItemBox .item .itemL .isYuyue {
+              background: #FF5E5D;
+              color: #fff;
+              font-size: 0.66667rem;
+              position: absolute;
+              text-shadow: none;
+              padding: 0.13333rem 1rem;
+              transform: rotate(-45deg);
+              transform-origin: 52% 177%; }
+            #fcIndex_Vip .fcIndexBox .showBox .listBox .listItemBox .item .itemL .isLove {
+              width: 1rem;
+              height: 0.86667rem;
+              position: absolute;
+              right: 0.33333rem;
+              bottom: 0.66667rem; }
+          #fcIndex_Vip .fcIndexBox .showBox .listBox .listItemBox .item .itemR {
+            margin-left: 1rem; }
+            #fcIndex_Vip .fcIndexBox .showBox .listBox .listItemBox .item .itemR h3 {
+              font-size: 1rem;
+              color: #101010; }
+            #fcIndex_Vip .fcIndexBox .showBox .listBox .listItemBox .item .itemR .itemR_con {
+              display: flex;
+              justify-content: space-between;
+              border-bottom: 0.06667rem solid #E5E5E5;
+              padding-bottom: 0.26667rem; }
+              #fcIndex_Vip .fcIndexBox .showBox .listBox .listItemBox .item .itemR .itemR_con dl dt {
+                color: #FF5E5D;
+                font-size: 0.86667rem; }
+                #fcIndex_Vip .fcIndexBox .showBox .listBox .listItemBox .item .itemR .itemR_con dl dt b {
+                  font-size: 2rem;
+                  font-weight: 600; }
+              #fcIndex_Vip .fcIndexBox .showBox .listBox .listItemBox .item .itemR .itemR_con dl dd {
+                font-size: 0.6rem;
+                color: #666; }
+                #fcIndex_Vip .fcIndexBox .showBox .listBox .listItemBox .item .itemR .itemR_con dl dd em {
+                  font-style: normal; }
+              #fcIndex_Vip .fcIndexBox .showBox .listBox .listItemBox .item .itemR .itemR_con p {
+                display: flex;
+                align-items: flex-end; }
+              #fcIndex_Vip .fcIndexBox .showBox .listBox .listItemBox .item .itemR .itemR_con .doGet {
+                font-size: 0.73333rem;
+                color: #fff;
+                background: #FD233C;
+                text-align: center;
+                text-shadow: none;
+                width: 4.33333rem;
+                height: 1.66667rem;
+                font-weight: 100;
+                line-height: 1.66667rem;
+                border-radius: 0.2rem; }
+              #fcIndex_Vip .fcIndexBox .showBox .listBox .listItemBox .item .itemR .itemR_con .Geted {
+                background: #999; }
+            #fcIndex_Vip .fcIndexBox .showBox .listBox .listItemBox .item .itemR ._ad {
+              font-size: 0.66667rem;
+              color: #101010;
+              line-height: 1.06667rem;
+              padding-top: 0.26667rem;
+              display: flex;
+              justify-content: space-between; }
+              #fcIndex_Vip .fcIndexBox .showBox .listBox .listItemBox .item .itemR ._ad img {
+                width: 0.8rem;
+                height: 1.06667rem; }
+              #fcIndex_Vip .fcIndexBox .showBox .listBox .listItemBox .item .itemR ._ad ._adA {
+                font-weight: 100;
+                color: #101010;
+                text-shadow: none;
+                width: 60%;
+                height: 1.06667rem;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis; }
+
+#fcIndex_buy {
+  background: #eee; }
+  #fcIndex_buy .fcIndexBox {
+    padding: 0;
+    padding-bottom: 2.93333rem; }
+    #fcIndex_buy .fcIndexBox .fcTop {
+      padding: 1rem;
+      padding-bottom: 0px; }
+      #fcIndex_buy .fcIndexBox .fcTop .fcCard {
+        border-radius: 0.4rem;
+        width: 100%;
+        height: 8.7rem;
+        background: -webkit-linear-gradient(left, #FE2D04, #FF5C3D);
+        /* Safari 5.1 - 6.0 */
+        background: -o-linear-gradient(right, #FE2D04, #FF5C3D);
+        /* Opera 11.1 - 12.0 */
+        background: -moz-linear-gradient(right, #FE2D04, #FF5C3D);
+        /* Firefox 3.6 - 15 */
+        background: linear-gradient(to right, #FE2D04, #FF5C3D);
+        -webkit-filter: grayscale(1);
+        /* Webkit */
+        filter: grayscale(1);
+        /* W3C */
+        padding: 0.66667rem;
+        box-sizing: border-box; }
+        #fcIndex_buy .fcIndexBox .fcTop .fcCard .fcCardTop {
+          display: flex;
+          justify-content: space-between; }
+          #fcIndex_buy .fcIndexBox .fcTop .fcCard .fcCardTop .cardL {
+            height: 2.73333rem;
+            text-shadow: none;
+            color: #fff; }
+            #fcIndex_buy .fcIndexBox .fcTop .fcCard .fcCardTop .cardL dl {
+              display: flex;
+              align-items: center; }
+              #fcIndex_buy .fcIndexBox .fcTop .fcCard .fcCardTop .cardL dl dd {
+                margin-left: 0.66667rem;
+                font-size: 1.2rem; }
+          #fcIndex_buy .fcIndexBox .fcTop .fcCard .fcCardTop .cardR {
+            height: 2.73333rem;
+            padding-top: 0.53333rem;
+            align-items: center; }
+            #fcIndex_buy .fcIndexBox .fcTop .fcCard .fcCardTop .cardR .seeOthers {
+              text-shadow: none;
+              font-size: 0.8rem;
+              color: #fff;
+              font-weight: 100;
+              border: 0.06667rem solid #e5e5e5;
+              padding: 0.13333rem 0.26667rem; }
+            #fcIndex_buy .fcIndexBox .fcTop .fcCard .fcCardTop .cardR p {
+              padding-top: 0.33333rem;
+              text-shadow: none;
+              color: #ADABAB;
+              font-size: 0.6rem; }
+        #fcIndex_buy .fcIndexBox .fcTop .fcCard .cardPag {
+          width: 2.7rem;
+          height: 2.7rem; }
+        #fcIndex_buy .fcIndexBox .fcTop .fcCard .cardTip {
+          color: #FDA79E;
+          padding-left: 3.36667rem;
+          font-size: 0.8rem;
+          text-shadow: none;
+          margin-top: -0.33333rem; }
+    #fcIndex_buy .fcIndexBox .choseDateBox {
+      position: relative;
+      width: 100%;
+      padding: 0;
+      padding-top: 3.33333rem;
+      margin-top: -3.33333rem; }
+      #fcIndex_buy .fcIndexBox .choseDateBox .riLi {
+        background: #fff; }
+        #fcIndex_buy .fcIndexBox .choseDateBox .riLi .titDesc {
+          box-sizing: border-box;
+          padding-left: 1rem;
+          font-size: 0.93333rem;
+          color: #313131;
+          padding-bottom: 0.33333rem; }
+        #fcIndex_buy .fcIndexBox .choseDateBox .riLi .desc {
+          border-top: 0.06667rem solid #E6E6E6;
+          box-sizing: border-box;
+          padding: 1rem; }
+          #fcIndex_buy .fcIndexBox .choseDateBox .riLi .desc p {
+            font-size: 0.66667rem;
+            line-height: 1.2rem;
+            color: #666; }
+    #fcIndex_buy .fcIndexBox .choseDateBox:after {
+      position: absolute;
+      display: block;
+      content: " ";
+      padding: 0;
+      padding-top: 3.33333rem;
+      width: 100%;
+      left: 0;
+      top: 0;
+      height: 0;
+      background-image: url("../img/fiveOffCardImg/banyuan.png");
+      background-size: cover; }
+    #fcIndex_buy .fcIndexBox .showBox {
+      padding: 1rem;
+      background: #fff;
+      margin-top: 0.33333rem; }
+      #fcIndex_buy .fcIndexBox .showBox .banTit {
+        border-bottom: 0.06667rem solid #e5e5e5;
+        padding-bottom: 0rem;
+        display: flex; }
+        #fcIndex_buy .fcIndexBox .showBox .banTit span {
+          font-size: 0.93333rem;
+          color: #999;
+          display: inline-block;
+          text-align: center;
+          width: 50%;
+          padding-bottom: 0.33333rem;
+          border-bottom: 0.13333rem solid #fff; }
+        #fcIndex_buy .fcIndexBox .showBox .banTit .onspan {
+          color: #FF5E5D;
+          border-color: #FF5E5D; }
+      #fcIndex_buy .fcIndexBox .showBox .listBox .listItemBox {
+        padding-top: 0.66667rem; }
+        #fcIndex_buy .fcIndexBox .showBox .listBox .listItemBox .cardTypeList {
+          padding-bottom: 0.66667rem; }
+          #fcIndex_buy .fcIndexBox .showBox .listBox .listItemBox .cardTypeList p {
+            display: flex;
+            justify-content: space-between;
+            height: 2rem;
+            line-height: 2rem;
+            font-size: 0.73333rem; }
+            #fcIndex_buy .fcIndexBox .showBox .listBox .listItemBox .cardTypeList p .ctype i {
+              vertical-align: sub;
+              display: inline-block;
+              width: 1rem;
+              height: 1rem;
+              border: 0.06667rem solid #FF5E5D;
+              border-radius: 50%;
+              margin-right: 0.33333rem;
+              position: relative; }
+            #fcIndex_buy .fcIndexBox .showBox .listBox .listItemBox .cardTypeList p .ctype .ion:before {
+              position: absolute;
+              content: "";
+              background: #FF5E5D;
+              border-radius: 50%;
+              width: 0.8rem;
+              height: 0.8rem;
+              left: 0.1rem;
+              top: 0.1rem; }
+        #fcIndex_buy .fcIndexBox .showBox .listBox .listItemBox .fillBox {
+          border-top: 0.06667rem solid #E6E6E6;
+          padding-top: 0.66667rem; }
+          #fcIndex_buy .fcIndexBox .showBox .listBox .listItemBox .fillBox input {
+            outline: none; }
+          #fcIndex_buy .fcIndexBox .showBox .listBox .listItemBox .fillBox div {
+            height: 2rem;
+            line-height: 2rem;
+            padding: 0.33333rem 0px;
+            padding-bottom: 0.66667rem;
+            display: flex;
+            justify-content: space-between; }
+            #fcIndex_buy .fcIndexBox .showBox .listBox .listItemBox .fillBox div p {
+              font-size: 0.8rem; }
+              #fcIndex_buy .fcIndexBox .showBox .listBox .listItemBox .fillBox div p span {
+                color: #666; }
+              #fcIndex_buy .fcIndexBox .showBox .listBox .listItemBox .fillBox div p input {
+                color: #999; }
+            #fcIndex_buy .fcIndexBox .showBox .listBox .listItemBox .fillBox div .getYZM {
+              display: inline-block;
+              padding: 0px 0.6rem;
+              background: #FF5E5D;
+              border-radius: 1rem;
+              color: #fff;
+              font-weight: 100;
+              text-shadow: none;
+              font-size: 0.6rem; }
+          #fcIndex_buy .fcIndexBox .showBox .listBox .listItemBox .fillBox div:nth-of-type(2) {
+            border-top: 0.06667rem solid #E6E6E6; }
+    #fcIndex_buy .fcIndexBox .isGree p {
+      text-align: center;
+      font-size: 0.6rem;
+      color: #999;
+      padding-top: 0.33333rem; }
+      #fcIndex_buy .fcIndexBox .isGree p a {
+        color: #666;
+        font-weight: 100;
+        text-decoration: underline; }
+  #fcIndex_buy .bot {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2.93333rem;
+    background: #FF5E5D; }
+    #fcIndex_buy .bot a {
+      color: #fff;
+      text-shadow: none;
+      font-weight: 100;
+      font-size: 1.2rem;
+      width: 100%;
+      height: 100%;
+      justify-content: center;
+      display: flex;
+      align-items: center; }
+
+#fcIndex_xf {
+  background: #eee; }
+  #fcIndex_xf .fcIndexBox {
+    padding: 0; }
+    #fcIndex_xf .fcIndexBox .fcTop {
+      padding: 1rem;
+      padding-bottom: 0px; }
+      #fcIndex_xf .fcIndexBox .fcTop .fcCard {
+        border-radius: 0.4rem;
+        width: 100%;
+        height: 8.7rem;
+        background: -webkit-linear-gradient(left, #FE2D04, #FF5C3D);
+        /* Safari 5.1 - 6.0 */
+        background: -o-linear-gradient(right, #FE2D04, #FF5C3D);
+        /* Opera 11.1 - 12.0 */
+        background: -moz-linear-gradient(right, #FE2D04, #FF5C3D);
+        /* Firefox 3.6 - 15 */
+        background: linear-gradient(to right, #FE2D04, #FF5C3D);
+        padding: 0.66667rem;
+        box-sizing: border-box; }
+        #fcIndex_xf .fcIndexBox .fcTop .fcCard .fcCardTop {
+          display: flex;
+          justify-content: space-between; }
+          #fcIndex_xf .fcIndexBox .fcTop .fcCard .fcCardTop .cardL {
+            height: 2.73333rem;
+            text-shadow: none;
+            color: #fff; }
+            #fcIndex_xf .fcIndexBox .fcTop .fcCard .fcCardTop .cardL dl {
+              display: flex;
+              align-items: center; }
+              #fcIndex_xf .fcIndexBox .fcTop .fcCard .fcCardTop .cardL dl dd {
+                margin-left: 0.66667rem;
+                font-size: 1.2rem; }
+          #fcIndex_xf .fcIndexBox .fcTop .fcCard .fcCardTop .cardR {
+            padding-top: 1rem;
+            height: 2.73333rem;
+            display: flex;
+            align-items: center; }
+            #fcIndex_xf .fcIndexBox .fcTop .fcCard .fcCardTop .cardR .userLogo img {
+              width: 2.33333rem;
+              height: 2.33333rem;
+              border-radius: 50%; }
+            #fcIndex_xf .fcIndexBox .fcTop .fcCard .fcCardTop .cardR .userLogo dt {
+              text-align: center; }
+            #fcIndex_xf .fcIndexBox .fcTop .fcCard .fcCardTop .cardR .userLogo dd {
+              font-size: 0.6rem;
+              text-shadow: none;
+              color: #fff;
+              text-align: center; }
+              #fcIndex_xf .fcIndexBox .fcTop .fcCard .fcCardTop .cardR .userLogo dd a {
+                display: inline-block;
+                color: #fff;
+                text-shadow: none;
+                font-weight: 100;
+                border: 0.06667rem solid #fff;
+                padding: 0.2rem 0.4rem;
+                border-radius: 0.2rem; }
+        #fcIndex_xf .fcIndexBox .fcTop .fcCard .cardPag {
+          width: 2.7rem;
+          height: 2.7rem; }
+        #fcIndex_xf .fcIndexBox .fcTop .fcCard .cardTip {
+          color: #FDA79E;
+          padding-left: 3.36667rem;
+          font-size: 0.8rem;
+          text-shadow: none;
+          margin-top: -1rem; }
+        #fcIndex_xf .fcIndexBox .fcTop .fcCard .cradTime {
+          color: #fff;
+          font-size: 0.6rem;
+          margin-top: 0px; }
+    #fcIndex_xf .fcIndexBox .choseDateBox {
+      position: relative;
+      width: 100%;
+      padding: 0;
+      padding-top: 3.33333rem;
+      margin-top: -3.33333rem; }
+      #fcIndex_xf .fcIndexBox .choseDateBox .riLi {
+        background: #fff; }
+    #fcIndex_xf .fcIndexBox .choseDateBox:after {
+      position: absolute;
+      display: block;
+      content: " ";
+      padding: 0;
+      padding-top: 3.33333rem;
+      width: 100%;
+      left: 0;
+      top: 0;
+      height: 0;
+      background-image: url("../img/fiveOffCardImg/banyuan.png");
+      background-size: cover; }
+    #fcIndex_xf .fcIndexBox .showBox {
+      padding: 1rem;
+      background: #fff; }
+      #fcIndex_xf .fcIndexBox .showBox .banTit {
+        border-bottom: 0.06667rem solid #e5e5e5;
+        padding-bottom: 0rem;
+        display: flex; }
+        #fcIndex_xf .fcIndexBox .showBox .banTit span {
+          font-size: 1.13333rem;
+          color: #999;
+          display: inline-block;
+          text-align: center;
+          width: 50%;
+          padding-bottom: 0.33333rem;
+          border-bottom: 0.13333rem solid #fff; }
+        #fcIndex_xf .fcIndexBox .showBox .banTit .onspan {
+          color: #FF5E5D;
+          border-color: #FF5E5D; }
+      #fcIndex_xf .fcIndexBox .showBox .listBox {
+        padding-top: 1rem; }
+        #fcIndex_xf .fcIndexBox .showBox .listBox .listItemBox .item {
+          display: flex;
+          margin-bottom: 1rem; }
+          #fcIndex_xf .fcIndexBox .showBox .listBox .listItemBox .item .itemL {
+            position: relative;
+            width: 11rem;
+            height: 6.33333rem;
+            overflow: hidden; }
+            #fcIndex_xf .fcIndexBox .showBox .listBox .listItemBox .item .itemL .wzImg {
+              width: 100%;
+              height: 100%; }
+            #fcIndex_xf .fcIndexBox .showBox .listBox .listItemBox .item .itemL .isYuyue {
+              background: #FF5E5D;
+              color: #fff;
+              font-size: 0.66667rem;
+              position: absolute;
+              text-shadow: none;
+              padding: 0.13333rem 1rem;
+              transform: rotate(-45deg);
+              transform-origin: 52% 177%; }
+            #fcIndex_xf .fcIndexBox .showBox .listBox .listItemBox .item .itemL .isLove {
+              width: 1rem;
+              height: 0.86667rem;
+              position: absolute;
+              right: 0.33333rem;
+              bottom: 0.66667rem; }
+          #fcIndex_xf .fcIndexBox .showBox .listBox .listItemBox .item .itemR {
+            margin-left: 1rem; }
+            #fcIndex_xf .fcIndexBox .showBox .listBox .listItemBox .item .itemR h3 {
+              font-size: 1rem;
+              color: #101010; }
+            #fcIndex_xf .fcIndexBox .showBox .listBox .listItemBox .item .itemR .itemR_con {
+              display: flex;
+              justify-content: space-between;
+              border-bottom: 0.06667rem solid #E5E5E5;
+              padding-bottom: 0.26667rem; }
+              #fcIndex_xf .fcIndexBox .showBox .listBox .listItemBox .item .itemR .itemR_con dl dt {
+                color: #FF5E5D;
+                font-size: 0.86667rem; }
+                #fcIndex_xf .fcIndexBox .showBox .listBox .listItemBox .item .itemR .itemR_con dl dt b {
+                  font-size: 2rem;
+                  font-weight: 600; }
+              #fcIndex_xf .fcIndexBox .showBox .listBox .listItemBox .item .itemR .itemR_con dl dd {
+                font-size: 0.6rem;
+                color: #666; }
+                #fcIndex_xf .fcIndexBox .showBox .listBox .listItemBox .item .itemR .itemR_con dl dd em {
+                  font-style: normal; }
+              #fcIndex_xf .fcIndexBox .showBox .listBox .listItemBox .item .itemR .itemR_con p {
+                display: flex;
+                align-items: flex-end; }
+              #fcIndex_xf .fcIndexBox .showBox .listBox .listItemBox .item .itemR .itemR_con .doGet {
+                font-size: 0.73333rem;
+                color: #fff;
+                background: #FD233C;
+                text-align: center;
+                text-shadow: none;
+                width: 4.33333rem;
+                height: 1.66667rem;
+                font-weight: 100;
+                line-height: 1.66667rem;
+                border-radius: 0.2rem; }
+              #fcIndex_xf .fcIndexBox .showBox .listBox .listItemBox .item .itemR .itemR_con .Geted {
+                background: #999; }
+            #fcIndex_xf .fcIndexBox .showBox .listBox .listItemBox .item .itemR ._ad {
+              font-size: 0.66667rem;
+              color: #101010;
+              line-height: 1.06667rem;
+              padding-top: 0.26667rem;
+              display: flex;
+              justify-content: space-between; }
+              #fcIndex_xf .fcIndexBox .showBox .listBox .listItemBox .item .itemR ._ad img {
+                width: 0.8rem;
+                height: 1.06667rem; }
+              #fcIndex_xf .fcIndexBox .showBox .listBox .listItemBox .item .itemR ._ad ._adA {
+                font-weight: 100;
+                color: #101010;
+                text-shadow: none;
+                width: 60%;
+                height: 1.06667rem;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis; }
+
+#fcIndex_buyXf {
+  background: #eee; }
+  #fcIndex_buyXf .fcIndexBox {
+    padding: 0;
+    padding-bottom: 2.93333rem; }
+    #fcIndex_buyXf .fcIndexBox .fcTop {
+      padding: 1rem;
+      padding-bottom: 0px; }
+      #fcIndex_buyXf .fcIndexBox .fcTop .fcCard {
+        border-radius: 0.4rem;
+        width: 100%;
+        height: 8.7rem;
+        background: -webkit-linear-gradient(left, #FE2D04, #FF5C3D);
+        /* Safari 5.1 - 6.0 */
+        background: -o-linear-gradient(right, #FE2D04, #FF5C3D);
+        /* Opera 11.1 - 12.0 */
+        background: -moz-linear-gradient(right, #FE2D04, #FF5C3D);
+        /* Firefox 3.6 - 15 */
+        background: linear-gradient(to right, #FE2D04, #FF5C3D);
+        -webkit-filter: grayscale(1);
+        /* Webkit */
+        filter: grayscale(1);
+        /* W3C */
+        padding: 0.66667rem;
+        box-sizing: border-box; }
+        #fcIndex_buyXf .fcIndexBox .fcTop .fcCard .fcCardTop {
+          display: flex;
+          justify-content: space-between; }
+          #fcIndex_buyXf .fcIndexBox .fcTop .fcCard .fcCardTop .cardL {
+            height: 2.73333rem;
+            text-shadow: none;
+            color: #fff; }
+            #fcIndex_buyXf .fcIndexBox .fcTop .fcCard .fcCardTop .cardL dl {
+              display: flex;
+              align-items: center; }
+              #fcIndex_buyXf .fcIndexBox .fcTop .fcCard .fcCardTop .cardL dl dd {
+                margin-left: 0.66667rem;
+                font-size: 1.2rem; }
+          #fcIndex_buyXf .fcIndexBox .fcTop .fcCard .fcCardTop .cardR {
+            padding-top: 1rem;
+            height: 2.73333rem;
+            display: flex;
+            align-items: center; }
+            #fcIndex_buyXf .fcIndexBox .fcTop .fcCard .fcCardTop .cardR .userLogo img {
+              width: 2.33333rem;
+              height: 2.33333rem;
+              border-radius: 50%; }
+            #fcIndex_buyXf .fcIndexBox .fcTop .fcCard .fcCardTop .cardR .userLogo dt {
+              text-align: center; }
+            #fcIndex_buyXf .fcIndexBox .fcTop .fcCard .fcCardTop .cardR .userLogo dd {
+              font-size: 0.6rem;
+              text-shadow: none;
+              color: #fff;
+              text-align: center; }
+        #fcIndex_buyXf .fcIndexBox .fcTop .fcCard .cardPag {
+          width: 2.7rem;
+          height: 2.7rem; }
+        #fcIndex_buyXf .fcIndexBox .fcTop .fcCard .cardTip {
+          color: #FDA79E;
+          padding-left: 3.36667rem;
+          font-size: 0.8rem;
+          text-shadow: none;
+          margin-top: -1rem; }
+        #fcIndex_buyXf .fcIndexBox .fcTop .fcCard .cradTime {
+          color: #fff;
+          font-size: 0.6rem;
+          margin-top: 0px; }
+    #fcIndex_buyXf .fcIndexBox .choseDateBox {
+      position: relative;
+      width: 100%;
+      padding: 0;
+      padding-top: 3.33333rem;
+      margin-top: -3.33333rem; }
+      #fcIndex_buyXf .fcIndexBox .choseDateBox .riLi {
+        background: #fff; }
+        #fcIndex_buyXf .fcIndexBox .choseDateBox .riLi .titDesc {
+          box-sizing: border-box;
+          padding-left: 1rem;
+          font-size: 0.93333rem;
+          color: #313131;
+          padding-bottom: 0.33333rem; }
+        #fcIndex_buyXf .fcIndexBox .choseDateBox .riLi .desc {
+          border-top: 0.06667rem solid #E6E6E6;
+          box-sizing: border-box;
+          padding: 1rem; }
+          #fcIndex_buyXf .fcIndexBox .choseDateBox .riLi .desc p {
+            font-size: 0.66667rem;
+            line-height: 1.2rem;
+            color: #666; }
+    #fcIndex_buyXf .fcIndexBox .choseDateBox:after {
+      position: absolute;
+      display: block;
+      content: " ";
+      padding: 0;
+      padding-top: 3.33333rem;
+      width: 100%;
+      left: 0;
+      top: 0;
+      height: 0;
+      background-image: url("../img/fiveOffCardImg/banyuan.png");
+      background-size: cover; }
+    #fcIndex_buyXf .fcIndexBox .showBox {
+      padding: 1rem;
+      background: #fff;
+      margin-top: 0.33333rem; }
+      #fcIndex_buyXf .fcIndexBox .showBox .banTit {
+        border-bottom: 0.06667rem solid #e5e5e5;
+        padding-bottom: 0rem;
+        display: flex; }
+        #fcIndex_buyXf .fcIndexBox .showBox .banTit span {
+          font-size: 0.93333rem;
+          color: #999;
+          display: inline-block;
+          text-align: center;
+          width: 50%;
+          padding-bottom: 0.33333rem;
+          border-bottom: 0.13333rem solid #fff; }
+        #fcIndex_buyXf .fcIndexBox .showBox .banTit .onspan {
+          color: #FF5E5D;
+          border-color: #FF5E5D; }
+      #fcIndex_buyXf .fcIndexBox .showBox .listBox .listItemBox {
+        padding-top: 0.66667rem; }
+        #fcIndex_buyXf .fcIndexBox .showBox .listBox .listItemBox .cardTypeList {
+          padding-bottom: 0.66667rem; }
+          #fcIndex_buyXf .fcIndexBox .showBox .listBox .listItemBox .cardTypeList p {
+            display: flex;
+            justify-content: space-between;
+            height: 2rem;
+            line-height: 2rem;
+            font-size: 0.73333rem; }
+            #fcIndex_buyXf .fcIndexBox .showBox .listBox .listItemBox .cardTypeList p .ctype i {
+              vertical-align: sub;
+              display: inline-block;
+              width: 1rem;
+              height: 1rem;
+              border: 0.06667rem solid #FF5E5D;
+              border-radius: 50%;
+              margin-right: 0.33333rem;
+              position: relative; }
+            #fcIndex_buyXf .fcIndexBox .showBox .listBox .listItemBox .cardTypeList p .ctype .ion:before {
+              position: absolute;
+              content: "";
+              background: #FF5E5D;
+              border-radius: 50%;
+              width: 0.8rem;
+              height: 0.8rem;
+              left: 0.1rem;
+              top: 0.1rem; }
+        #fcIndex_buyXf .fcIndexBox .showBox .listBox .listItemBox .fillBox {
+          border-top: 0.06667rem solid #E6E6E6;
+          padding-top: 0.66667rem; }
+          #fcIndex_buyXf .fcIndexBox .showBox .listBox .listItemBox .fillBox input {
+            outline: none; }
+          #fcIndex_buyXf .fcIndexBox .showBox .listBox .listItemBox .fillBox div {
+            height: 2rem;
+            line-height: 2rem;
+            padding: 0.33333rem 0px;
+            padding-bottom: 0.66667rem;
+            display: flex;
+            justify-content: space-between; }
+            #fcIndex_buyXf .fcIndexBox .showBox .listBox .listItemBox .fillBox div p {
+              font-size: 0.8rem; }
+              #fcIndex_buyXf .fcIndexBox .showBox .listBox .listItemBox .fillBox div p span {
+                color: #666; }
+              #fcIndex_buyXf .fcIndexBox .showBox .listBox .listItemBox .fillBox div p input {
+                color: #999; }
+            #fcIndex_buyXf .fcIndexBox .showBox .listBox .listItemBox .fillBox div .getYZM {
+              display: inline-block;
+              padding: 0px 0.6rem;
+              background: #FF5E5D;
+              border-radius: 1rem;
+              color: #fff;
+              font-weight: 100;
+              text-shadow: none;
+              font-size: 0.6rem; }
+          #fcIndex_buyXf .fcIndexBox .showBox .listBox .listItemBox .fillBox div:nth-of-type(2) {
+            border-top: 0.06667rem solid #E6E6E6; }
+    #fcIndex_buyXf .fcIndexBox .isGree p {
+      text-align: center;
+      font-size: 0.6rem;
+      color: #999;
+      padding-top: 0.33333rem; }
+      #fcIndex_buyXf .fcIndexBox .isGree p a {
+        color: #666;
+        font-weight: 100;
+        text-decoration: underline; }
+  #fcIndex_buyXf .bot {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2.93333rem;
+    background: #FF5E5D; }
+    #fcIndex_buyXf .bot a {
+      color: #fff;
+      text-shadow: none;
+      font-weight: 100;
+      font-size: 1.2rem;
+      width: 100%;
+      height: 100%;
+      justify-content: center;
+      display: flex;
+      align-items: center; }
+
+#fcIndex_me .fcIndexBox {
+  padding: 0; }
+  #fcIndex_me .fcIndexBox .top_card {
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem; }
+    #fcIndex_me .fcIndexBox .top_card .userInfo {
+      display: flex; }
+      #fcIndex_me .fcIndexBox .top_card .userInfo .userInfoL {
+        margin-right: 0.66667rem; }
+        #fcIndex_me .fcIndexBox .top_card .userInfo .userInfoL dt {
+          text-align: center;
+          margin-bottom: 0.33333rem; }
+          #fcIndex_me .fcIndexBox .top_card .userInfo .userInfoL dt img {
+            width: 2.93333rem;
+            height: 2.93333rem;
+            border-radius: 50%; }
+        #fcIndex_me .fcIndexBox .top_card .userInfo .userInfoL dd {
+          text-align: center;
+          font-size: 0.8rem;
+          color: #333; }
+      #fcIndex_me .fcIndexBox .top_card .userInfo .userInfoR dl {
+        height: 2.93333rem;
+        margin-bottom: 0.33333rem;
+        padding-top: 0.66667rem;
+        box-sizing: border-box; }
+        #fcIndex_me .fcIndexBox .top_card .userInfo .userInfoR dl dt {
+          font-size: 1rem;
+          color: #333; }
+        #fcIndex_me .fcIndexBox .top_card .userInfo .userInfoR dl dd {
+          font-size: 0.6rem;
+          color: #666; }
+      #fcIndex_me .fcIndexBox .top_card .userInfo .userInfoR p {
+        font-size: 0.8rem; }
+    #fcIndex_me .fcIndexBox .top_card .goXf {
+      display: flex;
+      align-items: center; }
+      #fcIndex_me .fcIndexBox .top_card .goXf a {
+        display: inline-block;
+        font-size: 0.8rem;
+        padding: 0.4rem 0.8rem;
+        background: #FF5E5D;
+        color: #fff;
+        text-shadow: none;
+        font-weight: 100;
+        border-radius: 0.4rem; }
+  #fcIndex_me .fcIndexBox .fcMeCon {
+    margin-top: 0.33333rem;
+    background: #fff;
+    box-sizing: border-box;
+    padding: 1rem; }
+    #fcIndex_me .fcIndexBox .fcMeCon .banTit {
+      border-bottom: 0.06667rem solid #e5e5e5;
+      padding-bottom: 0rem;
+      display: flex; }
+      #fcIndex_me .fcIndexBox .fcMeCon .banTit span {
+        font-size: 1.13333rem;
+        color: #999;
+        display: inline-block;
+        text-align: center;
+        width: 50%;
+        padding-bottom: 0.33333rem;
+        border-bottom: 0.13333rem solid #fff; }
+      #fcIndex_me .fcIndexBox .fcMeCon .banTit .onspan {
+        color: #FF5E5D;
+        border-color: #FF5E5D; }
+    #fcIndex_me .fcIndexBox .fcMeCon .cardListBox {
+      padding-top: 0.66667rem; }
+      #fcIndex_me .fcIndexBox .fcMeCon .cardListBox .cardList .item {
+        display: flex;
+        margin-bottom: 0.66667rem; }
+        #fcIndex_me .fcIndexBox .fcMeCon .cardListBox .cardList .item .itemL {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 7.2rem;
+          margin-right: 0.33333rem;
+          background-image: url("../img/fiveOffCardImg/jcbg.png");
+          background-size: cover; }
+          #fcIndex_me .fcIndexBox .fcMeCon .cardListBox .cardList .item .itemL dl dt {
+            font-size: 1rem;
+            text-align: center;
+            text-shadow: none;
+            color: #fff; }
+            #fcIndex_me .fcIndexBox .fcMeCon .cardListBox .cardList .item .itemL dl dt b {
+              font-size: 2rem; }
+          #fcIndex_me .fcIndexBox .fcMeCon .cardListBox .cardList .item .itemL dl dd {
+            font-size: 0.6rem;
+            text-shadow: none;
+            color: #fff; }
+        #fcIndex_me .fcIndexBox .fcMeCon .cardListBox .cardList .item .itemR {
+          padding: 0.66667rem 1rem 0.33333rem;
+          background: #eee;
+          position: relative;
+          overflow: hidden; }
+          #fcIndex_me .fcIndexBox .fcMeCon .cardListBox .cardList .item .itemR dl {
+            border-bottom: 0.06667rem dashed #ADABAB;
+            padding-bottom: 0.33333rem; }
+            #fcIndex_me .fcIndexBox .fcMeCon .cardListBox .cardList .item .itemR dl dt {
+              font-size: 0.93333rem;
+              color: #333; }
+            #fcIndex_me .fcIndexBox .fcMeCon .cardListBox .cardList .item .itemR dl dd {
+              margin-top: 0.2rem; }
+              #fcIndex_me .fcIndexBox .fcMeCon .cardListBox .cardList .item .itemR dl dd a {
+                text-shadow: none;
+                color: #FD233C;
+                font-size: 0.6rem;
+                font-weight: 100;
+                border: 0.06667rem solid #FD233C;
+                padding: 0rem 0.26667rem;
+                border-radius: 0.13333rem; }
+          #fcIndex_me .fcIndexBox .fcMeCon .cardListBox .cardList .item .itemR ._ad {
+            font-size: 0.66667rem;
+            color: #101010;
+            line-height: 1.06667rem;
+            padding-top: 0.26667rem;
+            display: flex;
+            justify-content: space-between; }
+            #fcIndex_me .fcIndexBox .fcMeCon .cardListBox .cardList .item .itemR ._ad img {
+              width: 0.8rem;
+              height: 1.06667rem; }
+            #fcIndex_me .fcIndexBox .fcMeCon .cardListBox .cardList .item .itemR ._ad ._adA {
+              font-weight: 100;
+              color: #101010;
+              text-shadow: none;
+              width: 60%;
+              height: 1.06667rem;
+              white-space: nowrap;
+              overflow: hidden;
+              text-overflow: ellipsis; }
+          #fcIndex_me .fcIndexBox .fcMeCon .cardListBox .cardList .item .itemR .isYuyue {
+            background: #FF5E5D;
+            color: #fff;
+            font-size: 0.66667rem;
+            position: absolute;
+            right: -0.33333rem;
+            top: -0.33333rem;
+            text-shadow: none;
+            padding: 0.13333rem 2rem;
+            transform-origin: 50% 262%;
+            transform: rotate(45deg); }
+      #fcIndex_me .fcIndexBox .fcMeCon .cardListBox .cardList .gary {
+        -webkit-filter: grayscale(1);
+        /* Webkit */
+        filter: grayscale(1);
+        /* W3C */ }
+      #fcIndex_me .fcIndexBox .fcMeCon .cardListBox .cardList1 .item .itemR dl dd a {
+        color: #B3B3B3;
+        border-color: #B3B3B3; }
+      #fcIndex_me .fcIndexBox .fcMeCon .cardListBox .cardList1 .item .itemR ._ad .red {
+        color: #B3B3B3; }
+      #fcIndex_me .fcIndexBox .fcMeCon .cardListBox .cardList2 .item .itemR dl dd a {
+        color: #B3B3B3;
+        border-color: #B3B3B3; }
+      #fcIndex_me .fcIndexBox .fcMeCon .cardListBox .cardList2 .item .itemR ._ad .red {
+        color: #B3B3B3; }
+
+#fcIndex_Details .fcIndexBox {
+  padding: 0; }
+  #fcIndex_Details .fcIndexBox .shopName {
+    box-sizing: border-box;
+    padding: 1rem;
+    padding-bottom: 0;
+    background: #fff; }
+    #fcIndex_Details .fcIndexBox .shopName h2 {
+      font-size: 1.2rem;
+      display: inline-block; }
+    #fcIndex_Details .fcIndexBox .shopName a {
+      font-size: 0.6rem;
+      font-weight: 100;
+      text-shadow: none;
+      color: #FF5E5D;
+      margin-left: 1rem; }
+    #fcIndex_Details .fcIndexBox .shopName img {
+      width: 0.8rem;
+      height: 0.8rem; }
+  #fcIndex_Details .fcIndexBox .shop_adr {
+    display: flex;
+    padding: 0.66667rem 1rem 0;
+    background: #fff; }
+    #fcIndex_Details .fcIndexBox .shop_adr div {
+      display: flex; }
+      #fcIndex_Details .fcIndexBox .shop_adr div p {
+        width: 11.2rem;
+        font-size: 0.8rem;
+        color: #313131; }
+      #fcIndex_Details .fcIndexBox .shop_adr div a {
+        margin-right: 0.8rem; }
+        #fcIndex_Details .fcIndexBox .shop_adr div a img {
+          width: 0.8rem;
+          height: 1.06667rem; }
+    #fcIndex_Details .fcIndexBox .shop_adr .phone {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 1.66667rem;
+      height: 1.66667rem;
+      border: 0.06667rem solid #FF5E5D;
+      border-radius: 50%;
+      margin-left: 1rem; }
+      #fcIndex_Details .fcIndexBox .shop_adr .phone img {
+        width: 0.8rem;
+        height: 0.73333rem; }
+  #fcIndex_Details .fcIndexBox .zheInfo {
+    background: #fff;
+    box-sizing: border-box;
+    padding: 0 1rem; }
+    #fcIndex_Details .fcIndexBox .zheInfo .zhe {
+      font-size: 0.8rem; }
+      #fcIndex_Details .fcIndexBox .zheInfo .zhe em {
+        font-size: 2rem;
+        font-style: normal;
+        color: #FF5E5D; }
+    #fcIndex_Details .fcIndexBox .zheInfo .rNum {
+      font-size: 0.6rem;
+      padding: 0.06667rem 0.33333rem;
+      display: inline-block;
+      border: 0.06667rem solid #FF5E5D;
+      border-radius: 0.13333rem;
+      margin: 0 0.66667rem; }
+    #fcIndex_Details .fcIndexBox .zheInfo .tot {
+      font-size: 0.8rem;
+      color: #999; }
+  #fcIndex_Details .fcIndexBox .shopTuiJian {
+    box-sizing: border-box;
+    padding: 0.33333rem 1rem 0;
+    background: #fff; }
+    #fcIndex_Details .fcIndexBox .shopTuiJian .topTit {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      height: 2rem; }
+      #fcIndex_Details .fcIndexBox .shopTuiJian .topTit p {
+        height: 0.06667rem;
+        background: #E5E5E5;
+        width: 100%;
+        display: inline-block; }
+      #fcIndex_Details .fcIndexBox .shopTuiJian .topTit span {
+        position: absolute;
+        background: #fff;
+        padding: 0.06667rem 0.66667rem;
+        color: #333;
+        font-size: 0.93333rem; }
+    #fcIndex_Details .fcIndexBox .shopTuiJian .TJList {
+      width: 100%;
+      overflow: hidden; }
+      #fcIndex_Details .fcIndexBox .shopTuiJian .TJList .TJListItem {
+        display: flex;
+        text-shadow: none;
+        overflow: auto; }
+        #fcIndex_Details .fcIndexBox .shopTuiJian .TJList .TJListItem dl {
+          width: 6.66667rem;
+          margin-right: 0.66667rem; }
+          #fcIndex_Details .fcIndexBox .shopTuiJian .TJList .TJListItem dl dt {
+            position: relative;
+            width: 6.66667rem; }
+            #fcIndex_Details .fcIndexBox .shopTuiJian .TJList .TJListItem dl dt img {
+              width: 100%;
+              height: 6.66667rem; }
+            #fcIndex_Details .fcIndexBox .shopTuiJian .TJList .TJListItem dl dt p {
+              text-shadow: none;
+              position: absolute;
+              left: 0;
+              bottom: 0;
+              background: rgba(0, 0, 0, 0.4);
+              height: 1rem;
+              width: 100%;
+              font-size: 0.6rem;
+              color: #fff;
+              text-align: center;
+              line-height: 1rem; }
+              #fcIndex_Details .fcIndexBox .shopTuiJian .TJList .TJListItem dl dt p img {
+                width: 0.66667rem;
+                height: 0.66667rem;
+                vertical-align: inherit; }
+          #fcIndex_Details .fcIndexBox .shopTuiJian .TJList .TJListItem dl dd {
+            width: 100%;
+            text-shadow: none;
+            text-align: center;
+            font-size: 0.8rem;
+            color: #333;
+            margin-top: 0.33333rem; }
+  #fcIndex_Details .fcIndexBox .shopMd {
+    box-sizing: border-box;
+    padding: 0.33333rem 1rem 0;
+    background: #fff;
+    margin-top: 0.33333rem; }
+    #fcIndex_Details .fcIndexBox .shopMd .topTit {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      height: 2rem; }
+      #fcIndex_Details .fcIndexBox .shopMd .topTit p {
+        height: 0.06667rem;
+        background: #E5E5E5;
+        width: 100%; }
+      #fcIndex_Details .fcIndexBox .shopMd .topTit span {
+        position: absolute;
+        background: #fff;
+        padding: 0.06667rem 0.66667rem;
+        color: #333;
+        font-size: 0.93333rem; }
+    #fcIndex_Details .fcIndexBox .shopMd .mdList {
+      width: 100%;
+      overflow: hidden; }
+      #fcIndex_Details .fcIndexBox .shopMd .mdList .mdListItem {
+        width: 100%;
+        display: flex;
+        overflow: auto; }
+        #fcIndex_Details .fcIndexBox .shopMd .mdList .mdListItem dl {
+          margin-right: 0.66667rem; }
+          #fcIndex_Details .fcIndexBox .shopMd .mdList .mdListItem dl dt {
+            width: 9.33333rem;
+            height: 7.1rem; }
+            #fcIndex_Details .fcIndexBox .shopMd .mdList .mdListItem dl dt img {
+              width: 100%;
+              height: 100%; }
+  #fcIndex_Details .fcIndexBox .yhInfo {
+    background: #fff;
+    margin-top: 0.33333rem; }
+    #fcIndex_Details .fcIndexBox .yhInfo .topTit {
+      text-align: center;
+      font-size: 1rem;
+      color: #313131;
+      padding: 0.66667rem 1rem;
+      box-sizing: border-box; }
+      #fcIndex_Details .fcIndexBox .yhInfo .topTit img {
+        width: 0.9rem;
+        height: 0.96667rem;
+        margin-right: 0.33333rem; }
+      #fcIndex_Details .fcIndexBox .yhInfo .topTit p {
+        border-bottom: 0.06667rem solid #e5e5e5;
+        padding-bottom: 0.66667rem; }
+    #fcIndex_Details .fcIndexBox .yhInfo .zhu {
+      box-sizing: border-box;
+      padding: 0 1rem;
+      font-size: 0.6rem;
+      color: #666;
+      padding-bottom: 0.66667rem; }
+    #fcIndex_Details .fcIndexBox .yhInfo .yhInfoList dl img {
+      width: 100%; }
+    #fcIndex_Details .fcIndexBox .yhInfo .yhInfoList dl dd {
+      color: #666;
+      font-size: 0.8rem;
+      padding: 0.33333rem;
+      padding-bottom: 0.66667rem; }
+
+/*# sourceMappingURL=fiveOffCard.css.map */

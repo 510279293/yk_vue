@@ -1,0 +1,843 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+a, img, ul, ol, li, table, thead, tbody, tfoot, tr, td, dl, dt, dd, h1, h2, h3, h4, h5, h6, input {
+  font-family: "Microsoft YaHei";
+  border-collapse: collapse;
+  text-decoration: none;
+  border: 0;
+  font-weight: normal;
+  list-style-type: none;
+  color: inherit; }
+
+img {
+  vertical-align: middle;
+  line-height: 0; }
+
+body {
+  font-size: 14px;
+  font-family: "Microsoft YaHei";
+  text-shadow: none; }
+
+html, body {
+  width: 100%;
+  height: 100%; }
+
+@media screen and (min-width: 320px) {
+  html {
+    font-size: 14px; } }
+@media screen and (min-width: 360px) {
+  html {
+    font-size: 16px; } }
+@media screen and (min-width: 400px) {
+  html {
+    font-size: 18px; } }
+@media screen and (min-width: 440px) {
+  html {
+    font-size: 20px; } }
+@media screen and (min-width: 480px) {
+  html {
+    font-size: 22px; } }
+@media screen and (min-width: 640px) {
+  html {
+    font-size: 28px; } }
+#yhQuan .header, #yhQuan_got .header, #yhQuan_fill .header, #yhQuan_temp2 .header, #yhQuan_temp3 .header {
+  height: 2.93333rem;
+  background: #2d2c32;
+  color: #fff;
+  font-size: 1.06667rem; }
+  #yhQuan .header span, #yhQuan_got .header span, #yhQuan_fill .header span, #yhQuan_temp2 .header span, #yhQuan_temp3 .header span {
+    position: absolute;
+    text-shadow: none;
+    font-weight: 100;
+    line-height: 2.93333rem;
+    font-size: 0.8rem;
+    float: left;
+    left: 0.66667rem; }
+  #yhQuan .header a, #yhQuan_got .header a, #yhQuan_fill .header a, #yhQuan_temp2 .header a, #yhQuan_temp3 .header a {
+    position: absolute;
+    text-shadow: none;
+    line-height: 2.6rem;
+    color: #fff;
+    float: left;
+    left: 3.33333rem;
+    font-size: 0.8rem;
+    font-weight: 100; }
+  #yhQuan .header h1, #yhQuan_got .header h1, #yhQuan_fill .header h1, #yhQuan_temp2 .header h1, #yhQuan_temp3 .header h1 {
+    text-shadow: none; }
+
+#yhQuan .ui-header, #yhQuan_got .ui-header, #yhQuan_fill .ui-header, #yhQuan_temp2 .ui-header, #yhQuan_temp3 .ui-header {
+  border: none; }
+
+.alertPhone {
+  display: none;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5); }
+  .alertPhone .phoneBox {
+    width: 80%;
+    background: #fff;
+    margin: 0 auto;
+    margin-top: 70%;
+    border-radius: 0.66667rem; }
+    .alertPhone .phoneBox h2 {
+      text-align: center;
+      padding-top: 1rem;
+      font-size: 1.2rem; }
+    .alertPhone .phoneBox p {
+      text-align: center;
+      color: #666;
+      font-size: 0.86667rem;
+      margin: 1rem 0; }
+    .alertPhone .phoneBox .isTelBox {
+      border-top: 0.06667rem solid #e5e5e5;
+      padding: 1rem 0;
+      display: flex; }
+      .alertPhone .phoneBox .isTelBox a {
+        border-right: 0.06667rem solid #e5e5e5;
+        display: inline-block;
+        width: 50%;
+        text-align: center;
+        color: #000;
+        font-size: 1rem;
+        font-weight: 100; }
+
+html, body {
+  height: 100%; }
+
+#yhQuan {
+  height: 100%; }
+  #yhQuan .con {
+    height: 100%; }
+    #yhQuan .con .top {
+      height: 96%;
+      position: relative;
+      background: url("../img/quanImg/Qbgtop.png");
+      background-size: cover; }
+      #yhQuan .con .top .con_show {
+        width: 80%;
+        height: 24.56667rem;
+        background: #fff;
+        position: absolute;
+        left: 10%;
+        bottom: -1.33333rem;
+        box-sizing: border-box;
+        padding-top: 3.33333rem; }
+        #yhQuan .con .top .con_show .logoImg {
+          position: absolute;
+          top: -14%;
+          left: 34%;
+          background: url("../img/quanImg/border.png");
+          background-size: cover;
+          width: 6.66667rem;
+          height: 6.66667rem;
+          box-sizing: border-box;
+          padding: 0.33333rem; }
+          #yhQuan .con .top .con_show .logoImg img {
+            border-radius: 50%;
+            width: 100%; }
+        #yhQuan .con .top .con_show .quan_con h2 {
+          width: 100%;
+          text-align: center;
+          font-size: 1.2rem;
+          margin: 0.66667rem auto; }
+        #yhQuan .con .top .con_show .quan_con .quan_set p {
+          width: 100%;
+          text-align: center;
+          color: #df2127; }
+        #yhQuan .con .top .con_show .quan_con .quan_set .p1 {
+          font-size: 0.8rem; }
+          #yhQuan .con .top .con_show .quan_con .quan_set .p1 b {
+            font-size: 1.8rem; }
+          #yhQuan .con .top .con_show .quan_con .quan_set .p1 span {
+            display: inline-block;
+            padding: 0.26667rem 0.53333rem;
+            border: 0.06667rem solid #df2127;
+            border-radius: 0.2rem;
+            font-size: 0.66667rem;
+            vertical-align: super;
+            margin-left: 0.66667rem; }
+        #yhQuan .con .top .con_show .quan_con .quan_set .p2 {
+          font-size: 0.93333rem;
+          margin-top: 0.33333rem; }
+        #yhQuan .con .top .con_show .quan_con .use_time {
+          margin-top: 1rem; }
+          #yhQuan .con .top .con_show .quan_con .use_time p {
+            width: 100%;
+            text-align: center;
+            font-size: 0.86667rem;
+            color: #999;
+            margin-bottom: 0.33333rem; }
+            #yhQuan .con .top .con_show .quan_con .use_time p b {
+              color: #666;
+              font-weight: 100; }
+            #yhQuan .con .top .con_show .quan_con .use_time p span {
+              color: #999; }
+        #yhQuan .con .top .con_show .quan_con .advertis {
+          height: 2.66667rem;
+          background: url("../img/quanImg/ad_bg.png");
+          background-size: cover;
+          position: relative;
+          margin-top: 2rem; }
+          #yhQuan .con .top .con_show .quan_con .advertis p {
+            font-size: 1.2rem;
+            line-height: 2.66667rem;
+            text-align: center;
+            color: #fff;
+            text-shadow: none; }
+          #yhQuan .con .top .con_show .quan_con .advertis .ad_left {
+            position: absolute;
+            left: -2.33333rem;
+            top: 0.33333rem;
+            height: 2.66667rem;
+            width: 2.33333rem; }
+          #yhQuan .con .top .con_show .quan_con .advertis .ad_right {
+            position: absolute;
+            right: -2.33333rem;
+            top: 0.33333rem;
+            height: 2.66667rem;
+            width: 2.33333rem; }
+        #yhQuan .con .top .con_show .quan_con .get_btn {
+          text-align: center;
+          margin-top: 1.66667rem; }
+          #yhQuan .con .top .con_show .quan_con .get_btn a {
+            display: inline-block;
+            width: 60%;
+            height: 3.33333rem;
+            border-radius: 1.66667rem;
+            line-height: 3.33333rem;
+            text-align: center;
+            color: #fff;
+            font-size: 1.33333rem;
+            background: #ff3aa4;
+            text-shadow: none;
+            font-weight: 100; }
+    #yhQuan .con .fot {
+      height: 48%;
+      box-sizing: border-box;
+      padding-top: 3.66667rem;
+      color: #fff;
+      text-shadow: none;
+      box-sizing: border-box;
+      padding-left: 1rem;
+      background: url("../img/quanImg/Qbgfot.png");
+      background-size: 114%; }
+      #yhQuan .con .fot .fot_dl {
+        display: flex; }
+        #yhQuan .con .fot .fot_dl dl {
+          border-right: 0.06667rem solid #d5d5d5;
+          box-sizing: border-box;
+          padding-right: 1.33333rem; }
+          #yhQuan .con .fot .fot_dl dl dt {
+            font-size: 1.6rem; }
+          #yhQuan .con .fot .fot_dl dl dd {
+            font-size: 1rem;
+            margin-top: 0.66667rem; }
+        #yhQuan .con .fot .fot_dl a img {
+          width: 1.83333rem;
+          height: 1.83333rem;
+          margin-left: 1.33333rem;
+          vertical-align: middle; }
+        #yhQuan .con .fot .fot_dl a i {
+          height: 100%;
+          display: inline-block;
+          vertical-align: middle; }
+      #yhQuan .con .fot .pItems {
+        height: 3rem;
+        line-height: 3rem;
+        font-size: 0.93333rem; }
+        #yhQuan .con .fot .pItems p {
+          border-bottom: 0.06667rem solid #e5e5e5; }
+          #yhQuan .con .fot .pItems p img {
+            width: 1.2rem;
+            height: 1.2rem; }
+          #yhQuan .con .fot .pItems p i {
+            color: #999999;
+            font-style: normal; }
+          #yhQuan .con .fot .pItems p a {
+            float: right;
+            color: #fff;
+            font-weight: 100; }
+
+#yhQuan_got {
+  height: 100%;
+  background: #fff;
+  background: url("../img/quanImg/Qcon_top.png");
+  background-size: 100%; }
+  #yhQuan_got .con {
+    height: 100%; }
+    #yhQuan_got .con .con_top {
+      height: 50%;
+      background: url("../img/quanImg/Qcon_top.png");
+      background-size: 100%;
+      position: relative; }
+      #yhQuan_got .con .con_top .top_box {
+        width: 80%;
+        background: #fff;
+        position: absolute;
+        left: 10%;
+        padding-top: 1.33333rem;
+        border-radius: 0.33333rem 0.33333rem 0 0;
+        top: 1.66667rem; }
+        #yhQuan_got .con .con_top .top_box .left_static {
+          position: absolute;
+          width: 0.66667rem;
+          height: 0.66667rem;
+          border-radius: 50%;
+          background: #402085;
+          top: 0.66667rem;
+          left: 0.66667rem; }
+        #yhQuan_got .con .con_top .top_box .right_static {
+          position: absolute;
+          width: 0.66667rem;
+          height: 0.66667rem;
+          border-radius: 50%;
+          background: #402085;
+          top: 0.66667rem;
+          right: 0.66667rem; }
+        #yhQuan_got .con .con_top .top_box .quan_imgBox {
+          width: 80%; }
+          #yhQuan_got .con .con_top .top_box .quan_imgBox img {
+            width: 100%;
+            margin-left: 12%; }
+        #yhQuan_got .con .con_top .top_box .pItems p {
+          text-align: center;
+          font-size: 0.93333rem;
+          line-height: 1.66667rem; }
+          #yhQuan_got .con .con_top .top_box .pItems p b {
+            font-weight: 100;
+            color: #fb241f; }
+          #yhQuan_got .con .con_top .top_box .pItems p span {
+            color: #666; }
+        #yhQuan_got .con .con_top .top_box .isGet {
+          text-align: center;
+          margin-top: 2.66667rem;
+          padding-bottom: 6.66667rem; }
+          #yhQuan_got .con .con_top .top_box .isGet a {
+            display: inline-block;
+            width: 60%;
+            height: 3.2rem;
+            color: #fff;
+            text-align: center;
+            line-height: 3.2rem;
+            border-radius: 1.6rem;
+            background: #ff3aa4;
+            font-weight: 100;
+            font-size: 1.33333rem;
+            text-shadow: none; }
+    #yhQuan_got .con .con_fot {
+      background: url("../img/quanImg/Qcon_fot.png");
+      background-size: 100% 100%;
+      position: relative;
+      z-index: 100;
+      padding-bottom: 1.33333rem; }
+      #yhQuan_got .con .con_fot .fot_box {
+        padding-top: 4.33333rem; }
+        #yhQuan_got .con .con_fot .fot_box .meGet {
+          margin: 0 auto;
+          background: rgba(0, 0, 0, 0.4);
+          width: 80%;
+          height: 2rem;
+          line-height: 2rem;
+          border-radius: 1rem;
+          color: #fff;
+          text-shadow: none;
+          font-weight: 100;
+          font-size: 0.8rem;
+          box-sizing: border-box;
+          padding-right: 0.8rem; }
+          #yhQuan_got .con .con_fot .fot_box .meGet img {
+            width: 2rem;
+            height: 2rem;
+            box-sizing: border-box;
+            border: 0.06667rem solid #fff;
+            border-radius: 1rem;
+            margin-right: 0.33333rem; }
+          #yhQuan_got .con .con_fot .fot_box .meGet b {
+            font-weight: 100;
+            color: #fb241f; }
+          #yhQuan_got .con .con_fot .fot_box .meGet i {
+            font-style: normal; }
+          #yhQuan_got .con .con_fot .fot_box .meGet span {
+            float: right; }
+        #yhQuan_got .con .con_fot .fot_box .seeOthers {
+          width: 90%;
+          margin: 0 auto;
+          height: 2rem;
+          text-align: center;
+          position: relative;
+          margin-top: 0.33333rem; }
+          #yhQuan_got .con .con_fot .fot_box .seeOthers span {
+            display: inline-block;
+            padding: 0 1.66667rem;
+            font-size: 0.8rem;
+            color: #733908;
+            text-shadow: none;
+            height: 100%;
+            line-height: 2rem;
+            background: #fed219; }
+          #yhQuan_got .con .con_fot .fot_box .seeOthers span:after {
+            content: "";
+            height: 0.06667rem;
+            width: 90%;
+            background: #733908;
+            display: inline-block;
+            position: absolute;
+            left: 5%;
+            top: 1rem;
+            z-index: -1; }
+        #yhQuan_got .con .con_fot .fot_box .friendItems dl {
+          display: flex;
+          width: 83%;
+          justify-content: center;
+          text-shadow: none;
+          border-bottom: 0.06667rem solid #e5e5e5;
+          margin: 0 auto;
+          padding: 1rem 0;
+          box-sizing: border-box; }
+          #yhQuan_got .con .con_fot .fot_box .friendItems dl dt {
+            margin-right: 0.33333rem; }
+            #yhQuan_got .con .con_fot .fot_box .friendItems dl dt img {
+              width: 2rem;
+              height: 2rem;
+              border-radius: 1rem; }
+          #yhQuan_got .con .con_fot .fot_box .friendItems dl dd p:nth-of-type(1) b {
+            font-size: 0.8rem;
+            color: #333;
+            font-weight: 100; }
+          #yhQuan_got .con .con_fot .fot_box .friendItems dl dd p:nth-of-type(1) span {
+            font-size: 0.6rem;
+            color: #666; }
+          #yhQuan_got .con .con_fot .fot_box .friendItems dl dd p:nth-of-type(2) {
+            font-size: 0.8rem;
+            color: #666; }
+
+#yhQuan_fill {
+  height: 100%; }
+  #yhQuan_fill .con {
+    height: 100%; }
+    #yhQuan_fill .con .top {
+      height: 118%;
+      position: relative;
+      background: url("../img/quanImg/Qbgtopadd.png");
+      background-size: 100% 100%; }
+      #yhQuan_fill .con .top .con_show {
+        width: 80%;
+        height: 30.56667rem;
+        background: #fff;
+        position: absolute;
+        left: 10%;
+        bottom: -1.33333rem;
+        box-sizing: border-box;
+        padding-top: 3.33333rem; }
+        #yhQuan_fill .con .top .con_show .logoImg {
+          position: absolute;
+          top: -14%;
+          left: 34%;
+          background: url("../img/quanImg/border.png");
+          background-size: cover;
+          width: 6.66667rem;
+          height: 6.66667rem;
+          box-sizing: border-box;
+          padding: 0.33333rem; }
+          #yhQuan_fill .con .top .con_show .logoImg img {
+            border-radius: 50%;
+            width: 100%; }
+        #yhQuan_fill .con .top .con_show .quan_con h2 {
+          width: 100%;
+          text-align: center;
+          font-size: 1.2rem;
+          margin: 0.66667rem auto; }
+        #yhQuan_fill .con .top .con_show .quan_con .quan_set p {
+          width: 100%;
+          text-align: center;
+          color: #df2127; }
+        #yhQuan_fill .con .top .con_show .quan_con .quan_set .p1 {
+          font-size: 0.8rem; }
+          #yhQuan_fill .con .top .con_show .quan_con .quan_set .p1 b {
+            font-size: 1.8rem; }
+          #yhQuan_fill .con .top .con_show .quan_con .quan_set .p1 span {
+            display: inline-block;
+            padding: 0.26667rem 0.53333rem;
+            border: 0.06667rem solid #df2127;
+            border-radius: 0.2rem;
+            font-size: 0.66667rem;
+            vertical-align: super;
+            margin-left: 0.66667rem; }
+        #yhQuan_fill .con .top .con_show .quan_con .quan_set .p2 {
+          font-size: 0.93333rem;
+          margin-top: 0.33333rem; }
+        #yhQuan_fill .con .top .con_show .quan_con .use_time {
+          margin-top: 1rem; }
+          #yhQuan_fill .con .top .con_show .quan_con .use_time p {
+            width: 100%;
+            text-align: center;
+            font-size: 0.86667rem;
+            color: #999;
+            margin-bottom: 0.33333rem; }
+            #yhQuan_fill .con .top .con_show .quan_con .use_time p b {
+              color: #666;
+              font-weight: 100; }
+            #yhQuan_fill .con .top .con_show .quan_con .use_time p span {
+              color: #999; }
+        #yhQuan_fill .con .top .con_show .quan_con .advertis {
+          height: 2.66667rem;
+          background: url("../img/quanImg/ad_bg.png");
+          background-size: cover;
+          position: relative;
+          margin-top: 2rem; }
+          #yhQuan_fill .con .top .con_show .quan_con .advertis p {
+            font-size: 1.2rem;
+            line-height: 2.66667rem;
+            text-align: center;
+            color: #fff;
+            text-shadow: none; }
+          #yhQuan_fill .con .top .con_show .quan_con .advertis .ad_left {
+            position: absolute;
+            left: -2.33333rem;
+            top: 0.33333rem;
+            height: 2.66667rem;
+            width: 2.33333rem; }
+          #yhQuan_fill .con .top .con_show .quan_con .advertis .ad_right {
+            position: absolute;
+            right: -2.33333rem;
+            top: 0.33333rem;
+            height: 2.66667rem;
+            width: 2.33333rem; }
+        #yhQuan_fill .con .top .con_show .quan_con .fill_box {
+          padding: 0 1rem;
+          padding-top: 0.66667rem; }
+          #yhQuan_fill .con .top .con_show .quan_con .fill_box p {
+            height: 2.76667rem;
+            border-bottom: 0.06667rem solid #e5e5e5;
+            line-height: 2.76667rem;
+            font-size: 0.86667rem;
+            display: flex;
+            justify-content: space-between; }
+            #yhQuan_fill .con .top .con_show .quan_con .fill_box p input {
+              outline: none;
+              color: #999; }
+            #yhQuan_fill .con .top .con_show .quan_con .fill_box p span {
+              display: inline-block;
+              padding: 0.2rem;
+              background: #ff3aa4;
+              color: #fff;
+              text-shadow: none;
+              border-radius: 0.2rem;
+              height: 2rem;
+              line-height: 2rem; }
+        #yhQuan_fill .con .top .con_show .quan_con .get_btn {
+          text-align: center;
+          margin-top: 1.66667rem; }
+          #yhQuan_fill .con .top .con_show .quan_con .get_btn a {
+            display: inline-block;
+            width: 60%;
+            height: 3.33333rem;
+            border-radius: 1.66667rem;
+            line-height: 3.33333rem;
+            text-align: center;
+            color: #fff;
+            font-size: 1.33333rem;
+            background: #ff3aa4;
+            text-shadow: none;
+            font-weight: 100; }
+    #yhQuan_fill .con .fot {
+      box-sizing: border-box;
+      padding-top: 3.66667rem;
+      color: #fff;
+      text-shadow: none;
+      box-sizing: border-box;
+      padding-left: 1rem;
+      padding-bottom: 9.33333rem;
+      background: url("../img/quanImg/Qbgfot.png");
+      background-size: 100% 100%; }
+      #yhQuan_fill .con .fot .fot_dl {
+        display: flex; }
+        #yhQuan_fill .con .fot .fot_dl dl {
+          border-right: 0.06667rem solid #d5d5d5;
+          box-sizing: border-box;
+          padding-right: 1.33333rem; }
+          #yhQuan_fill .con .fot .fot_dl dl dt {
+            font-size: 1.6rem; }
+          #yhQuan_fill .con .fot .fot_dl dl dd {
+            font-size: 1rem;
+            margin-top: 0.66667rem; }
+        #yhQuan_fill .con .fot .fot_dl a img {
+          width: 1.83333rem;
+          height: 1.83333rem;
+          margin-left: 1.33333rem;
+          vertical-align: middle; }
+        #yhQuan_fill .con .fot .fot_dl a i {
+          height: 100%;
+          display: inline-block;
+          vertical-align: middle; }
+      #yhQuan_fill .con .fot .pItems {
+        height: 3rem;
+        line-height: 3rem;
+        font-size: 0.93333rem; }
+        #yhQuan_fill .con .fot .pItems b {
+          font-weight: 100; }
+        #yhQuan_fill .con .fot .pItems p {
+          border-bottom: 0.06667rem solid #e5e5e5; }
+          #yhQuan_fill .con .fot .pItems p img {
+            width: 1.2rem;
+            height: 1.2rem; }
+          #yhQuan_fill .con .fot .pItems p i {
+            color: #999999;
+            font-style: normal; }
+          #yhQuan_fill .con .fot .pItems p a {
+            float: right;
+            color: #fff;
+            font-weight: 100;
+            margin-right: 1rem; }
+
+#yhQuan_temp2 .con {
+  padding: 0.66667rem 0.83333rem;
+  background: #7e95c5;
+  height: 100%;
+  box-sizing: border-box;
+  position: relative; }
+  #yhQuan_temp2 .con .con_box {
+    background: #fff;
+    padding: 1rem;
+    box-sizing: border-box;
+    border-radius: 0.4rem; }
+    #yhQuan_temp2 .con .con_box h2 {
+      text-align: center;
+      font-size: 1.2rem;
+      padding-bottom: 1rem;
+      border-bottom: 0.06667rem dashed #e5e5e5; }
+    #yhQuan_temp2 .con .con_box .quan_set p {
+      width: 100%;
+      text-align: center;
+      color: #df2127; }
+    #yhQuan_temp2 .con .con_box .quan_set .p1 {
+      font-size: 0.8rem; }
+      #yhQuan_temp2 .con .con_box .quan_set .p1 b {
+        font-size: 1.8rem; }
+      #yhQuan_temp2 .con .con_box .quan_set .p1 span {
+        display: inline-block;
+        padding: 0.26667rem 0.53333rem;
+        border: 0.06667rem solid #df2127;
+        border-radius: 0.2rem;
+        font-size: 0.66667rem;
+        vertical-align: super;
+        margin-left: 0.66667rem; }
+    #yhQuan_temp2 .con .con_box .quan_set .p2 {
+      font-size: 0.93333rem;
+      margin-top: 0.33333rem;
+      color: #999; }
+#yhQuan_temp2 .con:before {
+  content: "";
+  position: absolute;
+  width: 1.33333rem;
+  height: 1.33333rem;
+  border-radius: 50%;
+  left: 0.13333rem;
+  top: 3.6rem;
+  background: #7e95c5; }
+#yhQuan_temp2 .con:after {
+  content: "";
+  position: absolute;
+  width: 1.33333rem;
+  height: 1.33333rem;
+  border-radius: 50%;
+  right: 0.13333rem;
+  top: 3.6rem;
+  background: #7e95c5; }
+#yhQuan_temp2 .canUseTime {
+  margin-top: 1.33333rem;
+  padding-bottom: 1rem;
+  border-bottom: 0.06667rem dashed #e5e5e5; }
+  #yhQuan_temp2 .canUseTime dl {
+    display: flex; }
+    #yhQuan_temp2 .canUseTime dl dt {
+      font-size: 0.93333rem;
+      color: #666;
+      width: 11rem; }
+    #yhQuan_temp2 .canUseTime dl dd {
+      font-size: 0.93333rem;
+      color: #999; }
+#yhQuan_temp2 .imgBox {
+  padding: 1rem 0; }
+  #yhQuan_temp2 .imgBox img {
+    width: 100%;
+    height: 8.66667rem; }
+#yhQuan_temp2 .titBox .titName {
+  font-size: 1.2rem;
+  color: #333; }
+  #yhQuan_temp2 .titBox .titName img {
+    width: 1.33333rem;
+    height: 1.33333rem; }
+#yhQuan_temp2 .titBox dl {
+  margin-top: 0.66667rem; }
+  #yhQuan_temp2 .titBox dl dt {
+    color: #333;
+    font-size: 1rem; }
+  #yhQuan_temp2 .titBox dl dd {
+    color: #999;
+    font-size: 0.8rem;
+    margin-top: 0.33333rem; }
+    #yhQuan_temp2 .titBox dl dd img {
+      width: 1.13333rem;
+      height: 1.13333rem; }
+#yhQuan_temp2 .info_see {
+  margin-top: 1rem; }
+  #yhQuan_temp2 .info_see p {
+    height: 3rem;
+    line-height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    border-top: 0.06667rem solid #e5e5e5; }
+    #yhQuan_temp2 .info_see p a {
+      color: #333;
+      font-weight: 100;
+      text-shadow: none; }
+#yhQuan_temp2 .get_btn {
+  text-align: center; }
+  #yhQuan_temp2 .get_btn a {
+    display: inline-block;
+    width: 80%;
+    height: 3rem;
+    background: #69adf4;
+    border-radius: 1.5rem;
+    line-height: 3rem;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #fff;
+    text-shadow: none;
+    font-weight: 100; }
+
+#yhQuan_temp3 .top_box {
+  background: #fff; }
+#yhQuan_temp3 .con .imgBox img {
+  width: 100%;
+  max-height: 10rem; }
+#yhQuan_temp3 .con .quan_set {
+  margin-top: 1rem; }
+  #yhQuan_temp3 .con .quan_set h2 {
+    text-align: center;
+    font-size: 1.2rem; }
+  #yhQuan_temp3 .con .quan_set p {
+    width: 100%;
+    text-align: center;
+    color: #df2127; }
+  #yhQuan_temp3 .con .quan_set .p1 {
+    font-size: 0.8rem; }
+    #yhQuan_temp3 .con .quan_set .p1 b {
+      font-size: 1.8rem; }
+    #yhQuan_temp3 .con .quan_set .p1 span {
+      display: inline-block;
+      padding: 0.26667rem 0.53333rem;
+      border: 0.06667rem solid #df2127;
+      border-radius: 0.2rem;
+      font-size: 0.66667rem;
+      vertical-align: super;
+      margin-left: 0.66667rem; }
+  #yhQuan_temp3 .con .quan_set .p2 {
+    font-size: 0.93333rem;
+    margin-top: 0.33333rem;
+    color: #999; }
+#yhQuan_temp3 .con .canUseTime {
+  padding: 1rem; }
+  #yhQuan_temp3 .con .canUseTime dl {
+    display: flex; }
+    #yhQuan_temp3 .con .canUseTime dl dt {
+      font-size: 0.93333rem;
+      color: #666;
+      width: 11rem; }
+    #yhQuan_temp3 .con .canUseTime dl dd {
+      font-size: 0.93333rem;
+      color: #999; }
+#yhQuan_temp3 .con .get_box {
+  padding-bottom: 1.5rem; }
+  #yhQuan_temp3 .con .get_box .getBox_son {
+    margin: 0 auto;
+    position: relative;
+    padding-left: 3.33333rem;
+    box-sizing: border-box;
+    width: 90%;
+    height: 2.66667rem;
+    border: 0.13333rem solid #fd233c;
+    border-radius: 1.33333rem; }
+    #yhQuan_temp3 .con .get_box .getBox_son img {
+      width: 2.93333rem;
+      height: 2.93333rem;
+      border-radius: 50%;
+      position: absolute;
+      left: -0.2rem;
+      top: -0.2rem; }
+    #yhQuan_temp3 .con .get_box .getBox_son dl {
+      width: 11.86667rem;
+      overflow: hidden;
+      padding-top: 0.23333rem; }
+      #yhQuan_temp3 .con .get_box .getBox_son dl dt {
+        font-size: 0.8rem;
+        color: #333;
+        width: 100%;
+        overflow: hidden;
+        white-space: nowrap;
+        box-sizing: border-box;
+        padding-right: 0.33333rem; }
+      #yhQuan_temp3 .con .get_box .getBox_son dl dd {
+        font-size: 0.6rem;
+        color: #666;
+        width: 100%;
+        overflow: hidden;
+        white-space: nowrap;
+        padding-right: 0.33333rem; }
+    #yhQuan_temp3 .con .get_box .getBox_son .get_btn {
+      position: absolute;
+      right: -0.13333rem;
+      top: -0rem;
+      width: 5.66667rem;
+      height: 100%;
+      background: #fd233c;
+      font-size: 1rem;
+      color: #fff;
+      line-height: 2.66667rem;
+      text-align: center;
+      font-weight: 100;
+      border-radius: 0 1.33333rem 1.33333rem 0; }
+#yhQuan_temp3 .con .bot_box {
+  background: #fff;
+  margin-top: 0.33333rem;
+  padding: 1rem;
+  box-sizing: border-box; }
+  #yhQuan_temp3 .con .bot_box .titBox .titName {
+    font-size: 1.2rem;
+    color: #333; }
+    #yhQuan_temp3 .con .bot_box .titBox .titName img {
+      width: 1.33333rem;
+      height: 1.33333rem; }
+  #yhQuan_temp3 .con .bot_box .titBox dl {
+    margin-top: 0.66667rem;
+    padding-top: 0.26667rem; }
+    #yhQuan_temp3 .con .bot_box .titBox dl dt {
+      color: #333;
+      font-size: 1rem; }
+    #yhQuan_temp3 .con .bot_box .titBox dl dd {
+      color: #999;
+      font-size: 0.8rem;
+      margin-top: 0.33333rem; }
+      #yhQuan_temp3 .con .bot_box .titBox dl dd img {
+        width: 1.13333rem;
+        height: 1.13333rem; }
+  #yhQuan_temp3 .con .bot_box .info_see {
+    margin-top: 1rem; }
+    #yhQuan_temp3 .con .bot_box .info_see p {
+      height: 3rem;
+      line-height: 3rem;
+      display: flex;
+      justify-content: space-between;
+      border-top: 0.06667rem solid #e5e5e5; }
+      #yhQuan_temp3 .con .bot_box .info_see p a {
+        color: #333;
+        font-weight: 100;
+        text-shadow: none; }
+
+/*# sourceMappingURL=quan.css.map */

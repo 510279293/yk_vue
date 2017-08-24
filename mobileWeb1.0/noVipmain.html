@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1,minimum-scale=1,user-scalable=no">
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="black" name="apple-mobile-web-app-status-bar-style" />
+    <meta content="telephone=no" name="format-detection" />
+    <title>Title</title>
+    <link rel="stylesheet" href="jqueryMobile/jquery.mobile-1.4.2.min.css">
+    <link rel="stylesheet" href="jqueryMobile/jquery.mobile.icons-1.4.2.min.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<div data-role="page" id="pageindex">
+    <div data-role="header" class="header">
+        <span onclick="history.go(-1)" data-icon="arrow-l" data-role="none">&lt;返回</span> <a href="index.html"  data-role="none" data-ajax="false">关闭</a><h1>会员中心主页</h1>
+    </div>
+    <div class="isCare">
+        <p><i>*&nbsp;</i> 获取更多信息，请关注公众号<span><a href="#" data-ajax="false">关注</a><b></b></span></p>
+    </div>
+    <div data-role="content">
+        <div class="cardBox">
+            <div class="topBox topBox01">
+                <dl>
+                    <dt><img src="img/logo.png"></dt>
+                    <dd><span>稻香村</span><br/><span>金卡<strong>9</strong>折</span></dd>
+                </dl>
+                <dl>
+                </dl>
+            </div>
+        </div>
+    </div>
+    <div data-role="content" class="isAddWeiChat blue">
+        <a href="html/activateVipCard.html" data-ajax="false">激活会员卡</a>
+    </div>
+</div>
+<div class="popup_bg" style="display: block"></div>
+<div class="popup popup_op" style="display: block" id="vipMa">
+    <div class="popup_top">
+        <span class="popup_close"></span>
+        <b class="popup_title">稻香村</b>
+    </div>
+    <div class="popup_main">
+        <dl>
+            <dt><img src="img/ma.png"></dt>
+            <dd>长按二维码关注公众号</dd>
+        </dl>
+    </div>
+    <div class="popup_bottom align_center">
+    </div>
+</div>
+<script src="jqueryMobile/jquery-1.9.1.min.js"></script>
+<script src="jqueryMobile/jquery.mobile-1.4.2.min.js"></script>
+<script src="js/common.js"></script>
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1,minimum-scale=1,user-scalable=no">
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="black" name="apple-mobile-web-app-status-bar-style" />
+    <meta content="telephone=no" name="format-detection" />
+    <title>Title</title>
+    <link rel="stylesheet" href="../jqueryMobile/jquery.mobile-1.4.2.min.css">
+    <link rel="stylesheet" href="../jqueryMobile/jquery.mobile.icons-1.4.2.min.css">
+    <link rel="stylesheet" href="../css/wmSendCommon.css">
+</head>
+<body>
+<div data-role="page" id="wmSpay">
+    <div data-role="header" class="header">
+        <span onclick="history.go(-1)" data-icon="arrow-l" data-role="none">&lt;返回</span> <a href="../index.html"  data-role="none" data-ajax="false">关闭</a><h1>在线支付</h1>
+    </div>
+    <p class="djs">支付剩余时间: <span>14</span>分 <span>49</span>秒</p>
+    <div data-role="content" class="content">
+        <p><span>订单名称</span><b>永和大王食堂自助扫码订单</b></p>
+        <p><span>订单详情</span><b><em class="emon" >宋江先生455555555555555555555555157****7645龙岭商家..444444444444444.</em> <img src="../img/ddsj.png" class="ddsj"></b></p>
+        <p><span>订单金额</span><b class="colorRed">￥78.00</b></p>
+    </div>
+    <div class="fot">
+        <p>确认支付</p>
+    </div>
+    <div class="popup_bg" ></div>
+    <div class="popup popup_op payMothend" >
+        <div class="popup_top">
+            <span class="popup_close"></span>
+            <b class="popup_title">支付方式</b>
+        </div>
+        <div class="popup_main">
+            <div>
+                <dl class="opac">
+                    <dt><img src="../img/vip.png" alt=""></dt>
+                    <dd>会员支付<br/><span>余额:￥40.82</span></dd>
+                </dl>
+                <b>抵扣 <i class="on"></i><br/><span>还需支付￥82.12</span></b>
+            </div>
+            <div>
+                <a href="../paySystem/vipwxpay.html" data-ajax="false"><dl>
+                    <dt><img src="../img/wx.png" alt=""></dt>
+                    <dd>微信支付</dd>
+                </dl>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="../jqueryMobile/jquery-1.9.1.min.js"></script>
+<script src="../jqueryMobile/jquery.mobile-1.4.2.min.js"></script>
+<script>
+    $(function(){
+        $("#wmSpay .fot").on("touchend",function(e){
+            $(this).hide();
+            $("#wmSpay .popup_bg").show();
+            $("#wmSpay .payMothend").show();
+            e.preventDefault();
+        })
+        $("#wmSpay .payMothend .popup_close").on("touchend",function(e){
+            $("#wmSpay .popup_bg").hide();
+            $("#wmSpay .payMothend").hide();
+            $("#wmSpay .fot").show();
+        })
+        var clkNum=0;
+        $(".ddsj").tap(function(){
+             if(clkNum%2==0){
+                 $(this).prev().removeClass("emon");
+                 $(this).addClass("ddsjon");
+             }else{
+                 $(this).prev().addClass("emon");
+                 $(this).removeClass("ddsjon");
+             }
+            clkNum++;
+        })
+    })
+</script>
+</body>
+</html>

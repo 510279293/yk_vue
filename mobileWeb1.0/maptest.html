@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1,minimum-scale=1,user-scalable=no">
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="black" name="apple-mobile-web-app-status-bar-style" />
+    <meta content="telephone=no" name="format-detection" />
+    <title>Title</title>
+    <link rel="stylesheet" href="jqueryMobile/jquery.mobile-1.4.2.min.css">
+    <link rel="stylesheet" href="jqueryMobile/jquery.mobile.icons-1.4.2.min.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<div data-role="page" id="pageindex">
+    <div data-role="header" class="header">
+        <span onclick="history.go(-1)" data-icon="arrow-l" data-role="none">&lt;返回</span> <a href="index.html"  data-role="none">关闭</a><h1>会员中心</h1>
+    </div>
+    <div>
+        <p id="demo">点击这个按钮，获得您的坐标：</p>
+        <button onclick="getLocation()">试一下</button>
+    </div>
+</div>
+<script src="jqueryMobile/jquery-1.9.1.min.js"></script>
+<script src="jqueryMobile/jquery.mobile-1.4.2.min.js"></script>
+<script>
+    function getLocation(){
+        if (navigator.geolocation){
+            var pos={};
+            navigator.geolocation.getCurrentPosition(function(position){
+                pos.x=position.coords.latitude;
+                pos.y=position.coords.longitude;
+                console.log(pos);
+                return pos;
+            });
+
+            return pos;
+        }
+        else{return "false";}
+    }
+
+</script>
+</body>
+</html>

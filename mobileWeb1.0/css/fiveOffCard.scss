@@ -1,0 +1,1736 @@
+*{padding: 0;margin: 0;}
+a,img,ul,ol,li,table,thead,tbody,tfoot,tr,td,dl,dt,dd,h1,h2,h3,h4,h5,h6,input{font-family:"Microsoft YaHei";border-collapse:collapse;text-decoration:none;border:0;font-weight:normal;list-style-type:none;color:inherit;}
+img{vertical-align: middle;line-height:0;}
+body{font-size:14px;font-family:"Microsoft YaHei";text-shadow: none;}
+%webpage{width:100%;height:100%;}
+html,body{
+  @extend %webpage;
+}
+@media screen and (min-width: 320px) {
+  html {font-size: 14px;}
+  $font-size:font-size;
+}
+@media screen and (min-width: 360px) {
+  html {font-size: 16px;}
+  $font-size:font-size;
+}
+@media screen and (min-width: 400px) {
+  html {font-size: 18px;}
+  $font-size:font-size;
+}
+@media screen and (min-width: 440px) {
+  html {font-size: 20px;}
+  $font-size:font-size;
+}
+@media screen and (min-width: 480px) {
+  html {font-size: 22px;}
+  $font-size:font-size;
+}
+@media screen and (min-width: 640px) {
+  html {font-size: 28px;}
+  $font-size:font-size;
+}
+$font-size:30px;
+@function px2Rem($px){
+  @return $px/$font-size + rem;
+}
+
+#fcIndex .header,#fcIndex_Vip .header,#fcIndex_buy .header,#fcIndex_xf .header,#fcIndex_buyXf .header,#fcIndex_me .header,
+#fcIndex_Details .header{height:px2Rem(88px);background: #2d2c32;color:#fff;font-size:px2Rem(32px);
+  span{position:absolute;text-shadow: none;font-weight:100;line-height:px2Rem(88px);font-size:px2Rem(24px);float:left;left:px2Rem(20px)}
+  a{position:absolute;text-shadow: none;line-height: px2Rem(78px);color:#fff;float:left;left:px2Rem(100px);font-size:px2Rem(24px);font-weight:100;}
+  h1{text-shadow: none;}
+}
+#fcIndex .ui-header,#fcIndex_Vip .ui-header,#fcIndex_buy .ui-header,#fcIndex_xf .ui-header,#fcIndex_buyXf .ui-header,#fcIndex_me .ui-header,
+#fcIndex_Details .ui-header{border:none;}
+
+.red{color:#DF2127;}
+.riLi{
+     box-sizing: border-box;
+     padding:0 px2Rem(0px);
+     width:100%;
+     overflow: hidden;
+    .riLiBox{
+         display: flex;
+         overflow: auto;
+         padding-bottom: px2Rem(6px);
+      dl{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right:px2Rem(16px);
+        border:px2Rem(2px) solid #666;
+        width:px2Rem(80px);
+        height:px2Rem(80px);
+        border-radius: px2Rem(40px);
+        dd{
+           font-size: px2Rem(24px);
+           color:#313131;
+           text-align: center;
+           width:px2Rem(80px);
+        }
+      }
+      .on{
+             color:#fff;
+             background:#FF5E5D ;
+             text-shadow: none;
+             border-color: inherit;
+             dd{
+                color:#fff;
+             }
+      }
+    }
+
+}
+
+.popdel{
+         display:none ;
+         position:absolute;
+         background: #fff;
+         border-radius: px2Rem(20px);
+         width:80%;
+         left:10%;
+         top:45%;
+         z-index: 100;
+         h3{
+            text-align: right;
+           box-sizing: border-box;
+           padding:0 px2Rem(30px);
+            img{
+                width:px2Rem(30px);
+                height:px2Rem(30px);
+            }
+         }
+         div{
+             text-align: center;
+             border-bottom: px2Rem(2px) solid #e5e5e5;
+             padding:px2Rem(30px) 0;
+         }
+         p{
+            display: flex;
+           justify-content: center;
+           padding:px2Rem(30px) 0;
+            a{
+               display: inline-block;
+               padding:px2Rem(4px) px2Rem(16px);
+            }
+         }
+}
+
+#fcIndex{
+     background: #eee;
+     .fcIndexBox{
+         padding:0;
+          .fcTop{
+                padding:px2Rem(30px);
+                padding-bottom: 0px;
+                .fcCard{
+                      border-radius: px2Rem(12px);
+                      width:100%;
+                      height:px2Rem(261px);
+                      background: -webkit-linear-gradient(left, #FE2D04 , #FF5C3D); /* Safari 5.1 - 6.0 */
+                      background: -o-linear-gradient(right, #FE2D04, #FF5C3D); /* Opera 11.1 - 12.0 */
+                      background: -moz-linear-gradient(right, #FE2D04, #FF5C3D); /* Firefox 3.6 - 15 */
+                      background: linear-gradient(to right, #FE2D04 , #FF5C3D);
+                      padding:px2Rem(20px);
+                      box-sizing: border-box;
+                      .fcCardTop{
+                          display: flex;
+                          justify-content: space-between;
+                          .cardL{
+                            height:px2Rem(82px);
+                            text-shadow: none;
+                            color:#fff;
+                            dl{
+                              display: flex;
+                              align-items: center;
+                              dd{margin-left: px2Rem(20px);font-size: px2Rem(36px);}
+                            }
+                          }
+                          .cardR{
+                            height:px2Rem(82px);
+                            display: flex;
+                            align-items: center;
+                            a{color:#fff;text-shadow: none;font-weight: 100;font-size: px2Rem(36px);}
+                          }
+                      }
+                      .cardPag{
+                           width:px2Rem(81px);
+                           height:px2Rem(81px);
+                      }
+                      .cardTip{
+                           color: #FDA79E;
+                           padding-left: px2Rem(101px);
+                           font-size: px2Rem(24px);
+                           text-shadow: none;
+                      }
+                }
+          }
+          .choseDateBox{
+              position: relative;
+              width:100%;
+              padding:0;
+              padding-top:px2Rem(100px);
+              margin-top: - px2Rem(100px);
+              //border-radius: px2Rem(0px) px2Rem(0px) px2Rem(100px) px2Rem(100px) ;
+             .riLi{
+                  background: #fff;
+             }
+          }
+         .choseDateBox:after{
+              position: absolute;
+              display: block;
+              content: " ";
+              padding:0;
+              padding-top:px2Rem(100px);
+              width:100%;
+              left:0;
+              top:0;
+              height:0;
+              background-image: url("../img/fiveOffCardImg/banyuan.png");
+              background-size: cover;
+         }
+         .showBox{
+              padding:px2Rem(30px);
+              background: #fff;
+              .banTit{
+                  border-bottom: px2Rem(2px) solid #e5e5e5;
+                  padding-bottom: px2Rem(0px);
+                  display: flex;
+                  span{
+                    font-size:px2Rem(34px);
+                    color:#999;
+                    display: inline-block;
+                    text-align: center;
+                    width:50%;
+                    padding-bottom: px2Rem(10px);
+                    border-bottom: px2Rem(4px) solid #fff;
+                  }
+                  .onspan{
+                     color:#FF5E5D;
+                     border-color: #FF5E5D;
+                  }
+              }
+              .listBox{
+                  padding-top:px2Rem(30px);
+                  .listItemBox{
+                       .item{
+                           display: flex;
+                           margin-bottom: px2Rem(30px);
+                           .itemL{
+                                position: relative;
+                                width:px2Rem(330px);
+                                height:px2Rem(190px);
+                                overflow: hidden;
+                                .wzImg{
+                                      width:100%;
+                                      height:100%;
+                                }
+                                .isYuyue{
+                                    background:#FF5E5D ;
+                                    color:#fff;
+                                    font-size:px2Rem(20px);
+                                    position: absolute;
+                                    text-shadow: none;
+                                    padding:px2Rem(4px) px2Rem(30px);
+                                    transform:rotate(-45deg);
+                                    transform-origin: 52% 177%;
+                                }
+                                .isLove{
+                                    width:px2Rem(30px);
+                                    height:px2Rem(26px);
+                                    position: absolute;
+                                    right:px2Rem(10px);
+                                    bottom:px2Rem(20px);
+                                }
+                           }
+                           .itemR{
+                                 margin-left:px2Rem(30px);
+                                 h3{font-size:px2Rem(30px);color:#101010;}
+                                 .itemR_con{
+                                     display: flex;
+                                     justify-content: space-between;
+                                     border-bottom: px2Rem(2px) solid #E5E5E5;
+                                     padding-bottom: px2Rem(8px);
+                                     dl{
+                                        dt{
+                                          color:#FF5E5D;
+                                          font-size:px2Rem(26px);
+                                          b{
+                                             font-size:px2Rem(60px);
+                                             font-weight: 600;
+                                          }
+                                        }
+                                       dd{
+                                         font-size:px2Rem(18px);
+                                         color:#666;
+                                         em{
+                                           font-style: normal;
+                                         }
+                                       }
+                                     }
+                                     p{display: flex;align-items: flex-end;}
+                                     .doGet{
+                                           font-size:px2Rem(22px);
+                                           color:#fff;
+                                           background:#FD233C ;
+                                           text-align: center;
+                                           text-shadow: none;
+                                           width:px2Rem(130px);
+                                           height:px2Rem(50px);
+                                           font-weight: 100;
+                                           line-height:px2Rem(50px) ;
+                                           border-radius: px2Rem(6px);
+                                     }
+                                     .Geted{
+                                           background: #999;
+                                     }
+                                 }
+                             ._ad{
+                                  font-size: px2Rem(20px);
+                                  color:#101010;
+                                  line-height: px2Rem(32px);
+                                  padding-top:px2Rem(8px);
+                                  display: flex;
+                                  justify-content: space-between;
+                                  img{
+                                      width:px2Rem(24px);
+                                      height:px2Rem(32px);
+                                  }
+                                  ._adA{
+                                      font-weight: 100;
+                                      color:#101010;
+                                      text-shadow: none;
+                                      width:60%;
+                                      height:px2Rem(32px);
+                                      white-space:nowrap;
+                                      overflow: hidden;
+                                      text-overflow: ellipsis;
+                                  }
+                             }
+                           }
+                       }
+                  }
+              }
+         }
+     }
+}
+#fcIndex_Vip{
+  background: #eee;
+  .fcIndexBox{
+    padding:0;
+    .fcTop{
+      padding:px2Rem(30px);
+      padding-bottom: 0px;
+      .fcCard{
+        border-radius: px2Rem(12px);
+        width:100%;
+        height:px2Rem(261px);
+        background: -webkit-linear-gradient(left, #FE2D04 , #FF5C3D); /* Safari 5.1 - 6.0 */
+        background: -o-linear-gradient(right, #FE2D04, #FF5C3D); /* Opera 11.1 - 12.0 */
+        background: -moz-linear-gradient(right, #FE2D04, #FF5C3D); /* Firefox 3.6 - 15 */
+        background: linear-gradient(to right, #FE2D04 , #FF5C3D);
+        padding:px2Rem(20px);
+        box-sizing: border-box;
+        .fcCardTop{
+          display: flex;
+          justify-content: space-between;
+          .cardL{
+            height:px2Rem(82px);
+            text-shadow: none;
+            color:#fff;
+            dl{
+              display: flex;
+              align-items: center;
+              dd{margin-left: px2Rem(20px);font-size: px2Rem(36px);}
+            }
+          }
+          .cardR{
+            padding-top: px2Rem(30px);
+            height:px2Rem(82px);
+            display: flex;
+            align-items: center;
+            //a{color:#fff;text-shadow: none;font-weight: 100;font-size: px2Rem(36px);}
+            .userLogo{
+                img{
+                    width:px2Rem(70px);
+                    height:px2Rem(70px);
+                    border-radius: 50%;
+                }
+                dt{text-align: center}
+                dd{
+                   font-size:px2Rem(18px);
+                   text-shadow: none;
+                   color:#fff;
+                   text-align: center;
+                }
+            }
+          }
+        }
+        .cardPag{
+          width:px2Rem(81px);
+          height:px2Rem(81px);
+        }
+        .cardTip{
+          color: #FDA79E;
+          padding-left: px2Rem(101px);
+          font-size: px2Rem(24px);
+          text-shadow: none;
+          margin-top:- px2Rem(30px);
+        }
+        .cradTime{
+           color:#fff;
+           font-size: px2Rem(18px);
+           margin-top:0px;
+        }
+      }
+    }
+    .choseDateBox{
+      position: relative;
+      width:100%;
+      padding:0;
+      padding-top:px2Rem(100px);
+      margin-top: - px2Rem(100px);
+      //border-radius: px2Rem(0px) px2Rem(0px) px2Rem(100px) px2Rem(100px) ;
+      .riLi{
+        background: #fff;
+      }
+    }
+    .choseDateBox:after{
+      position: absolute;
+      display: block;
+      content: " ";
+      padding:0;
+      padding-top:px2Rem(100px);
+      width:100%;
+      left:0;
+      top:0;
+      height:0;
+      background-image: url("../img/fiveOffCardImg/banyuan.png");
+      background-size: cover;
+    }
+    .showBox{
+      padding:px2Rem(30px);
+      background: #fff;
+      .banTit{
+        border-bottom: px2Rem(2px) solid #e5e5e5;
+        padding-bottom: px2Rem(0px);
+        display: flex;
+        span{
+          font-size:px2Rem(34px);
+          color:#999;
+          display: inline-block;
+          text-align: center;
+          width:50%;
+          padding-bottom: px2Rem(10px);
+          border-bottom: px2Rem(4px) solid #fff;
+        }
+        .onspan{
+          color:#FF5E5D;
+          border-color: #FF5E5D;
+        }
+      }
+      .listBox{
+        padding-top:px2Rem(30px);
+        .listItemBox{
+          .item{
+            display: flex;
+            margin-bottom: px2Rem(30px);
+            .itemL{
+              position: relative;
+              width:px2Rem(330px);
+              height:px2Rem(190px);
+              overflow: hidden;
+              .wzImg{
+                width:100%;
+                height:100%;
+              }
+              .isYuyue{
+                background:#FF5E5D ;
+                color:#fff;
+                font-size:px2Rem(20px);
+                position: absolute;
+                text-shadow: none;
+                padding:px2Rem(4px) px2Rem(30px);
+                transform:rotate(-45deg);
+                transform-origin: 52% 177%;
+              }
+              .isLove{
+                width:px2Rem(30px);
+                height:px2Rem(26px);
+                position: absolute;
+                right:px2Rem(10px);
+                bottom:px2Rem(20px);
+              }
+            }
+            .itemR{
+              margin-left:px2Rem(30px);
+              h3{font-size:px2Rem(30px);color:#101010;}
+              .itemR_con{
+                display: flex;
+                justify-content: space-between;
+                border-bottom: px2Rem(2px) solid #E5E5E5;
+                padding-bottom: px2Rem(8px);
+                dl{
+                  dt{
+                    color:#FF5E5D;
+                    font-size:px2Rem(26px);
+                    b{
+                      font-size:px2Rem(60px);
+                      font-weight: 600;
+                    }
+                  }
+                  dd{
+                    font-size:px2Rem(18px);
+                    color:#666;
+                    em{
+                      font-style: normal;
+                    }
+                  }
+                }
+                p{display: flex;align-items: flex-end;}
+                .doGet{
+                  font-size:px2Rem(22px);
+                  color:#fff;
+                  background:#FD233C ;
+                  text-align: center;
+                  text-shadow: none;
+                  width:px2Rem(130px);
+                  height:px2Rem(50px);
+                  font-weight: 100;
+                  line-height:px2Rem(50px) ;
+                  border-radius: px2Rem(6px);
+                }
+                .Geted{
+                  background: #999;
+                }
+              }
+              ._ad{
+                font-size: px2Rem(20px);
+                color:#101010;
+                line-height: px2Rem(32px);
+                padding-top:px2Rem(8px);
+                display: flex;
+                justify-content: space-between;
+                img{
+                  width:px2Rem(24px);
+                  height:px2Rem(32px);
+                }
+                ._adA{
+                  font-weight: 100;
+                  color:#101010;
+                  text-shadow: none;
+                  width:60%;
+                  height:px2Rem(32px);
+                  white-space:nowrap;
+                  overflow: hidden;
+                  text-overflow: ellipsis;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+#fcIndex_buy{
+  background: #eee;
+  .fcIndexBox{
+    padding:0;
+    padding-bottom:px2Rem(88px);
+    .fcTop{
+      padding:px2Rem(30px);
+      padding-bottom: 0px;
+      .fcCard{
+        border-radius: px2Rem(12px);
+        width:100%;
+        height:px2Rem(261px);
+        background: -webkit-linear-gradient(left, #FE2D04 , #FF5C3D); /* Safari 5.1 - 6.0 */
+        background: -o-linear-gradient(right, #FE2D04, #FF5C3D); /* Opera 11.1 - 12.0 */
+        background: -moz-linear-gradient(right, #FE2D04, #FF5C3D); /* Firefox 3.6 - 15 */
+        background: linear-gradient(to right, #FE2D04 , #FF5C3D);
+
+        -webkit-filter: grayscale(1);/* Webkit */
+        //filter:gray;/* IE6-9 */
+        filter: grayscale(1);/* W3C */
+        //opacity:0.6;
+        padding:px2Rem(20px);
+
+        box-sizing: border-box;
+        .fcCardTop{
+          display: flex;
+          justify-content: space-between;
+          .cardL{
+            height:px2Rem(82px);
+            text-shadow: none;
+            color:#fff;
+            dl{
+              display: flex;
+              align-items: center;
+              dd{margin-left: px2Rem(20px);font-size: px2Rem(36px);}
+            }
+          }
+          .cardR{
+            height:px2Rem(82px);
+            //display: flex;
+            padding-top:px2Rem(16px);
+            align-items: center;
+           // a{color:#fff;text-shadow: none;font-weight: 100;font-size: px2Rem(36px);}
+            .seeOthers{
+                text-shadow: none;
+                font-size:px2Rem(24px);
+                color:#fff;
+                font-weight: 100;
+                border:px2Rem(2px) solid #e5e5e5;
+                padding:px2Rem(4px) px2Rem(8px);
+            }
+            p{
+               padding-top:px2Rem(10px);
+               text-shadow: none;
+               color:#ADABAB;
+               font-size: px2Rem(18px);
+            }
+          }
+        }
+        .cardPag{
+          width:px2Rem(81px);
+          height:px2Rem(81px);
+        }
+        .cardTip{
+          color: #FDA79E;
+          padding-left: px2Rem(101px);
+          font-size: px2Rem(24px);
+          text-shadow: none;
+          margin-top:- px2Rem(10px);
+        }
+      }
+    }
+    .choseDateBox{
+      position: relative;
+      width:100%;
+      padding:0;
+      padding-top:px2Rem(100px);
+      margin-top: - px2Rem(100px);
+      //border-radius: px2Rem(0px) px2Rem(0px) px2Rem(100px) px2Rem(100px) ;
+      .riLi{
+        background: #fff;
+        .titDesc{
+            box-sizing: border-box;
+            padding-left:px2Rem(30px);
+            font-size:px2Rem(28px);
+            color:#313131;
+            padding-bottom: px2Rem(10px);
+        }
+        .desc{
+              border-top:px2Rem(2px) solid #E6E6E6;
+              box-sizing: border-box;
+              padding:px2Rem(30px);
+            p{
+              font-size:px2Rem(20px);
+              line-height: px2Rem(36px);
+              color:#666;
+            }
+        }
+      }
+    }
+    .choseDateBox:after{
+      position: absolute;
+      display: block;
+      content: " ";
+      padding:0;
+      padding-top:px2Rem(100px);
+      width:100%;
+      left:0;
+      top:0;
+      height:0;
+      background-image: url("../img/fiveOffCardImg/banyuan.png");
+      background-size: cover;
+    }
+    .showBox{
+      padding:px2Rem(30px);
+      background: #fff;
+      margin-top:px2Rem(10px);
+      .banTit{
+        border-bottom: px2Rem(2px) solid #e5e5e5;
+        padding-bottom: px2Rem(0px);
+        display: flex;
+        span{
+          font-size:px2Rem(28px);
+          color:#999;
+          display: inline-block;
+          text-align: center;
+          width:50%;
+          padding-bottom: px2Rem(10px);
+          border-bottom: px2Rem(4px) solid #fff;
+        }
+        .onspan{
+          color:#FF5E5D;
+          border-color: #FF5E5D;
+        }
+      }
+      .listBox{
+        .listItemBox{
+              padding-top:px2Rem(20px);
+
+              .cardTypeList{
+                     padding-bottom: px2Rem(20px);
+                    p{
+                       display: flex;
+                       justify-content: space-between;
+                       height:px2Rem(60px);
+                       line-height: px2Rem(60px);
+                       font-size:px2Rem(22px);
+                       .ctype{
+                           i{
+                              vertical-align: sub;
+                              display: inline-block;
+                              width:px2Rem(30px);
+                              height:px2Rem(30px);
+                              border:px2Rem(2px) solid #FF5E5D;
+                              border-radius: 50%;
+                              margin-right: px2Rem(10px);
+                              position: relative;
+                           }
+                           .ion:before{
+                             position: absolute;
+                             content: "";
+                             background:#FF5E5D ;
+                             border-radius: 50%;
+                             width:px2Rem(24px);
+                             height:px2Rem(24px);
+                             left:px2Rem(3px);
+                             top:px2Rem(3px);
+                           }
+                       }
+                    }
+              }
+              .fillBox{
+                     border-top:px2Rem(2px) solid #E6E6E6;
+                     padding-top:px2Rem(20px);
+                     input{
+                          outline: none;
+                     }
+                     div{
+                         height:px2Rem(60px);
+                         line-height: px2Rem(60px);
+                         padding:px2Rem(10px) 0px;
+                         padding-bottom: px2Rem(20px);
+                         display: flex;
+                         justify-content: space-between;
+                         p{
+                            font-size:px2Rem(24px);
+                             span{
+                               color:#666;
+                             }
+                             input{
+                               color:#999;
+                             }
+                         }
+                         .getYZM{
+                           display: inline-block;
+                           padding:0px px2Rem(18px);
+                           background:#FF5E5D ;
+                           border-radius: px2Rem(30px);
+                           color:#fff;
+                           font-weight: 100;
+                           text-shadow: none;
+                           font-size: px2Rem(18px);
+                         }
+                     }
+                     div:nth-of-type(2){
+                       border-top:px2Rem(2px) solid #E6E6E6;
+                     }
+              }
+        }
+      }
+    }
+    .isGree{
+      p{
+        text-align: center;
+        font-size:px2Rem(18px);
+        color:#999;
+        padding-top:px2Rem(10px);
+        a{
+           color:#666;
+           font-weight: 100;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+  .bot{
+       position: fixed;
+       left:0;
+       bottom:0;
+       width:100%;
+       height:px2Rem(88px);
+       background:#FF5E5D ;
+       a{
+          color:#fff;
+          text-shadow: none;
+          font-weight: 100;
+          font-size: px2Rem(36px);
+          width:100%;
+          height:100%;
+         justify-content: center;
+         display: flex;
+         align-items: center;
+       }
+  }
+}
+
+#fcIndex_xf{
+  background: #eee;
+  .fcIndexBox{
+    padding:0;
+    .fcTop{
+      padding:px2Rem(30px);
+      padding-bottom: 0px;
+      .fcCard{
+        border-radius: px2Rem(12px);
+        width:100%;
+        height:px2Rem(261px);
+        background: -webkit-linear-gradient(left, #FE2D04 , #FF5C3D); /* Safari 5.1 - 6.0 */
+        background: -o-linear-gradient(right, #FE2D04, #FF5C3D); /* Opera 11.1 - 12.0 */
+        background: -moz-linear-gradient(right, #FE2D04, #FF5C3D); /* Firefox 3.6 - 15 */
+        background: linear-gradient(to right, #FE2D04 , #FF5C3D);
+        padding:px2Rem(20px);
+        box-sizing: border-box;
+        .fcCardTop{
+          display: flex;
+          justify-content: space-between;
+          .cardL{
+            height:px2Rem(82px);
+            text-shadow: none;
+            color:#fff;
+            dl{
+              display: flex;
+              align-items: center;
+              dd{margin-left: px2Rem(20px);font-size: px2Rem(36px);}
+            }
+          }
+          .cardR{
+            padding-top: px2Rem(30px);
+            height:px2Rem(82px);
+            display: flex;
+            align-items: center;
+            //a{color:#fff;text-shadow: none;font-weight: 100;font-size: px2Rem(36px);}
+            .userLogo{
+              img{
+                width:px2Rem(70px);
+                height:px2Rem(70px);
+                border-radius: 50%;
+              }
+              dt{text-align: center}
+              dd{
+                font-size:px2Rem(18px);
+                text-shadow: none;
+                color:#fff;
+                text-align: center;
+                a{
+                  display: inline-block;
+                  color:#fff;
+                  text-shadow: none;
+                  font-weight: 100;
+                  border:px2Rem(2px) solid #fff;
+                  padding:px2Rem(6px) px2Rem(12px);
+                  border-radius: px2Rem(6px);
+                }
+              }
+            }
+          }
+        }
+        .cardPag{
+          width:px2Rem(81px);
+          height:px2Rem(81px);
+        }
+        .cardTip{
+          color: #FDA79E;
+          padding-left: px2Rem(101px);
+          font-size: px2Rem(24px);
+          text-shadow: none;
+          margin-top:- px2Rem(30px);
+        }
+        .cradTime{
+          color:#fff;
+          font-size: px2Rem(18px);
+          margin-top:0px;
+        }
+      }
+    }
+    .choseDateBox{
+      position: relative;
+      width:100%;
+      padding:0;
+      padding-top:px2Rem(100px);
+      margin-top: - px2Rem(100px);
+      //border-radius: px2Rem(0px) px2Rem(0px) px2Rem(100px) px2Rem(100px) ;
+      .riLi{
+        background: #fff;
+      }
+    }
+    .choseDateBox:after{
+      position: absolute;
+      display: block;
+      content: " ";
+      padding:0;
+      padding-top:px2Rem(100px);
+      width:100%;
+      left:0;
+      top:0;
+      height:0;
+      background-image: url("../img/fiveOffCardImg/banyuan.png");
+      background-size: cover;
+    }
+    .showBox{
+      padding:px2Rem(30px);
+      background: #fff;
+      .banTit{
+        border-bottom: px2Rem(2px) solid #e5e5e5;
+        padding-bottom: px2Rem(0px);
+        display: flex;
+        span{
+          font-size:px2Rem(34px);
+          color:#999;
+          display: inline-block;
+          text-align: center;
+          width:50%;
+          padding-bottom: px2Rem(10px);
+          border-bottom: px2Rem(4px) solid #fff;
+        }
+        .onspan{
+          color:#FF5E5D;
+          border-color: #FF5E5D;
+        }
+      }
+      .listBox{
+        padding-top:px2Rem(30px);
+        .listItemBox{
+          .item{
+            display: flex;
+            margin-bottom: px2Rem(30px);
+            .itemL{
+              position: relative;
+              width:px2Rem(330px);
+              height:px2Rem(190px);
+              overflow: hidden;
+              .wzImg{
+                width:100%;
+                height:100%;
+              }
+              .isYuyue{
+                background:#FF5E5D ;
+                color:#fff;
+                font-size:px2Rem(20px);
+                position: absolute;
+                text-shadow: none;
+                padding:px2Rem(4px) px2Rem(30px);
+                transform:rotate(-45deg);
+                transform-origin: 52% 177%;
+              }
+              .isLove{
+                width:px2Rem(30px);
+                height:px2Rem(26px);
+                position: absolute;
+                right:px2Rem(10px);
+                bottom:px2Rem(20px);
+              }
+            }
+            .itemR{
+              margin-left:px2Rem(30px);
+              h3{font-size:px2Rem(30px);color:#101010;}
+              .itemR_con{
+                display: flex;
+                justify-content: space-between;
+                border-bottom: px2Rem(2px) solid #E5E5E5;
+                padding-bottom: px2Rem(8px);
+                dl{
+                  dt{
+                    color:#FF5E5D;
+                    font-size:px2Rem(26px);
+                    b{
+                      font-size:px2Rem(60px);
+                      font-weight: 600;
+                    }
+                  }
+                  dd{
+                    font-size:px2Rem(18px);
+                    color:#666;
+                    em{
+                      font-style: normal;
+                    }
+                  }
+                }
+                p{display: flex;align-items: flex-end;}
+                .doGet{
+                  font-size:px2Rem(22px);
+                  color:#fff;
+                  background:#FD233C ;
+                  text-align: center;
+                  text-shadow: none;
+                  width:px2Rem(130px);
+                  height:px2Rem(50px);
+                  font-weight: 100;
+                  line-height:px2Rem(50px) ;
+                  border-radius: px2Rem(6px);
+                }
+                .Geted{
+                  background: #999;
+                }
+              }
+              ._ad{
+                font-size: px2Rem(20px);
+                color:#101010;
+                line-height: px2Rem(32px);
+                padding-top:px2Rem(8px);
+                display: flex;
+                justify-content: space-between;
+                img{
+                  width:px2Rem(24px);
+                  height:px2Rem(32px);
+                }
+                ._adA{
+                  font-weight: 100;
+                  color:#101010;
+                  text-shadow: none;
+                  width:60%;
+                  height:px2Rem(32px);
+                  white-space:nowrap;
+                  overflow: hidden;
+                  text-overflow: ellipsis;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+#fcIndex_buyXf{
+  background: #eee;
+  .fcIndexBox{
+    padding:0;
+    padding-bottom:px2Rem(88px);
+    .fcTop{
+      padding:px2Rem(30px);
+      padding-bottom: 0px;
+      .fcCard{
+        border-radius: px2Rem(12px);
+        width:100%;
+        height:px2Rem(261px);
+        background: -webkit-linear-gradient(left, #FE2D04 , #FF5C3D); /* Safari 5.1 - 6.0 */
+        background: -o-linear-gradient(right, #FE2D04, #FF5C3D); /* Opera 11.1 - 12.0 */
+        background: -moz-linear-gradient(right, #FE2D04, #FF5C3D); /* Firefox 3.6 - 15 */
+        background: linear-gradient(to right, #FE2D04 , #FF5C3D);
+
+        -webkit-filter: grayscale(1);/* Webkit */
+        //filter:gray;/* IE6-9 */
+        filter: grayscale(1);/* W3C */
+        //opacity:0.6;
+
+        padding:px2Rem(20px);
+        box-sizing: border-box;
+        .fcCardTop{
+          display: flex;
+          justify-content: space-between;
+          .cardL{
+            height:px2Rem(82px);
+            text-shadow: none;
+            color:#fff;
+            dl{
+              display: flex;
+              align-items: center;
+              dd{margin-left: px2Rem(20px);font-size: px2Rem(36px);}
+            }
+          }
+          .cardR{
+            padding-top: px2Rem(30px);
+            height:px2Rem(82px);
+            display: flex;
+            align-items: center;
+            //a{color:#fff;text-shadow: none;font-weight: 100;font-size: px2Rem(36px);}
+            .userLogo{
+              img{
+                width:px2Rem(70px);
+                height:px2Rem(70px);
+                border-radius: 50%;
+              }
+              dt{text-align: center}
+              dd{
+                font-size:px2Rem(18px);
+                text-shadow: none;
+                color:#fff;
+                text-align: center;
+              }
+            }
+          }
+        }
+        .cardPag{
+          width:px2Rem(81px);
+          height:px2Rem(81px);
+        }
+        .cardTip{
+          color: #FDA79E;
+          padding-left: px2Rem(101px);
+          font-size: px2Rem(24px);
+          text-shadow: none;
+          margin-top:- px2Rem(30px);
+        }
+        .cradTime{
+          color:#fff;
+          font-size: px2Rem(18px);
+          margin-top:0px;
+        }
+      }
+    }
+    .choseDateBox{
+      position: relative;
+      width:100%;
+      padding:0;
+      padding-top:px2Rem(100px);
+      margin-top: - px2Rem(100px);
+      //border-radius: px2Rem(0px) px2Rem(0px) px2Rem(100px) px2Rem(100px) ;
+      .riLi{
+        background: #fff;
+        .titDesc{
+          box-sizing: border-box;
+          padding-left:px2Rem(30px);
+          font-size:px2Rem(28px);
+          color:#313131;
+          padding-bottom: px2Rem(10px);
+        }
+        .desc{
+          border-top:px2Rem(2px) solid #E6E6E6;
+          box-sizing: border-box;
+          padding:px2Rem(30px);
+          p{
+            font-size:px2Rem(20px);
+            line-height: px2Rem(36px);
+            color:#666;
+          }
+        }
+      }
+    }
+    .choseDateBox:after{
+      position: absolute;
+      display: block;
+      content: " ";
+      padding:0;
+      padding-top:px2Rem(100px);
+      width:100%;
+      left:0;
+      top:0;
+      height:0;
+      background-image: url("../img/fiveOffCardImg/banyuan.png");
+      background-size: cover;
+    }
+    .showBox{
+      padding:px2Rem(30px);
+      background: #fff;
+      margin-top:px2Rem(10px);
+      .banTit{
+        border-bottom: px2Rem(2px) solid #e5e5e5;
+        padding-bottom: px2Rem(0px);
+        display: flex;
+        span{
+          font-size:px2Rem(28px);
+          color:#999;
+          display: inline-block;
+          text-align: center;
+          width:50%;
+          padding-bottom: px2Rem(10px);
+          border-bottom: px2Rem(4px) solid #fff;
+        }
+        .onspan{
+          color:#FF5E5D;
+          border-color: #FF5E5D;
+        }
+      }
+      .listBox{
+        .listItemBox{
+          padding-top:px2Rem(20px);
+
+          .cardTypeList{
+            padding-bottom: px2Rem(20px);
+            p{
+              display: flex;
+              justify-content: space-between;
+              height:px2Rem(60px);
+              line-height: px2Rem(60px);
+              font-size:px2Rem(22px);
+              .ctype{
+                i{
+                  vertical-align: sub;
+                  display: inline-block;
+                  width:px2Rem(30px);
+                  height:px2Rem(30px);
+                  border:px2Rem(2px) solid #FF5E5D;
+                  border-radius: 50%;
+                  margin-right: px2Rem(10px);
+                  position: relative;
+                }
+                .ion:before{
+                  position: absolute;
+                  content: "";
+                  background:#FF5E5D ;
+                  border-radius: 50%;
+                  width:px2Rem(24px);
+                  height:px2Rem(24px);
+                  left:px2Rem(3px);
+                  top:px2Rem(3px);
+                }
+              }
+            }
+          }
+          .fillBox{
+            border-top:px2Rem(2px) solid #E6E6E6;
+            padding-top:px2Rem(20px);
+            input{
+              outline: none;
+            }
+            div{
+              height:px2Rem(60px);
+              line-height: px2Rem(60px);
+              padding:px2Rem(10px) 0px;
+              padding-bottom: px2Rem(20px);
+              display: flex;
+              justify-content: space-between;
+              p{
+                font-size:px2Rem(24px);
+                span{
+                  color:#666;
+                }
+                input{
+                  color:#999;
+                }
+              }
+              .getYZM{
+                display: inline-block;
+                padding:0px px2Rem(18px);
+                background:#FF5E5D ;
+                border-radius: px2Rem(30px);
+                color:#fff;
+                font-weight: 100;
+                text-shadow: none;
+                font-size: px2Rem(18px);
+              }
+            }
+            div:nth-of-type(2){
+              border-top:px2Rem(2px) solid #E6E6E6;
+            }
+          }
+        }
+      }
+    }
+    .isGree{
+      p{
+        text-align: center;
+        font-size:px2Rem(18px);
+        color:#999;
+        padding-top:px2Rem(10px);
+        a{
+          color:#666;
+          font-weight: 100;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+  .bot{
+    position: fixed;
+    left:0;
+    bottom:0;
+    width:100%;
+    height:px2Rem(88px);
+    background:#FF5E5D ;
+    a{
+      color:#fff;
+      text-shadow: none;
+      font-weight: 100;
+      font-size: px2Rem(36px);
+      width:100%;
+      height:100%;
+      justify-content: center;
+      display: flex;
+      align-items: center;
+    }
+  }
+}
+
+#fcIndex_me{
+    .fcIndexBox{
+         padding:0;
+         .top_card{
+              background: #fff;
+              display: flex;
+              justify-content: space-between;
+              padding:px2Rem(30px);
+              .userInfo{
+                  display: flex;
+                  .userInfoL{
+                       margin-right: px2Rem(20px);
+                       dt{
+                          img{
+                              width:px2Rem(88px);
+                              height:px2Rem(88px);
+                              border-radius: 50%;
+                          }
+                         text-align: center;
+                         margin-bottom: px2Rem(10px);
+                       }
+                       dd{
+                          text-align: center;
+                          font-size: px2Rem(24px);
+                          color:#333;
+                       }
+                  }
+                  .userInfoR{
+                        dl{
+                            height:px2Rem(88px);
+                            margin-bottom: px2Rem(10px);
+                            padding-top:px2Rem(20px);
+                            box-sizing: border-box;
+                            dt{
+                               font-size:px2Rem(30px);
+                               color:#333;
+                            }
+                            dd{
+                               font-size:px2Rem(18px);
+                               color:#666;
+                            }
+                        }
+                        p{
+                           font-size:px2Rem(24px);
+                        }
+                  }
+              }
+              .goXf{
+                    display: flex;
+                    align-items:center;
+                     a{
+                        display: inline-block;
+                        font-size:px2Rem(24px);
+                        padding:px2Rem(12px) px2Rem(24px);
+                        background:#FF5E5D ;
+                        color:#fff;
+                        text-shadow: none;
+                        font-weight: 100;
+                        border-radius: px2Rem(12px);
+                     }
+              }
+         }
+         .fcMeCon{
+             margin-top:px2Rem(10px);
+             background: #fff;
+             box-sizing: border-box;
+             padding:px2Rem(30px);
+             .banTit{
+               border-bottom: px2Rem(2px) solid #e5e5e5;
+               padding-bottom: px2Rem(0px);
+               display: flex;
+               span{
+                 font-size:px2Rem(34px);
+                 color:#999;
+                 display: inline-block;
+                 text-align: center;
+                 width:50%;
+                 padding-bottom: px2Rem(10px);
+                 border-bottom: px2Rem(4px) solid #fff;
+               }
+               .onspan{
+                 color:#FF5E5D;
+                 border-color: #FF5E5D;
+               }
+             }
+             .cardListBox{
+                padding-top:px2Rem(20px);
+                .cardList{
+                     .item{
+                         display: flex;
+                         margin-bottom: px2Rem(20px);
+                         .itemL{
+                             display: flex;
+                             justify-content: center;
+                             align-items: center;
+                             width:px2Rem(216px);
+                             margin-right:px2Rem(10px);
+                             background-image: url("../img/fiveOffCardImg/jcbg.png");
+                             background-size: cover;
+                             dl{
+                                dt{
+                                   font-size: px2Rem(30px);
+                                   text-align: center;
+                                   text-shadow: none;
+                                   color:#fff;
+                                   b{
+                                     font-size: px2Rem(60px);
+                                   }
+                                }
+                               dd{
+                                   font-size: px2Rem(18px);
+                                   text-shadow: none;
+                                   color:#fff;
+                               }
+                             }
+                         }
+                       .itemR{
+                            padding:px2Rem(20px) px2Rem(30px) px2Rem(10px);
+                            background:#eee ;
+                            position: relative;
+                            overflow: hidden;
+                            dl{
+                                border-bottom: px2Rem(2px) dashed #ADABAB;
+                                padding-bottom: px2Rem(10px);
+                                dt{
+                                   font-size:px2Rem(28px);
+                                   color:#333;
+                                }
+                              dd{
+                                  margin-top: px2Rem(6px);
+                                 a{
+                                    text-shadow: none;
+                                    color:#FD233C;
+                                    font-size: px2Rem(18px);
+                                    font-weight: 100;
+                                    border:px2Rem(2px) solid #FD233C;
+                                    padding:px2Rem(0px) px2Rem(8px);
+                                    border-radius: px2Rem(4px);
+                                 }
+                              }
+                            }
+                           ._ad{
+                             font-size: px2Rem(20px);
+                             color:#101010;
+                             line-height: px2Rem(32px);
+                             padding-top:px2Rem(8px);
+                             display: flex;
+                             justify-content: space-between;
+                             img{
+                               width:px2Rem(24px);
+                               height:px2Rem(32px);
+                             }
+                             ._adA{
+                               font-weight: 100;
+                               color:#101010;
+                               text-shadow: none;
+                               width:60%;
+                               height:px2Rem(32px);
+                               white-space:nowrap;
+                               overflow: hidden;
+                               text-overflow: ellipsis;
+                             }
+                           }
+                           .isYuyue{
+                             background:#FF5E5D ;
+                             color:#fff;
+                             font-size:px2Rem(20px);
+                             position: absolute;
+                             right:- px2Rem(10px);
+                             top:- px2Rem(10px);
+                             text-shadow: none;
+                             padding:px2Rem(4px) px2Rem(60px);
+                             transform-origin:50% 262%;
+                             transform:rotate(45deg);
+
+                           }
+                       }
+                     }
+                     .gary{
+                       -webkit-filter: grayscale(1);/* Webkit */
+                       //filter:gray;/* IE6-9 */
+                       filter: grayscale(1);/* W3C */
+                       //opacity:0.6;
+                     }
+                }
+                .cardList1{
+                    .item{
+                         .itemR{
+                              dl{
+                                dd{
+                                   a{
+                                      color:#B3B3B3;
+                                      border-color: #B3B3B3;
+                                   }
+                                }
+                              }
+                              ._ad{
+                                 .red{
+                                   color:#B3B3B3;
+                                 }
+                              }
+                         }
+                    }
+                }
+               .cardList2{
+                 .item{
+                   .itemR{
+                     dl{
+                       dd{
+                         a{
+                           color:#B3B3B3;
+                           border-color: #B3B3B3;
+                         }
+                       }
+                     }
+                     ._ad{
+                       .red{
+                         color:#B3B3B3;
+                       }
+                     }
+                   }
+                 }
+               }
+             }
+         }
+    }
+}
+
+#fcIndex_Details{
+    .fcIndexBox{
+        padding:0;
+        .shopName{
+             box-sizing: border-box;
+             padding:px2Rem(30px);
+             padding-bottom: 0;
+             background: #fff;
+             h2{
+                font-size: px2Rem(36px);
+               display: inline-block;
+             }
+             a{
+                font-size: px2Rem(18px);
+                font-weight: 100;
+                text-shadow: none;
+                color:#FF5E5D;
+                margin-left:px2Rem(30px);
+             }
+             img{
+                 width:px2Rem(24px);
+                 height:px2Rem(24px);
+             }
+        }
+        .shop_adr{
+              display: flex;
+              padding:px2Rem(20px) px2Rem(30px) 0;
+              background: #fff;
+             div{
+                 display: flex;
+                 p{
+                    width:px2Rem(336px);
+                    font-size: px2Rem(24px);
+                    color:#313131;
+                 }
+               a{
+                 margin-right: px2Rem(24px);
+                 img{
+                   width:px2Rem(24px);
+                   height:px2Rem(32px);
+                 }
+               }
+             }
+             .phone{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width:px2Rem(50px);
+                height:px2Rem(50px);
+                border:px2Rem(2px) solid #FF5E5D;
+                border-radius: 50%;
+                margin-left:px2Rem(30px);
+                img{
+                    width:px2Rem(24px);
+                    height:px2Rem(22px);
+                }
+             }
+        }
+        .zheInfo{
+              background: #fff;
+              box-sizing: border-box;
+              padding:0 px2Rem(30px);
+             .zhe{
+                     font-size: px2Rem(24px);
+                 em{
+                     font-size:px2Rem(60px);
+                     font-style: normal;
+                     color:#FF5E5D;
+                 }
+             }
+             .rNum{
+                   font-size: px2Rem(18px);
+                   padding:px2Rem(2px) px2Rem(10px);
+                   display: inline-block;
+                   border:px2Rem(2px) solid #FF5E5D;
+                   border-radius: px2Rem(4px);
+                   margin:0 px2Rem(20px)
+             }
+             .tot{
+                  font-size: px2Rem(24px);
+                  color:#999;
+             }
+        }
+        .shopTuiJian{
+              box-sizing: border-box;
+              padding:px2Rem(10px) px2Rem(30px) 0;
+              background: #fff;
+             .topTit{
+                   display: flex;
+                   align-items: center;
+                   justify-content: center;
+                   position: relative;
+                   height:px2Rem(60px);
+                   p{
+                      height:px2Rem(2px);
+                      background:#E5E5E5;
+                      width:100%;
+                      display: inline-block;
+                   }
+                   span{
+                       position: absolute;
+                       background: #fff;
+                       padding:px2Rem(2px) px2Rem(20px);
+                       color:#333;
+                       font-size: px2Rem(28px);
+                   }
+             }
+             .TJList{
+                   width:100%;
+                   overflow: hidden;
+                   .TJListItem{
+                        display: flex;
+                        text-shadow: none;
+                        overflow: auto;
+                        dl{
+                           width:px2Rem(200px);
+                           margin-right:px2Rem(20px);
+                           dt{
+                              position: relative;
+                              width:px2Rem(200px);
+                              img{
+                                  width:100%;
+                                  height:px2Rem(200px);
+                              }
+                             p{
+                                text-shadow: none;
+                                position:absolute ;
+                                left:0;
+                                bottom:0;
+                                background: rgba(0,0,0,.4);
+                                height:px2Rem(30px);
+                                width:100%;
+                                font-size: px2Rem(18px);
+                                color:#fff;
+                                text-align: center;
+                                line-height: px2Rem(30px);
+                                img{
+                                    width:px2Rem(20px);
+                                    height:px2Rem(20px);
+                                    vertical-align: inherit;
+                                }
+                             }
+                           }
+                           dd{
+                              width:100%;
+                              text-shadow: none;
+                              text-align: center;
+                              font-size: px2Rem(24px);
+                              color:#333;
+                              margin-top:px2Rem(10px)
+                           }
+                        }
+                   }
+             }
+
+
+        }
+        .shopMd{
+        box-sizing: border-box;
+        padding:px2Rem(10px) px2Rem(30px) 0;
+        background: #fff;
+        margin-top:px2Rem(10px);
+        .topTit{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          position: relative;
+          height:px2Rem(60px);
+          p{
+            height:px2Rem(2px);
+            background:#E5E5E5;
+            width:100%;
+          }
+          span{
+            position: absolute;
+            background: #fff;
+            padding:px2Rem(2px) px2Rem(20px);
+            color:#333;
+            font-size: px2Rem(28px);
+          }
+        }
+        .mdList{
+             width:100%;
+             overflow: hidden;
+             .mdListItem{
+                width:100%;
+                display: flex;
+                overflow: auto;
+               dl{
+                  margin-right:px2Rem(20px);
+                  dt{
+                      width:px2Rem(280px);
+                      height:px2Rem(213px);
+                      img{
+                          width:100%;
+                          height:100%;
+                      }
+                  }
+               }
+             }
+        }
+      }
+        .yhInfo{
+             background: #fff;
+             margin-top:px2Rem(10px);
+             .topTit{
+                   text-align: center;
+                   font-size: px2Rem(30px);
+                   color:#313131;
+                   padding:px2Rem(20px) px2Rem(30px);
+                   box-sizing: border-box;
+                   img{
+                       width:px2Rem(27px);
+                       height:px2Rem(29px);
+                       margin-right:px2Rem(10px);
+                   }
+                   p{
+                      border-bottom: px2Rem(2px) solid #e5e5e5;
+                      padding-bottom: px2Rem(20px);
+
+                   }
+             }
+             .zhu{
+                 box-sizing: border-box;
+                 padding:0 px2Rem(30px);
+                 font-size: px2Rem(18px);
+                 color:#666;
+                 padding-bottom: px2Rem(20px);
+             }
+             .yhInfoList{
+                 dl{
+                    img{
+                        width:100%;
+                    }
+                   dd{
+                      color:#666;
+                      font-size:px2Rem(24px);
+                      padding:px2Rem(10px);
+                      padding-bottom: px2Rem(20px);
+                   }
+                 }
+             }
+        }
+    }
+}
