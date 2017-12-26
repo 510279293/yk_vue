@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
+    <link rel="stylesheet" href="../css/mescroll.css">
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+
+<body>
+<!--标题-->
+<section id="car_applyRecord">
+    <section class="list_tit">
+        申请列表
+    </section>
+        <!--滑动区域-->
+        <div id="mescroll" class="mescroll">
+            <section class="listBox" >
+                <section id="newsList" class="news-list">
+                    <section class="item">
+                        <section class="item_L">
+                            <section class="font16"><span>张三 </span> <span>1569558888</span></section>
+                            <section>
+                                <p>深圳市 福田区</p>
+                                <p>2017-12-22  16:19:22</p>
+                            </section>
+                        </section>
+                        <section class="item_R">
+                            <p class="color_org">待发货</p>
+                            <p class="cancel_css tripopBtn">取消订单</p>
+                        </section>
+                    </section>
+                    <section class="item">
+                        <section class="item_L">
+                            <section class="font16"><span>张三 </span> <span>1569558888</span></section>
+                            <section>
+                                <p>深圳市 福田区</p>
+                                <p>2017-12-22  16:19:22</p>
+                            </section>
+                        </section>
+                        <section class="item_R">
+                            <p class="color_org">已发货</p>
+                            <p class="success_css tripopBtn">确认收货</p>
+                        </section>
+                    </section>
+                    <section class="item">
+                        <section class="item_L">
+                            <section class="font16"><span>张三 </span> <span>1569558888</span></section>
+                            <section>
+                                <p>深圳市 福田区</p>
+                                <p>2017-12-22  16:19:22</p>
+                            </section>
+                        </section>
+                        <section class="item_R">
+                            <p class="color_org">确认收货</p>
+                            <p class="cancel_css tripopBtn">订单完成</p>
+                        </section>
+                    </section>
+                    <section class="item">
+                        <section class="item_L">
+                            <section class="font16"><span>张三 </span> <span>1569558888</span></section>
+                            <section>
+                                <p>深圳市 福田区</p>
+                                <p>2017-12-22  16:19:22</p>
+                            </section>
+                        </section>
+                        <section class="item_R">
+                            <p class="color_org"> &nbsp;</p>
+                            <p class="cancel_css tripopBtn">已取消</p>
+                        </section>
+                    </section>
+                    <section class="item">
+                        <section class="item_L">
+                            <section class="font16"><span>张三 </span> <span>1569558888</span></section>
+                            <section>
+                                <p>深圳市 福田区</p>
+                                <p>2017-12-22  16:19:22</p>
+                            </section>
+                        </section>
+                        <section class="item_R">
+                            <p class="color_org">待发货</p>
+                            <p class="cancel_css tripopBtn">取消订单</p>
+                        </section>
+                    </section>
+                    <section class="item">
+                        <section class="item_L">
+                            <section class="font16"><span>张三 </span> <span>1569558888</span></section>
+                            <section>
+                                <p>深圳市 福田区</p>
+                                <p>2017-12-22  16:19:22</p>
+                            </section>
+                        </section>
+                        <section class="item_R">
+                            <p class="color_org">已发货</p>
+                            <p class="success_css tripopBtn">确认收货</p>
+                        </section>
+                    </section>
+                    <section class="item">
+                        <section class="item_L">
+                            <section class="font16"><span>张三 </span> <span>1569558888</span></section>
+                            <section>
+                                <p>深圳市 福田区</p>
+                                <p>2017-12-22  16:19:22</p>
+                            </section>
+                        </section>
+                        <section class="item_R">
+                            <p class="color_org">确认收货</p>
+                            <p class="cancel_css tripopBtn">订单完成</p>
+                        </section>
+                    </section>
+                    <section class="item">
+                        <section class="item_L">
+                            <section class="font16"><span>张三 </span> <span>1569558888</span></section>
+                            <section>
+                                <p>深圳市 福田区</p>
+                                <p>2017-12-22  16:19:22</p>
+                            </section>
+                        </section>
+                        <section class="item_R">
+                            <p class="color_org"> &nbsp;</p>
+                            <p class="cancel_css tripopBtn">已取消</p>
+                        </section>
+                    </section>
+                </section>
+
+            </section>
+
+            <!--成功弹窗-->
+            <section class="pop">
+                <section class="alert_body">
+                    <section class="bord-t alert_b">取消订单成功!</section>
+                    <section class="alert_sureBtn">确定</section>
+                </section>
+            </section>
+        </div>
+    <section class="no-result" style="display: none;">
+        暂无申请记录
+    </section>
+    <section class="bot">
+        <section class="car_applyBtn">申请挪车贴</section>
+    </section>
+</section>
+</body>
+
+<script src="../js/mescroll.min.js" type="text/javascript" charset="utf-8"></script>
+<!--mescroll本身不依赖jq,这里为了模拟发送ajax请求-->
+<script src="../js/jquery-2.0.3.min.js"></script>
+<script src="../js/zepto.min.js"></script>
+<script src="../js/flexible.js"></script>
+<script src="../js/ft-carousel.min.js"></script>
+
+<script type="text/javascript" charset="utf-8">
+    $(function(){
+        //创建MeScroll对象
+        var mescroll = new MeScroll("mescroll", {
+            down: {
+                auto: false, //是否在初始化完毕之后自动执行下拉回调callback; 默认true
+                callback: downCallback //下拉刷新的回调
+            },
+            up: {
+                auto: true, //是否在初始化时以上拉加载的方式自动加载第一页数据; 默认false
+                callback: upCallback //上拉回调,此处可简写; 相当于 callback: function (page) { upCallback(page); }
+            }
+        });
+
+        /*下拉刷新的回调 */
+        function downCallback(){
+            //联网加载数据
+            getListDataFromNet(0, 1, function(data){
+                //联网成功的回调,隐藏下拉刷新的状态
+                mescroll.endSuccess();
+                //设置列表数据
+                setListData(data, false);
+            }, function(){
+                //联网失败的回调,隐藏下拉刷新的状态
+                mescroll.endErr();
+            });
+        }
+
+        /*上拉加载的回调 page = {num:1, size:10}; num:当前页 从1开始, size:每页数据条数 */
+        function upCallback(page){
+            //联网加载数据
+            //console.log("page.num="+page.num);
+            console.log('up');
+            getListDataFromNet(page.num, page.size, function(data){
+                //联网成功的回调,隐藏下拉刷新和上拉加载的状态;
+                mescroll.endSuccess(data.length);//传参:数据的总数; mescroll会自动判断列表如果无任何数据,则提示空;列表无下一页数据,则提示无更多数据;
+                //设置列表数据
+                setListData(data, true);
+            }, function(){
+                //联网失败的回调,隐藏下拉刷新和上拉加载的状态;
+                mescroll.endErr();
+            });
+        }
+
+
+        /*设置列表数据*/
+        function setListData(data, isAppend) {
+            var listDom=document.getElementById("newsList");
+            console.log(data);
+            for (var i = 0; i < data.length; i++) {
+                var newObj=data[i];
+                var str='<section class="item">'
+                        +'<section class="item_L">'
+                        +'<section class="font16"><span>'+newObj.name+'</span> <span>'+newObj.tel+'</span></section>'
+                        +'<section>'
+                        +'<p>'+newObj.addr+'</p>'
+                        +'<p>'+newObj.time+'</p>'
+                        +'</section>'
+                        +'</section>'
+                        +'<section class="item_R">'
+                        +'<p class="color_org">'+newObj.statustit+'</p>'
+                        +'<p class="cancel_css tripopBtn">'+newObj.status+'</p>'
+                        +'</section>'
+                        +'</section>';
+                var liDom=$(str)[0];
+                //liDom.innerHTML=str;
+
+                if (isAppend) {
+                    listDom.appendChild(liDom);//加在列表的后面,上拉加载
+                } else{
+                    listDom.insertBefore(liDom, listDom.firstChild);//加在列表的前面,下拉刷新
+                }
+            }
+        }
+
+        /*联网加载列表数据*/
+        var downIndex=0;
+        function getListDataFromNet(pageNum,pageSize,successCallback,errorCallback) {
+            //延时一秒,模拟联网
+            setTimeout(function () {
+                try{
+                    var newArr=[];
+                    if(pageNum==0){
+                        //此处模拟下拉刷新返回的数据
+                        downIndex++;
+                        var newObj={name:"李四",tel:"1383838438",addr:"深圳市 福田区",time:"2017-12-22 16:19:22",statustit:"确认收货",status:"订单完成"};
+                        newArr.push(newObj);
+                    }else{
+                        //此处模拟上拉加载返回的数据
+                        for (var i = 0; i < pageSize; i++) {
+                            var upIndex=(pageNum-1)*pageSize+i+1;
+                            var newObj={name:"李四",tel:"1383838438",addr:"深圳市 福田区",time:"2017-12-22 16:19:22",statustit:"确认收货",status:"订单完成"};
+                            newArr.push(newObj);
+                        }
+                    }
+                   // console.log(newArr);
+                    //联网成功的回调
+                    successCallback&&successCallback(newArr);
+                }catch(e){
+                    //联网失败的回调
+                    errorCallback&&errorCallback();
+                }
+            },1000)
+        }
+
+        //禁止PC浏览器拖拽图片,避免与下拉刷新冲突;如果仅在移动端使用,可删除此代码
+        document.ondragstart=function() {return false;}
+    });
+
+    $(".tripopBtn").bind('click',function(){
+        $(".pop").show();
+    })
+    $(".alert_sureBtn").bind('click',function(){
+        $(".pop").hide();
+    })
+    $(".car_applyBtn").bind('click',function(){
+        window.location.href='ykcar_apply.html';
+    })
+</script>
+
+</html>

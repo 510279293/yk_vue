@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1,minimum-scale=1,user-scalable=no">
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="black" name="apple-mobile-web-app-status-bar-style" />
+    <meta content="telephone=no" name="format-detection" />
+    <title>深圳车主网</title>
+    <link rel="stylesheet" href="../css/ft-carousel.css">
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+  <section id="car_apply">
+       <section class="topTit">
+             申请挪车贴
+       </section>
+       <section class="fillTip color_org">
+            *请认真填写信息,以免无法收到挪车卡!
+       </section>
+       <section class="filBox">
+           <section class="bord-t"><span>姓名</span><input type="text" placeholder="请输入您的姓名"></section>
+           <section class="bord-t"><span>电话</span><input type="text" placeholder="请输入您的电话号码"></section>
+           <section class="bord-t"><span>地区</span><input class="color_block" readonly type="text" placeholder="" value="广东 深圳"></section>
+           <section ><span>详细地址</span><input type="text" placeholder="请输入您的详细地址"></section>
+       </section>
+       <section class="zhu"><span class="color_org">注 : </span>每人最多申请<span class="color_org">10</span>张挪车卡.</section>
+
+       <section class="bot">
+           <section class="submitBtn">提交</section>
+       </section>
+      <!--成功弹窗-->
+       <section class="pop">
+            <section class="alert_body">
+                <section class="bord-t alert_b">申请成功,请耐心等待发货哦!</section>
+                <section class="alert_sureBtn">确定</section>
+            </section>
+       </section>
+  </section>
+</body>
+<script src="../js/jquery-2.0.3.min.js"></script>
+<script src="../js/zepto.min.js"></script>
+<script src="../js/flexible.js"></script>
+<script src="../js/ft-carousel.min.js"></script>
+<script>
+    $(".submitBtn").bind("click",function(){
+       $(".pop").show();
+    })
+    $(".alert_sureBtn").bind('click',function(){
+        $(".pop").hide();
+        window.location.href='ykcar_applyRecord.html';
+    })
+</script>
+</html>
