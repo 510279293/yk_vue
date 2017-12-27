@@ -530,6 +530,8 @@ input {
   #car_set .car_setBody .disflex {
     padding: 6px 0px;
     min-height: 30px; }
+#car_set #startT, #car_set #endT {
+  width: 50px; }
 
 #car_noticeSuccess {
   width: 100%;
@@ -627,5 +629,38 @@ input {
       top: 45%;
       width: 15%;
       animation: colundMove 30s linear infinite; }
+
+#car_detailInfo {
+  width: 100%;
+  height: 100%; }
+  #car_detailInfo .LBBox {
+    height: 30%; }
+  #car_detailInfo .msg_Box {
+    display: flex;
+    flex-wrap: wrap; }
+    #car_detailInfo .msg_Box span {
+      display: inline-block;
+      border: 1px solid #c1c1c1;
+      color: #c1c1c1;
+      padding: 6px 10px;
+      border-radius: 20px;
+      font-size: 14px;
+      margin: 10px; }
+    #car_detailInfo .msg_Box .on {
+      border-color: #ff6633;
+      color: #ff6633; }
+  #car_detailInfo .bot {
+    position: fixed;
+    width: 100%;
+    bottom: 40px; }
+    #car_detailInfo .bot .sureBtn {
+      width: 66%;
+      background: #ff6633;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+      margin: 0 auto;
+      border-radius: 30px;
+      font-size: 16px; }
 
 /*# sourceMappingURL=index.css.map */
