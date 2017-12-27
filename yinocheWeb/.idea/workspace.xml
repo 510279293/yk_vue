@@ -1,0 +1,945 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/css/index.scss" line="295" mnemonic="3" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="58b841a2-d7a7-47e0-85ac-aee9096189ba" name="Default" comment="" />
+    <ignored path="yinocheMobile.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="yinocheMobile" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="ykcar_noticeSuccess.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/ykcar_noticeSuccess.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="26" column="48" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ykcar_apply.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/ykcar_apply.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="43" column="48" selection-start-line="43" selection-start-column="48" selection-end-line="43" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ykcar_applyRecord.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/ykcar_applyRecord.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="133" column="69" selection-start-line="133" selection-start-column="69" selection-end-line="133" selection-end-column="69" />
+              <folding>
+                <element signature="n#section#1;n#section#0;n#section#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#section#2;n#section#0;n#section#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#section#3;n#section#0;n#section#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#section#4;n#section#0;n#section#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#section#5;n#section#0;n#section#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#section#6;n#section#0;n#section#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#section#7;n#section#0;n#section#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#section#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1514196349183" expanded="true" signature="8535:8586" placeholder="..." />
+                <marker date="1514196349183" expanded="true" signature="8535:8587" placeholder="..." />
+                <marker date="1514196349183" expanded="true" signature="8535:8704" placeholder="..." />
+                <marker date="1514196349183" expanded="true" signature="8535:8705" placeholder="..." />
+                <marker date="1514196349183" expanded="true" signature="8535:8741" placeholder="..." />
+                <marker date="1514196349183" expanded="true" signature="8535:8742" placeholder="..." />
+                <marker date="1514196349183" expanded="true" signature="8535:8791" placeholder="..." />
+                <marker date="1514196349183" expanded="true" signature="8535:8792" placeholder="..." />
+                <marker date="1514196349183" expanded="true" signature="8535:8841" placeholder="..." />
+                <marker date="1514196349183" expanded="true" signature="8535:8842" placeholder="..." />
+                <marker date="1514196349183" expanded="true" signature="8535:8879" placeholder="..." />
+                <marker date="1514196349183" expanded="true" signature="8535:8880" placeholder="..." />
+                <marker date="1514196349183" expanded="true" signature="8535:8917" placeholder="..." />
+                <marker date="1514196349183" expanded="true" signature="8535:8918" placeholder="..." />
+                <marker date="1514196349183" expanded="true" signature="8535:8919" placeholder="..." />
+                <marker date="1514196349183" expanded="true" signature="8535:8969" placeholder="..." />
+                <marker date="1514196349183" expanded="true" signature="8535:8970" placeholder="..." />
+                <marker date="1514196349183" expanded="true" signature="8535:9042" placeholder="..." />
+                <marker date="1514196349183" expanded="true" signature="8535:9043" placeholder="..." />
+                <marker date="1514196349183" expanded="true" signature="8535:9044" placeholder="..." />
+                <marker date="1514196349183" expanded="true" signature="8535:9124" placeholder="..." />
+                <marker date="1514196349183" expanded="true" signature="8535:9125" placeholder="..." />
+                <marker date="1514196349183" expanded="true" signature="8535:9162" placeholder="..." />
+                <marker date="1514196349183" expanded="true" signature="8535:9163" placeholder="..." />
+                <marker date="1514196349183" expanded="true" signature="8535:9200" placeholder="..." />
+                <marker date="1514196349183" expanded="true" signature="8587:8645" placeholder="..." />
+                <marker date="1514196349183" expanded="true" signature="8587:8704" placeholder="..." />
+                <marker date="1514196349183" expanded="true" signature="8742:8773" placeholder="..." />
+                <marker date="1514196349183" expanded="true" signature="8742:8791" placeholder="..." />
+                <marker date="1514196349183" expanded="true" signature="8970:9019" placeholder="..." />
+                <marker date="1514196349183" expanded="true" signature="8970:9042" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ykcar_bind.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/ykcar_bind.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="112" column="0" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
+              <folding>
+                <element signature="n#style#0;n#input#0;n#p#0;n#section#0;n#section#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ykcar_set.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/ykcar_set.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-20.285715">
+              <caret line="41" column="7" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/index.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="590" column="18" selection-start-line="590" selection-start-column="18" selection-end-line="590" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LCalendar.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/LCalendar.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.25443038">
+              <caret line="717" column="64" selection-start-line="717" selection-start-column="64" selection-end-line="717" selection-end-column="64" />
+              <folding>
+                <marker date="1514355409451" expanded="true" signature="8551:10294" placeholder="..." />
+                <marker date="1514355409451" expanded="true" signature="8830:10246" placeholder="..." />
+                <marker date="1514355409451" expanded="true" signature="13911:14859" placeholder="..." />
+                <marker date="1514355409451" expanded="true" signature="14190:14828" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LCalendar.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/LCalendar.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ykcar_moveRecord.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/ykcar_moveRecord.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="114" column="34" selection-start-line="114" selection-start-column="34" selection-end-line="114" selection-end-column="34" />
+              <folding>
+                <element signature="n#section#1;n#section#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <marker date="1514188846392" expanded="true" signature="5209:5260" placeholder="..." />
+                <marker date="1514188846392" expanded="true" signature="5209:5261" placeholder="..." />
+                <marker date="1514188846392" expanded="true" signature="5209:5353" placeholder="..." />
+                <marker date="1514188846392" expanded="true" signature="5209:5354" placeholder="..." />
+                <marker date="1514188846392" expanded="true" signature="5209:5391" placeholder="..." />
+                <marker date="1514188846392" expanded="true" signature="5209:5392" placeholder="..." />
+                <marker date="1514188846392" expanded="true" signature="5209:5393" placeholder="..." />
+                <marker date="1514188846392" expanded="true" signature="5209:5443" placeholder="..." />
+                <marker date="1514188846392" expanded="true" signature="5209:5444" placeholder="..." />
+                <marker date="1514188846392" expanded="true" signature="5209:5445" placeholder="..." />
+                <marker date="1514188846392" expanded="true" signature="5209:5478" placeholder="..." />
+                <marker date="1514188846392" expanded="true" signature="5209:5500" placeholder="..." />
+                <marker date="1514188846392" expanded="true" signature="5209:5501" placeholder="..." />
+                <marker date="1514188846392" expanded="true" signature="5209:5538" placeholder="..." />
+                <marker date="1514188846392" expanded="true" signature="5209:5548" placeholder="..." />
+                <marker date="1514188846392" expanded="true" signature="5261:5299" placeholder="..." />
+                <marker date="1514188846392" expanded="true" signature="5261:5332" placeholder="..." />
+                <marker date="1514188846392" expanded="true" signature="5261:5353" placeholder="..." />
+                <marker date="1514188846392" expanded="true" signature="5539:5548" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ykcar_detailInfo.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/ykcar_detailInfo.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Sass File" />
+        <option value="Less File" />
+        <option value="SCSS File" />
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/css/index.sass" />
+        <option value="$PROJECT_DIR$/css/index.css.map" />
+        <option value="$PROJECT_DIR$/css/index.less" />
+        <option value="$PROJECT_DIR$/css/refeash.css.scss" />
+        <option value="$PROJECT_DIR$/css/freash.css" />
+        <option value="$PROJECT_DIR$/html/list-news.html" />
+        <option value="$PROJECT_DIR$/html/ykcar_noticeSuccess.html" />
+        <option value="$PROJECT_DIR$/html/index.html" />
+        <option value="$PROJECT_DIR$/html/ykcar_bind.html" />
+        <option value="$PROJECT_DIR$/html/ykcar_applyRecord1.html" />
+        <option value="$PROJECT_DIR$/html/ykcar_moveRecord.html" />
+        <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/html/ykcar_apply.html" />
+        <option value="$PROJECT_DIR$/html/ykcar_applyRecord.html" />
+        <option value="$PROJECT_DIR$/webpack.config.js" />
+        <option value="$PROJECT_DIR$/html/ykcar_detailInfo.html" />
+        <option value="$PROJECT_DIR$/css/index.scss" />
+        <option value="$PROJECT_DIR$/html/ykcar_set.html" />
+        <option value="$PROJECT_DIR$/js/LCalendar.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="133" />
+    <option name="y" value="87" />
+    <option name="width" value="1661" />
+    <option name="height" value="981" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yinocheMobile" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yinocheMobile" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yinocheMobile" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yinocheMobile" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yinocheMobile" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yinocheMobile" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yinocheMobile" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yinocheMobile" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yinocheMobile" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js-jscs-nodeInterpreter" value="E:\Node\node.exe" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\yinocheMobile\css" />
+      <recent name="E:\yinocheMobile\js" />
+      <recent name="E:\yinocheMobile\res" />
+      <recent name="E:\yinocheMobile\html" />
+      <recent name="E:\公司项目\yinocheMobile\js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\yinocheMobile\res" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="58b841a2-d7a7-47e0-85ac-aee9096189ba" name="Default" comment="" />
+      <created>1513827048137</created>
+      <option name="number" value="Default" />
+      <updated>1513827048137</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="133" y="87" width="1661" height="981" extended-state="1" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2538509" sideWeight="0.70553595" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32470587" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3164706" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2538509" sideWeight="0.29446408" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.05945946" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/html/ykcar_moveRecord.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="114" column="34" selection-start-line="114" selection-start-column="34" selection-end-line="114" selection-end-column="34" />
+          <folding>
+            <element signature="n#section#1;n#section#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <marker date="1514188846392" expanded="true" signature="5209:5260" placeholder="..." />
+            <marker date="1514188846392" expanded="true" signature="5209:5261" placeholder="..." />
+            <marker date="1514188846392" expanded="true" signature="5209:5353" placeholder="..." />
+            <marker date="1514188846392" expanded="true" signature="5209:5354" placeholder="..." />
+            <marker date="1514188846392" expanded="true" signature="5209:5391" placeholder="..." />
+            <marker date="1514188846392" expanded="true" signature="5209:5392" placeholder="..." />
+            <marker date="1514188846392" expanded="true" signature="5209:5393" placeholder="..." />
+            <marker date="1514188846392" expanded="true" signature="5209:5443" placeholder="..." />
+            <marker date="1514188846392" expanded="true" signature="5209:5444" placeholder="..." />
+            <marker date="1514188846392" expanded="true" signature="5209:5445" placeholder="..." />
+            <marker date="1514188846392" expanded="true" signature="5209:5478" placeholder="..." />
+            <marker date="1514188846392" expanded="true" signature="5209:5500" placeholder="..." />
+            <marker date="1514188846392" expanded="true" signature="5209:5501" placeholder="..." />
+            <marker date="1514188846392" expanded="true" signature="5209:5538" placeholder="..." />
+            <marker date="1514188846392" expanded="true" signature="5209:5548" placeholder="..." />
+            <marker date="1514188846392" expanded="true" signature="5261:5299" placeholder="..." />
+            <marker date="1514188846392" expanded="true" signature="5261:5332" placeholder="..." />
+            <marker date="1514188846392" expanded="true" signature="5261:5353" placeholder="..." />
+            <marker date="1514188846392" expanded="true" signature="5539:5548" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/ykcar_detailInfo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="386" column="42" selection-start-line="386" selection-start-column="42" selection-end-line="386" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/ykcar_apply.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="73" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/carbg.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="124" column="22" selection-start-line="124" selection-start-column="22" selection-end-line="124" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/iscroll.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/ykcar_apply.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="53" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/ykcar_bind.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+          <folding>
+            <element signature="n#style#0;n#input#0;n#p#0;n#section#0;n#section#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/ykcar_moveRecord.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#section#1;n#section#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <marker date="1514188846392" expanded="true" signature="5209:5260" placeholder="..." />
+            <marker date="1514188846392" expanded="true" signature="5209:5261" placeholder="..." />
+            <marker date="1514188846392" expanded="true" signature="5209:5353" placeholder="..." />
+            <marker date="1514188846392" expanded="true" signature="5209:5354" placeholder="..." />
+            <marker date="1514188846392" expanded="true" signature="5209:5391" placeholder="..." />
+            <marker date="1514188846392" expanded="true" signature="5209:5392" placeholder="..." />
+            <marker date="1514188846392" expanded="true" signature="5209:5393" placeholder="..." />
+            <marker date="1514188846392" expanded="true" signature="5209:5443" placeholder="..." />
+            <marker date="1514188846392" expanded="true" signature="5209:5444" placeholder="..." />
+            <marker date="1514188846392" expanded="true" signature="5209:5445" placeholder="..." />
+            <marker date="1514188846392" expanded="true" signature="5209:5478" placeholder="..." />
+            <marker date="1514188846392" expanded="true" signature="5209:5500" placeholder="..." />
+            <marker date="1514188846392" expanded="true" signature="5209:5501" placeholder="..." />
+            <marker date="1514188846392" expanded="true" signature="5209:5538" placeholder="..." />
+            <marker date="1514188846392" expanded="true" signature="5209:5548" placeholder="..." />
+            <marker date="1514188846392" expanded="true" signature="5261:5299" placeholder="..." />
+            <marker date="1514188846392" expanded="true" signature="5261:5332" placeholder="..." />
+            <marker date="1514188846392" expanded="true" signature="5261:5353" placeholder="..." />
+            <marker date="1514188846392" expanded="true" signature="5539:5548" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/ft-carousel.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="456" column="0" selection-start-line="456" selection-start-column="0" selection-end-line="456" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/flexible.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery-2.0.3.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="53" column="20" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/ft-carousel.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/ft-carousel.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="26" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="131" column="0" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/zepto.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/flexible.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/zepto.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/zepto.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/我的文档/Documents/Tencent Files/510279293/FileRecv/组-9@2x.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery-2.0.3.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/ft-carousel.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="485" column="0" selection-start-line="485" selection-start-column="0" selection-end-line="485" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/car.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/carbg.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/ncLog.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/iscroll.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/mescroll.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.6785714">
+          <caret line="8" column="2746" selection-start-line="8" selection-start-column="2746" selection-end-line="8" selection-end-column="2746" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/mescroll.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.75">
+          <caret line="87" column="18" selection-start-line="87" selection-start-column="18" selection-end-line="88" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/ft-carousel.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="26" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/flexible.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="203" selection-start-line="0" selection-start-column="203" selection-end-line="0" selection-end-column="203" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.75">
+          <caret line="60" column="43" selection-start-line="60" selection-start-column="43" selection-end-line="60" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/ykcar_apply.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="43" column="48" selection-start-line="43" selection-start-column="48" selection-end-line="43" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/ykcar_applyRecord.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="133" column="69" selection-start-line="133" selection-start-column="69" selection-end-line="133" selection-end-column="69" />
+          <folding>
+            <element signature="n#section#1;n#section#0;n#section#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#2;n#section#0;n#section#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#3;n#section#0;n#section#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#4;n#section#0;n#section#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#5;n#section#0;n#section#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#6;n#section#0;n#section#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#7;n#section#0;n#section#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#section#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1514196349183" expanded="true" signature="8535:8586" placeholder="..." />
+            <marker date="1514196349183" expanded="true" signature="8535:8587" placeholder="..." />
+            <marker date="1514196349183" expanded="true" signature="8535:8704" placeholder="..." />
+            <marker date="1514196349183" expanded="true" signature="8535:8705" placeholder="..." />
+            <marker date="1514196349183" expanded="true" signature="8535:8741" placeholder="..." />
+            <marker date="1514196349183" expanded="true" signature="8535:8742" placeholder="..." />
+            <marker date="1514196349183" expanded="true" signature="8535:8791" placeholder="..." />
+            <marker date="1514196349183" expanded="true" signature="8535:8792" placeholder="..." />
+            <marker date="1514196349183" expanded="true" signature="8535:8841" placeholder="..." />
+            <marker date="1514196349183" expanded="true" signature="8535:8842" placeholder="..." />
+            <marker date="1514196349183" expanded="true" signature="8535:8879" placeholder="..." />
+            <marker date="1514196349183" expanded="true" signature="8535:8880" placeholder="..." />
+            <marker date="1514196349183" expanded="true" signature="8535:8917" placeholder="..." />
+            <marker date="1514196349183" expanded="true" signature="8535:8918" placeholder="..." />
+            <marker date="1514196349183" expanded="true" signature="8535:8919" placeholder="..." />
+            <marker date="1514196349183" expanded="true" signature="8535:8969" placeholder="..." />
+            <marker date="1514196349183" expanded="true" signature="8535:8970" placeholder="..." />
+            <marker date="1514196349183" expanded="true" signature="8535:9042" placeholder="..." />
+            <marker date="1514196349183" expanded="true" signature="8535:9043" placeholder="..." />
+            <marker date="1514196349183" expanded="true" signature="8535:9044" placeholder="..." />
+            <marker date="1514196349183" expanded="true" signature="8535:9124" placeholder="..." />
+            <marker date="1514196349183" expanded="true" signature="8535:9125" placeholder="..." />
+            <marker date="1514196349183" expanded="true" signature="8535:9162" placeholder="..." />
+            <marker date="1514196349183" expanded="true" signature="8535:9163" placeholder="..." />
+            <marker date="1514196349183" expanded="true" signature="8535:9200" placeholder="..." />
+            <marker date="1514196349183" expanded="true" signature="8587:8645" placeholder="..." />
+            <marker date="1514196349183" expanded="true" signature="8587:8704" placeholder="..." />
+            <marker date="1514196349183" expanded="true" signature="8742:8773" placeholder="..." />
+            <marker date="1514196349183" expanded="true" signature="8742:8791" placeholder="..." />
+            <marker date="1514196349183" expanded="true" signature="8970:9019" placeholder="..." />
+            <marker date="1514196349183" expanded="true" signature="8970:9042" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/ykcar_bind.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="112" column="0" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#input#0;n#p#0;n#section#0;n#section#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/ykcar_detailInfo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/ykcar_moveRecord.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="114" column="34" selection-start-line="114" selection-start-column="34" selection-end-line="114" selection-end-column="34" />
+          <folding>
+            <element signature="n#section#1;n#section#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <marker date="1514188846392" expanded="true" signature="5209:5260" placeholder="..." />
+            <marker date="1514188846392" expanded="true" signature="5209:5261" placeholder="..." />
+            <marker date="1514188846392" expanded="true" signature="5209:5353" placeholder="..." />
+            <marker date="1514188846392" expanded="true" signature="5209:5354" placeholder="..." />
+            <marker date="1514188846392" expanded="true" signature="5209:5391" placeholder="..." />
+            <marker date="1514188846392" expanded="true" signature="5209:5392" placeholder="..." />
+            <marker date="1514188846392" expanded="true" signature="5209:5393" placeholder="..." />
+            <marker date="1514188846392" expanded="true" signature="5209:5443" placeholder="..." />
+            <marker date="1514188846392" expanded="true" signature="5209:5444" placeholder="..." />
+            <marker date="1514188846392" expanded="true" signature="5209:5445" placeholder="..." />
+            <marker date="1514188846392" expanded="true" signature="5209:5478" placeholder="..." />
+            <marker date="1514188846392" expanded="true" signature="5209:5500" placeholder="..." />
+            <marker date="1514188846392" expanded="true" signature="5209:5501" placeholder="..." />
+            <marker date="1514188846392" expanded="true" signature="5209:5538" placeholder="..." />
+            <marker date="1514188846392" expanded="true" signature="5209:5548" placeholder="..." />
+            <marker date="1514188846392" expanded="true" signature="5261:5299" placeholder="..." />
+            <marker date="1514188846392" expanded="true" signature="5261:5332" placeholder="..." />
+            <marker date="1514188846392" expanded="true" signature="5261:5353" placeholder="..." />
+            <marker date="1514188846392" expanded="true" signature="5539:5548" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/ykcar_noticeSuccess.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="48" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/LCalendar.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="590" column="18" selection-start-line="590" selection-start-column="18" selection-end-line="590" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/ykcar_set.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.285715">
+          <caret line="41" column="7" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/LCalendar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25443038">
+          <caret line="717" column="64" selection-start-line="717" selection-start-column="64" selection-end-line="717" selection-end-column="64" />
+          <folding>
+            <marker date="1514355409451" expanded="true" signature="8551:10294" placeholder="..." />
+            <marker date="1514355409451" expanded="true" signature="8830:10246" placeholder="..." />
+            <marker date="1514355409451" expanded="true" signature="13911:14859" placeholder="..." />
+            <marker date="1514355409451" expanded="true" signature="14190:14828" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

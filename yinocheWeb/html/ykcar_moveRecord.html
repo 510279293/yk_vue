@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1,minimum-scale=1,user-scalable=no">
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="black" name="apple-mobile-web-app-status-bar-style" />
+    <meta content="telephone=no" name="format-detection" />
+    <title>深圳车主网</title>
+    <!--<link rel="stylesheet" href="../css/ft-carousel.css">-->
+    <link rel="stylesheet" href="../css/mescroll.css">
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+<section id="car_moveRecord">
+     <section class="ban_list">
+          <section class="on">
+               接收记录(10)
+          </section>
+         <section>
+               发送记录(12)
+         </section>
+     </section>
+     <section class="record_Box mescroll" id="mescroll">
+          <section class="resive_box rbox" id="newsList">
+               <section class="list">
+                   <section class="list_L">
+                       <img src="../res/girl.png" alt=""> <span>Jessie</span>
+                   </section>
+                   <section class="list_R">
+                        <span>2017-12-21  16:40</span>
+                   </section>
+               </section>
+              <section class="list">
+                  <section class="list_L">
+                      <img src="../res/girl.png" alt=""> <span>Jessie</span>
+                  </section>
+                  <section class="list_R">
+                      <span>2017-12-21  16:40</span>
+                  </section>
+              </section>
+          </section>
+          <section class="send_box rbox">
+              <section class="list">
+                  <section class="list_L">
+                      <img src="../res/girl.png" alt=""> <span>Jessie</span>
+                  </section>
+                  <section class="list_R">
+                      <span>2017-12-21  16:40</span>
+                  </section>
+              </section>
+              <section class="list">
+                  <section class="list_L">
+                      <img src="../res/girl.png" alt=""> <span>Jessie</span>
+                  </section>
+                  <section class="list_R">
+                      <span>2017-12-21  16:40</span>
+                  </section>
+              </section>
+              <section class="list">
+                  <section class="list_L">
+                      <img src="../res/girl.png" alt=""> <span>Jessie</span>
+                  </section>
+                  <section class="list_R">
+                      <span>2017-12-21  16:40</span>
+                  </section>
+              </section>
+          </section>
+     </section>
+    <section class="bot">
+        <section class="car_applyBtn">点击领取专属挪车贴</section>
+    </section>
+</section>
+
+</body>
+<script src="../js/mescroll.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="../js/jquery-2.0.3.min.js"></script>
+<script src="../js/zepto.min.js"></script>
+<script src="../js/flexible.js"></script>
+<script src="../js/ft-carousel.min.js"></script>
+<script>
+  $(".ban_list section").bind("click",function(){
+       $(this).addClass("on").siblings().removeClass("on");
+       var ind=$(this).index();
+       $(".rbox").eq(ind).show().siblings().hide();
+  })
+    $(".car_applyBtn").bind('click',function(){
+        window.location.href='ykcar_applyRecord.html';
+    })
+</script>
+<script>
+    $(function(){
+        //创建MeScroll对象
+        var mescroll = new MeScroll("mescroll", {
+            down: {
+                auto: false, //是否在初始化完毕之后自动执行下拉回调callback; 默认true
+                callback: downCallback //下拉刷新的回调
+            },
+            up: {
+                auto: true, //是否在初始化时以上拉加载的方式自动加载第一页数据; 默认false
+                callback: upCallback //上拉回调,此处可简写; 相当于 callback: function (page) { upCallback(page); }
+            }
+        });
+
+        /*下拉刷新的回调 */
+        function downCallback(){
+            //联网加载数据
+            getListDataFromNet(0, 1, function(data){
+                //联网成功的回调,隐藏下拉刷新的状态
+                mescroll.endSuccess();
+                //设置列表数据
+                setListData(data, false);
+            }, function(){
+                //联网失败的回调,隐藏下拉刷新的状态
+                mescroll.endErr();
+            });
+        }
+
+        /*上拉加载的回调 page = {num:1, size:10}; num:当前页 从1开始, size:每页数据条数 */
+        function upCallback(page){
+            //联网加载数据
+            //console.log("page.num="+page.num);
+            console.log('up');
+            getListDataFromNet(page.num, page.size, function(data){
+                //联网成功的回调,隐藏下拉刷新和上拉加载的状态;
+                mescroll.endSuccess(data.length);//传参:数据的总数; mescroll会自动判断列表如果无任何数据,则提示空;列表无下一页数据,则提示无更多数据;
+                //设置列表数据
+                setListData(data, true);
+            }, function(){
+                //联网失败的回调,隐藏下拉刷新和上拉加载的状态;
+                mescroll.endErr();
+            });
+        }
+
+
+        /*设置列表数据*/
+        function setListData(data, isAppend) {
+            var listDom=document.getElementById("newsList");
+            console.log(data);
+            for (var i = 0; i < data.length; i++) {
+                var newObj=data[i];
+                var str='<section class="list">'
+                        +'<section class="list_L">'
+                        +'<img src="'+newObj.imgSrc+'" alt=""> <span>'+newObj.name+'</span>'
+                        +'</section>'
+                        +'<section class="list_R">'
+                        +'<span>'+newObj.time+'</span>'
+                        +'</section></section>';
+                var liDom=$(str)[0];
+                //liDom.innerHTML=str;
+
+                if (isAppend) {
+                    listDom.appendChild(liDom);//加在列表的后面,上拉加载
+                } else{
+                    listDom.insertBefore(liDom, listDom.firstChild);//加在列表的前面,下拉刷新
+                }
+            }
+        }
+
+        /*联网加载列表数据*/
+        var downIndex=0;
+        function getListDataFromNet(pageNum,pageSize,successCallback,errorCallback) {
+            //延时一秒,模拟联网
+            setTimeout(function () {
+                try{
+                    var newArr=[];
+                    if(pageNum==0){
+                        //此处模拟下拉刷新返回的数据
+                        downIndex++;
+                        var newObj={imgSrc:"../res/girl.png",name:"jesess",time:"2017-12-22 16:19:22"};
+                        newArr.push(newObj);
+                    }else{
+                        //此处模拟上拉加载返回的数据
+                        for (var i = 0; i < pageSize; i++) {
+                            var upIndex=(pageNum-1)*pageSize+i+1;
+                            var newObj={imgSrc:"../res/girl.png",name:"jesess",time:"2017-12-22 16:19:22"};
+                            newArr.push(newObj);
+                        }
+                    }
+                    // console.log(newArr);
+                    //联网成功的回调
+                    successCallback&&successCallback(newArr);
+                }catch(e){
+                    //联网失败的回调
+                    errorCallback&&errorCallback();
+                }
+            },1000)
+        }
+
+        //禁止PC浏览器拖拽图片,避免与下拉刷新冲突;如果仅在移动端使用,可删除此代码
+        document.ondragstart=function() {return false;}
+    });
+</script>
+</html>

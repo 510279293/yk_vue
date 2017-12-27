@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1,minimum-scale=1,user-scalable=no">
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="black" name="apple-mobile-web-app-status-bar-style" />
+    <meta content="telephone=no" name="format-detection" />
+    <title>深圳车主网</title>
+    <link rel="stylesheet" href="../css/ft-carousel.css">
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+  <section id="Index">
+      <section class="clacH">
+          <section class="part1">
+              <section class="topb">
+                  <img class="car" src="../res/car.png">
+                  <div class="caruser_say">
+                      <h3>小主留言:</h3>
+                      <section class="sayWhat">
+                           因事情较忙,停车匆忙,从而给您带来不便,在此,郑重向您道歉!点击通知我,我火速赶来哦!
+                      </section>
+                  </div>
+              </section>
+              <section class="wormTip">
+                   <section class="wormTipBox">
+                       <span class="tip">友情提示:</span>
+                        <section class="tipSay">
+                            恶意通知车主的用户将被关入小黑屋哦！<br/>
+                            2分钟内任意用户无法对同一车辆重复发送通知！
+                        </section>
+                   </section>
+              </section>
+          </section>
+          <section class="part2">
+               <section class="bord-t"><span>车牌号:</span> <span class="color_org">新A X4927</span></section>
+               <section class="bord-t"><span>我的位置:</span> <span>广东省深圳市福田区彩田路3090</span></section>
+               <section class="notice_user">免费通知车主挪车</section>
+          </section>
+      </section>
+      <section class="part3">
+          <div class="ft-carousel" id="carousel_3">
+              <ul class="carousel-inner">
+                  <li class="carousel-item"><img src="../res/a1.png" /></li>
+                  <li class="carousel-item"><img src="../res/a2.png" /></li>
+                  <li class="carousel-item"><img src="../res/a3.png" /></li>
+                  <li class="carousel-item"><img src="../res/a4.png" /></li>
+                  <li class="carousel-item"><img src="../res/a5.png" /></li>
+              </ul>
+          </div>
+      </section>
+  </section>
+</body>
+<script src="../js/jquery-2.0.3.min.js"></script>
+<script src="../js/zepto.min.js"></script>
+<script src="../js/flexible.js"></script>
+<script src="../js/ft-carousel.min.js"></script>
+<script>
+    var winH=$(this).height();
+    var part3H=winH-($(".clacH").height());
+    $(".part3").height(part3H);
+    $("#carousel_3").FtCarousel({
+        index: 0,
+        auto: true,
+        time: 3000,
+        indicators: false,
+        buttons: true
+    });
+
+    $(".notice_user").bind("click",function(){
+         window.location.href='ykcar_noticeSuccess.html';
+    })
+</script>
+</html>

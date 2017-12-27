@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1,minimum-scale=1,user-scalable=no">
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="black" name="apple-mobile-web-app-status-bar-style" />
+    <meta content="telephone=no" name="format-detection" />
+    <title>深圳车主网</title>
+    <link rel="stylesheet" href="../css/ft-carousel.css">
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+<section id="car_detailInfo">
+    <section class="LBBox">
+        <div class="ft-carousel" id="lunBo">
+            <ul class="carousel-inner">
+                <li class="carousel-item"><img src="../res/a1.png" /></li>
+                <li class="carousel-item"><img src="../res/a2.png" /></li>
+                <li class="carousel-item"><img src="../res/a3.png" /></li>
+                <li class="carousel-item"><img src="../res/a4.png" /></li>
+                <li class="carousel-item"><img src="../res/a5.png" /></li>
+            </ul>
+        </div>
+    </section>
+    <section class="msg_Box">
+         <span class="on">稍后就到</span><span>暂时在忙,等我10分钟</span>
+    </section>
+    <section class="bot">
+         <section class="sureBtn">
+              确认
+         </section>
+    </section>
+</section>
+</body>
+<script src="../js/jquery-2.0.3.min.js"></script>
+<script src="../js/zepto.min.js"></script>
+<script src="../js/flexible.js"></script>
+<script src="../js/ft-carousel.min.js"></script>
+<script>
+    $("#lunBo").FtCarousel({
+        index: 0,
+        auto: true,
+        time: 3000,
+        indicators: false,
+        buttons: true
+    });
+    $(".msg_Box span").bind('click',function(){
+          $(this).addClass('on').siblings().removeClass('on');
+    })
+</script>
+</html>
